@@ -1,0 +1,2412 @@
+
+    <html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>AMC Test Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            table { width: 100%; border-collapse: collapse; }
+            th, td { border: 1px solid #ddd; padding: 8px; }
+            th { background-color: #f2f2f2; }
+            .success { color: green; }
+            .failure { color: red; }
+            pre.serial-log-html { background: #222; color: #eee; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        </style>
+        <script>
+        function toggleSerialLog() {
+            var e = document.getElementById('serial-log-block');
+            var btn = document.getElementById('serial-log-toggle');
+            if (e.style.display === 'none') {
+                e.style.display = 'block';
+                btn.textContent = 'Hide Serial Log';
+            } else {
+                e.style.display = 'none';
+                btn.textContent = 'Show Serial Log';
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <h1>AMC Test Report</h1>
+        <p>Generated on: 2026-03-10 14:20:47</p>
+        <p>
+            <b>Related logs:</b>
+            <a href='console_log_20260310_141955.txt' target='_blank'>Console Log (.txt)</a> |
+            <a href='summary_result_20260310_141955.txt' target='_blank'>Summary Results (.txt)</a> |
+            <a href='bmc_ssh_test_log_20260310_141955.txt' target='_blank'>BMC SSH Test Log(.txt)</a>
+        </p>
+    <table><tr><th> Modules </th><th>Serial</th><th>i3c</th><th>Sensor</th><th>i2c</th><th>fru</th><th>EEPROM</th><th>spi</th><th>zephyar</th><th>amc</th><th>gpio</th><th>pmt</th><th>peci</th></tr><tr><td>Results [✅/❌]</td><td style='background-color: #d4edda;'><span class='success'>1</span>/<span class='failure'>0</span></td><td style='background-color: #f8d7da;'><span class='success'>7</span>/<span class='failure'>11</span></td><td style='background-color: #f8d7da;'><span class='success'>0</span>/<span class='failure'>1</span></td><td style='background-color: #f8d7da;'><span class='success'>7</span>/<span class='failure'>4</span></td><td style='background-color: #d4edda;'><span class='success'>19</span>/<span class='failure'>0</span></td><td style='background-color: #d4edda;'><span class='success'>1</span>/<span class='failure'>0</span></td><td style='background-color: #d4edda;'><span class='success'>3</span>/<span class='failure'>0</span></td><td style='background-color: #d4edda;'><span class='success'>1</span>/<span class='failure'>0</span></td><td style='background-color: #d4edda;'><span class='success'>1</span>/<span class='failure'>0</span></td><td style='background-color: #d4edda;'><span class='success'>3</span>/<span class='failure'>0</span></td><td style='background-color: #f8d7da;'><span class='success'>0</span>/<span class='failure'>6</span></td><td style='background-color: #f8d7da;'><span class='success'>0</span>/<span class='failure'>6</span></td></tr></table><div style='margin-top:10px;'><b>Serial Log (with color):</b> <a href="#" id="serial-log-toggle" onclick="toggleSerialLog(); return false;">Show Serial Log</a> <div id='serial-log-block' style='display:none; margin-top:10px;'><pre class='serial-log-html'>[2026-03-10 14:19:55.147] [<span style="color: cyan">WRITE</span>] 
+
+
+[2026-03-10 14:19:55.613] [<span style="color: yellow">READ</span>] 
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:55.613] [<span style="color: cyan">WRITE</span>] i3c scan 1
+
+
+[2026-03-10 14:19:56.062] [<span style="color: yellow">READ</span>] i3c scan 1
+
+ IxC |  PID / LVR   | Address 
+
+==============================
+
+ I3C | 020A018E100F | 0x08
+
+==============================
+
+1 devices found on bus 1
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:56.066] [<span style="color: cyan">WRITE</span>] pmt pause_telemetry
+
+
+[2026-03-10 14:19:56.510] [<span style="color: yellow">READ</span>] pmt pause_telemetry
+
+<span style="color: red">pmt: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:56.526] [<span style="color: cyan">WRITE</span>] i3c read 1
+
+
+[2026-03-10 14:19:56.977] [<span style="color: yellow">READ</span>] i3c read 1
+
+<span style="color: red">I3C rx failed
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:56.977] [<span style="color: cyan">WRITE</span>] i3c broadcast_ccc_enec 1 0xb
+
+
+[2026-03-10 14:19:57.425] [<span style="color: yellow">READ</span>] i3c broadcast_ccc_enec 1 0xb
+
+CCC: ENEC (0x01) successful
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:57.441] [<span style="color: cyan">WRITE</span>] i3c broadcast_ccc_disec 1 0xb
+
+
+[2026-03-10 14:19:57.896] [<span style="color: yellow">READ</span>] i3c broadcast_ccc_disec 1 0xb
+
+CCC: DISEC (0x02) successful
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:57.896] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_enec 1 8 0xb
+
+
+[2026-03-10 14:19:58.344] [<span style="color: yellow">READ</span>] i3c direct_ccc_enec 1 8 0xb
+
+<span style="color: red">CCC: ENEC (0x80) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:58.344] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_disec 1 8 0xb
+
+
+[2026-03-10 14:19:58.794] [<span style="color: yellow">READ</span>] i3c direct_ccc_disec 1 8 0xb
+
+<span style="color: red">CCC: DISEC (0x81) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:58.810] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_getstatus 1 0x8
+
+
+[2026-03-10 14:19:59.257] [<span style="color: yellow">READ</span>] i3c direct_ccc_getstatus 1 0x8
+
+<span style="color: red">CCC: GETSTATUS (0x90) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:59.257] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_getdcr 1 0x8
+
+
+[2026-03-10 14:19:59.703] [<span style="color: yellow">READ</span>] i3c direct_ccc_getdcr 1 0x8
+
+<span style="color: red">CCC: GETDCR (0x8F) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:19:59.703] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_getbcr 1 8
+
+
+[2026-03-10 14:20:00.150] [<span style="color: yellow">READ</span>] i3c direct_ccc_getbcr 1 8
+
+<span style="color: red">CCC: GETBCR (0x8E) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:00.150] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_setmrl 1 8 1 1
+
+
+[2026-03-10 14:20:00.598] [<span style="color: yellow">READ</span>] i3c direct_ccc_setmrl 1 8 1 1
+
+<span style="color: red">CCC: SETMRL (0x8A) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:00.598] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_setmwl 1 8 1 1
+
+
+[2026-03-10 14:20:01.047] [<span style="color: yellow">READ</span>] i3c direct_ccc_setmwl 1 8 1 1
+
+<span style="color: red">CCC: SETMWL (0x89) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:01.049] [<span style="color: cyan">WRITE</span>] i3c broadcast_ccc_setmrl 1 8 16 4
+
+
+[2026-03-10 14:20:01.494] [<span style="color: yellow">READ</span>] i3c broadcast_ccc_setmrl 1 8 16 4
+
+CCC: SETMRL (0x0A) successful
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:01.509] [<span style="color: cyan">WRITE</span>] i3c broadcast_ccc_rstdaa 1
+
+
+[2026-03-10 14:20:01.961] [<span style="color: yellow">READ</span>] i3c broadcast_ccc_rstdaa 1
+
+CCC: RSTDAA (0x06) successful
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:01.965] [<span style="color: cyan">WRITE</span>] i3c broadcast_ccc_entdaa 1
+
+
+[2026-03-10 14:20:02.411] [<span style="color: yellow">READ</span>] i3c broadcast_ccc_entdaa 1
+
+CCC: ENTDAA (0x07) successful
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:02.411] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_setnewda 1 8 8
+
+
+[2026-03-10 14:20:02.860] [<span style="color: yellow">READ</span>] i3c direct_ccc_setnewda 1 8 8
+
+CCC: SETNEWDA (0x88) successful
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:02.860] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_getmrl 1 0x8
+
+
+[2026-03-10 14:20:03.313] [<span style="color: yellow">READ</span>] i3c direct_ccc_getmrl 1 0x8
+
+<span style="color: red">CCC: GETMRL (0x8C) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:03.317] [<span style="color: cyan">WRITE</span>] i3c direct_ccc_getmwl 1 0x8
+
+
+[2026-03-10 14:20:03.756] [<span style="color: yellow">READ</span>] i3c direct_ccc_getmwl 1 0x8
+
+<span style="color: red">CCC: GETMWL (0x8B) error
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:03.756] [<span style="color: cyan">WRITE</span>] sensor monitor_mode 0
+
+
+[2026-03-10 14:20:04.205] [<span style="color: yellow">READ</span>] sensor monitor_mode 0
+
+Monitor mode disabled, starting sensor scan
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:04.205] [<span style="color: cyan">WRITE</span>] sensor list_numeric
+
+
+[2026-03-10 14:20:04.775] [<span style="color: yellow">READ</span>] sensor list_numeric
+
+=====================================================================================
+
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+
+=====================================================================================
+
+1   inlet_temp                               44      0     95      C       
+
+2   outlet_temp                              57      0     95      C       
+
+3   pmbus_mp29011_voltage_gt                715      0   1051     mV       
+
+4   pmbus_mp29011_current_gt                  5      0     50      A       
+
+5   pmbus_mp29011_power_gt                    3      0     53      W       
+
+6   pmbus_mp29011_voltage_sa                715    735    765     mV    BAD
+
+7   pmbus_mp29011_current_sa                  5      0     26      A       
+
+8   pmbus_mp29011_power_sa                    3      0     20      W       
+
+9   pmbus_mp29011_voltage_ddr               715   1212   1288     mV    BAD
+
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+
+11  pmbus_mp29011_power_ddr                   3      0     34      W       
+
+12  pmbus_mp29011_temp                       59      0    150      C       
+
+13  pmbus_mp29011_tbp                        31      0     75      W       
+
+=====================================================================================
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:04.775] [<span style="color: cyan">WRITE</span>] i2c scan 0
+
+
+[2026-03-10 14:20:05.225] [<span style="color: yellow">READ</span>] i2c scan 0
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: 50 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:05.225] [<span style="color: cyan">WRITE</span>] i2c scan 1
+
+
+[2026-03-10 14:20:05.676] [<span style="color: yellow">READ</span>] i2c scan 1
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- 24 -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus 1
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:05.676] [<span style="color: cyan">WRITE</span>] i2c scan 3
+
+
+[2026-03-10 14:20:06.129] [<span style="color: yellow">READ</span>] i2c scan 3
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- 48 -- 4a -- -- -- -- -- 
+
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+2 devices found on bus 3
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:06.136] [<span style="color: cyan">WRITE</span>] i2c set_speed 0 1
+
+
+[2026-03-10 14:20:06.579] [<span style="color: yellow">READ</span>] i2c set_speed 0 1
+
+Bus frequency set successfully
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:06.579] [<span style="color: cyan">WRITE</span>] i2c get_speed 0
+
+
+[2026-03-10 14:20:07.027] [<span style="color: yellow">READ</span>] i2c get_speed 0
+
+Bus frequency is 100kHz
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:07.027] [<span style="color: cyan">WRITE</span>] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+
+[2026-03-10 14:20:07.477] [<span style="color: yellow">READ</span>] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+I2C tx success
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:07.481] [<span style="color: cyan">WRITE</span>] i2c scan i2c@7e7b0200
+
+
+[2026-03-10 14:20:07.927] [<span style="color: yellow">READ</span>] i2c scan i2c@7e7b0200
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: 50 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus i2c@7e7b0200
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:07.927] [<span style="color: cyan">WRITE</span>] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+
+[2026-03-10 14:20:08.374] [<span style="color: yellow">READ</span>] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+I2C tx success
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:08.376] [<span style="color: cyan">WRITE</span>] i2c read i2c@7e7b0200 0x50 0x1 0x02
+
+
+[2026-03-10 14:20:08.824] [<span style="color: yellow">READ</span>] i2c read i2c@7e7b0200 0x50 0x1 0x02
+
+I2C rx success
+
+Data: 0xff 
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:08.824] [<span style="color: cyan">WRITE</span>] i2c reg_write 0 0x48 0x01 0x2 0xAA 0xBB
+
+
+[2026-03-10 14:20:09.277] [<span style="color: yellow">READ</span>] i2c reg_write 0 0x48 0x01 0x2 0xAA 0xBB
+
+<span style="color: red">I2C tx failed
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:09.299] [<span style="color: cyan">WRITE</span>] fru set_manufacturer intel
+
+
+[2026-03-10 14:20:10.304] [<span style="color: yellow">READ</span>] fru set_manufacturer intel
+
+<span style="color: green">amc:~$ [01:35:58.394,000] <span style="color: red"><err> AMC_I2C: I2C write failed!</span>
+
+<span style="color: green">amc:~$ <span style="color: green">amc:~$ 
+[2026-03-10 14:20:10.304] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:10.758] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : inteldatacentergpuflexseries
+
+Product Name             : intel
+
+Serial number            : 0
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:10.758] [<span style="color: cyan">WRITE</span>] fru set_product_series melville_sound
+
+
+[2026-03-10 14:20:11.509] [<span style="color: yellow">READ</span>] fru set_product_series melville_sound
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:11.509] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:11.950] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 0
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:11.966] [<span style="color: cyan">WRITE</span>] fru set_serial_number 987654321
+
+
+[2026-03-10 14:20:12.758] [<span style="color: yellow">READ</span>] fru set_serial_number 987654321
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:12.758] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:13.201] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:13.217] [<span style="color: cyan">WRITE</span>] fru set_part_number XXX-999
+
+
+[2026-03-10 14:20:13.985] [<span style="color: yellow">READ</span>] fru set_part_number XXX-999
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:13.985] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:14.428] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:14.444] [<span style="color: cyan">WRITE</span>] fru set_card_type 0
+
+
+[2026-03-10 14:20:15.228] [<span style="color: yellow">READ</span>] fru set_card_type 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:15.231] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:15.678] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:15.694] [<span style="color: cyan">WRITE</span>] fru set_tile_info 1
+
+
+[2026-03-10 14:20:16.482] [<span style="color: yellow">READ</span>] fru set_tile_info 1
+
+Setting tile info: 1
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:16.482] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:16.932] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:16.932] [<span style="color: cyan">WRITE</span>] fru set_platform_type 1
+
+
+[2026-03-10 14:20:17.737] [<span style="color: yellow">READ</span>] fru set_platform_type 1
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:17.737] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:18.187] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:18.187] [<span style="color: cyan">WRITE</span>] fru set_fab_id 2
+
+
+[2026-03-10 14:20:18.974] [<span style="color: yellow">READ</span>] fru set_fab_id 2
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:18.974] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:19.426] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:19.442] [<span style="color: cyan">WRITE</span>] fru set_product_name intel
+
+
+[2026-03-10 14:20:20.229] [<span style="color: yellow">READ</span>] fru set_product_name intel
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:20.231] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:20.684] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:20.686] [<span style="color: cyan">WRITE</span>] fru set_hw_rev 0
+
+
+[2026-03-10 14:20:21.469] [<span style="color: yellow">READ</span>] fru set_hw_rev 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:21.474] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:21.922] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:21.943] [<span style="color: cyan">WRITE</span>] fru set_odm 0
+
+
+[2026-03-10 14:20:22.727] [<span style="color: yellow">READ</span>] fru set_odm 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:22.728] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:23.177] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:23.196] [<span style="color: cyan">WRITE</span>] fru set_card_tdp -1
+
+
+[2026-03-10 14:20:23.982] [<span style="color: yellow">READ</span>] fru set_card_tdp -1
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:23.989] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:24.449] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:24.449] [<span style="color: cyan">WRITE</span>] fru set_uuid ff
+
+
+[2026-03-10 14:20:25.234] [<span style="color: yellow">READ</span>] fru set_uuid ff
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:25.242] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:25.687] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:25.689] [<span style="color: cyan">WRITE</span>] fru set_crc 0
+
+
+[2026-03-10 14:20:26.491] [<span style="color: yellow">READ</span>] fru set_crc 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:26.491] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:26.959] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:26.975] [<span style="color: cyan">WRITE</span>] fru set_amc_slave_addr 0xFF
+
+
+[2026-03-10 14:20:27.760] [<span style="color: yellow">READ</span>] fru set_amc_slave_addr 0xFF
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:27.764] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:28.212] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:28.212] [<span style="color: cyan">WRITE</span>] fru set_fru_file_id 256
+
+
+[2026-03-10 14:20:29.000] [<span style="color: yellow">READ</span>] fru set_fru_file_id 256
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:29.000] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:29.452] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:29.452] [<span style="color: cyan">WRITE</span>] fru set_mfg_date 2025-15-31 31:63
+
+
+[2026-03-10 14:20:30.241] [<span style="color: yellow">READ</span>] fru set_mfg_date 2025-15-31 31:63
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:30.241] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:30.708] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:30.708] [<span style="color: cyan">WRITE</span>] fru set_rework_tracker ffffffaa
+
+
+[2026-03-10 14:20:31.497] [<span style="color: yellow">READ</span>] fru set_rework_tracker ffffffaa
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:31.505] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:31.963] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : ffffffaa
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:31.963] [<span style="color: cyan">WRITE</span>] fru set_disable_write_fru 0
+
+
+[2026-03-10 14:20:32.750] [<span style="color: yellow">READ</span>] fru set_disable_write_fru 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:32.766] [<span style="color: cyan">WRITE</span>] fru display_general
+
+
+[2026-03-10 14:20:33.217] [<span style="color: yellow">READ</span>] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : ffffffaa
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:33.233] [<span style="color: cyan">WRITE</span>] eeprom read 0x10 16
+
+
+[2026-03-10 14:20:33.682] [<span style="color: yellow">READ</span>] eeprom read 0x10 16
+
+0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 
+
+0xff 0xff 0xff 0xff 0xff 0xff 
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:33.682] [<span style="color: cyan">WRITE</span>] eeprom write 0x10 4 a b c d 
+
+
+[2026-03-10 14:20:34.130] [<span style="color: yellow">READ</span>] eeprom write 0x10 4 a b c d 
+
+0x0a 0x0b 0x0c 0x0d 
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:34.130] [<span style="color: cyan">WRITE</span>] eeprom read 0x10 16
+
+
+[2026-03-10 14:20:34.579] [<span style="color: yellow">READ</span>] eeprom read 0x10 16
+
+0x0a 0x0b 0x0c 0x0d 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 
+
+0xff 0xff 0xff 0xff 0xff 0xff 
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:34.579] [<span style="color: cyan">WRITE</span>] spi reinit 0
+
+
+[2026-03-10 14:20:35.029] [<span style="color: yellow">READ</span>] spi reinit 0
+
+SPI reinit successful
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:35.029] [<span style="color: cyan">WRITE</span>] spi reinit 1
+
+
+[2026-03-10 14:20:35.480] [<span style="color: yellow">READ</span>] spi reinit 1
+
+SPI reinit successful
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:35.496] [<span style="color: cyan">WRITE</span>] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+
+[2026-03-10 14:20:35.946] [<span style="color: yellow">READ</span>] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+Ensure spi erase is done before writing to spi flash
+
+SPI write success
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:35.946] [<span style="color: cyan">WRITE</span>] spi read 0 0x06 0xfdf1
+
+
+[2026-03-10 14:20:36.397] [<span style="color: yellow">READ</span>] spi read 0 0x06 0xfdf1
+
+SPI read successful
+
+Data: 0x01 0x02 0x03 0x04 0x05 0x06 
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:36.397] [<span style="color: cyan">WRITE</span>] help
+
+
+[2026-03-10 14:20:36.961] [<span style="color: yellow">READ</span>] help
+
+Please press the <Tab> button to see all available commands.
+
+You can also use the <Tab> button to prompt or auto-complete all commands or its subcommands.
+
+You can try to call commands with <-h> or <--help> parameter for more information.
+
+
+
+Available commands:
+
+  clear    :Clear screen.
+
+  device   :Device commands
+
+  eeprom   :eeprom commands
+
+  flash    :Flash shell commands
+
+  fru      :FRU commands
+
+  gpio     :AMC GPIO config cmds
+
+  help     :Prints the help message.
+
+  history  :Command history.
+
+  i2c      :I2C commands
+
+  i3c      :I3C commands
+
+  log      :Commands for controlling logger
+
+  power    :Power command
+
+  reset    :Reset AMC
+
+  resize   :Console gets terminal screen size or assumes default in case the
+
+readout fails. It must be executed after each terminal width change
+
+to ensure correct text display.
+
+  retval   :Print return value of most recent command
+
+  sensor   :Telemetry command
+
+  shell    :Useful, not Unix-like shell commands.
+
+  spi      :SPI commands
+
+  timer    :Timer Testing Commands
+
+  version  :Show version information
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:36.961] [<span style="color: cyan">WRITE</span>] history
+
+
+[2026-03-10 14:20:37.415] [<span style="color: yellow">READ</span>] history
+
+[  0] history
+
+[  1] help
+
+[  2] spi read 0 0x06 0xfdf1
+
+[  3] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:37.419] [<span style="color: cyan">WRITE</span>] resize
+
+
+[2026-03-10 14:20:37.863] [<span style="color: yellow">READ</span>] resize
+
+7
+[2026-03-10 14:20:37.863] [<span style="color: cyan">WRITE</span>] retval
+
+
+[2026-03-10 14:20:38.848] [<span style="color: yellow">READ</span>] 8<span style="color: yellow">No response from the terminal, assumed 80x24 screen size
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:38.853] [<span style="color: cyan">WRITE</span>] clear
+
+
+[2026-03-10 14:20:39.301] [<span style="color: yellow">READ</span>] clear
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:39.304] [<span style="color: cyan">WRITE</span>] version amc
+
+
+[2026-03-10 14:20:39.751] [<span style="color: yellow">READ</span>] version amc
+
+AMC Version               : 0.1.0.0
+
+Recommended SVN           : 0
+
+Zephyr Kernel Version     : 3.4.0
+
+Board Zephyr SDK Version  : 0
+
+Build Type                : debug
+
+Build Time                : 2025-05-01 00:12:24
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:39.751] [<span style="color: cyan">WRITE</span>] gpio get
+
+
+[2026-03-10 14:20:40.329] [<span style="color: yellow">READ</span>] gpio get
+
+|======||======|======|======|======|======|======|======|======|
+
+|      || PIN0 | PIN1 | PIN2 | PIN3 | PIN4 | PIN5 | PIN6 | PIN7 |
+
+|======||======|======|======|======|======|======|======|======|
+
+|PORT_A||IN   1|OUT  0|OUT  0|OUT  0|OUT  0|IN   0|OUT  0|IN   0|
+
+|PORT_B||IN   1|IN   0|IN   1|IN   1|OUT  0|OUT  0|IN   1|IN   1|
+
+|PORT_C||IN   0|IN   1|IN   0|IN   1|IN   0|IN   0|IN   0|IN   0|
+
+|PORT_D||IN   0|OUT  0|IN   0|IN   1|IN   1|IN   1|IN   1|IN   0|
+
+|PORT_E||OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  1|OUT  1|OUT  1|
+
+|PORT_F||PWM   |PWM   |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_G||TACH  |TACH  |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_H||NC    |NC    |NC    |NC    |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_I||I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_J||I3C   |I3C   |I3C   |I3C   |I2C   |I2C   |I3C   |I3C   |
+
+|PORT_K||I2C   |I2C   |I2C   |I2C   |I3C   |I3C   |I2C   |I2C   |
+
+|PORT_L||OUT  1|IN   1|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|
+
+|PORT_M||OUT  0|OUT  0|IN   0|IN   0|IN   0|IN   0|XXXXXX|XXXXXX|
+
+|PORT_N||OUT  0|IN   1|IN   0|OUT  0|NC    |NC    |NC    |NC    |
+
+|PORT_O||NC    |NC    |NC    |NC    |JTAG  |OUT  0|JTAG  |JTAG  |
+
+|PORT_P||JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |SPI   |NC    |
+
+|PORT_Q||SPI   |SPI   |SPI   |SPI   |SPI   |XXXXXX|SPI   |SPI   |
+
+|PORT_R||XXXXXX|XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_S||XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_T||NC    |NC    |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_U||NC    |NC    |NC    |NC    |NC    |ADC   |ADC   |ADC   |
+
+|======||======|======|======|======|======|======|======|======|
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:40.332] [<span style="color: cyan">WRITE</span>] gpio set E 2 0
+
+
+[2026-03-10 14:20:40.777] [<span style="color: yellow">READ</span>] gpio set E 2 0
+
+Set port: E pin: 2 with value: 0
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:40.779] [<span style="color: cyan">WRITE</span>] gpio get
+
+
+[2026-03-10 14:20:41.335] [<span style="color: yellow">READ</span>] gpio get
+
+|======||======|======|======|======|======|======|======|======|
+
+|      || PIN0 | PIN1 | PIN2 | PIN3 | PIN4 | PIN5 | PIN6 | PIN7 |
+
+|======||======|======|======|======|======|======|======|======|
+
+|PORT_A||IN   1|OUT  0|OUT  0|OUT  0|OUT  0|IN   0|OUT  0|IN   0|
+
+|PORT_B||IN   1|IN   0|IN   1|IN   1|OUT  0|OUT  0|IN   1|IN   1|
+
+|PORT_C||IN   0|IN   1|IN   0|IN   1|IN   0|IN   0|IN   0|IN   0|
+
+|PORT_D||IN   0|OUT  0|IN   0|IN   1|IN   1|IN   1|IN   1|IN   0|
+
+|PORT_E||OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  1|OUT  1|OUT  1|
+
+|PORT_F||PWM   |PWM   |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_G||TACH  |TACH  |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_H||NC    |NC    |NC    |NC    |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_I||I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_J||I3C   |I3C   |I3C   |I3C   |I2C   |I2C   |I3C   |I3C   |
+
+|PORT_K||I2C   |I2C   |I2C   |I2C   |I3C   |I3C   |I2C   |I2C   |
+
+|PORT_L||OUT  1|IN   1|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|
+
+|PORT_M||OUT  0|OUT  0|IN   0|IN   0|IN   0|IN   0|XXXXXX|XXXXXX|
+
+|PORT_N||OUT  0|IN   1|IN   0|OUT  0|NC    |NC    |NC    |NC    |
+
+|PORT_O||NC    |NC    |NC    |NC    |JTAG  |OUT  0|JTAG  |JTAG  |
+
+|PORT_P||JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |SPI   |NC    |
+
+|PORT_Q||SPI   |SPI   |SPI   |SPI   |SPI   |XXXXXX|SPI   |SPI   |
+
+|PORT_R||XXXXXX|XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_S||XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_T||NC    |NC    |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_U||NC    |NC    |NC    |NC    |NC    |ADC   |ADC   |ADC   |
+
+|======||======|======|======|======|======|======|======|======|
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:41.335] [<span style="color: cyan">WRITE</span>] pmt get_telemetry_precheck
+
+
+[2026-03-10 14:20:41.781] [<span style="color: yellow">READ</span>] pmt get_telemetry_precheck
+
+<span style="color: red">pmt: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:41.796] [<span style="color: cyan">WRITE</span>] pmt get_static_telemetry
+
+
+[2026-03-10 14:20:42.249] [<span style="color: yellow">READ</span>] pmt get_static_telemetry
+
+<span style="color: red">pmt: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:42.249] [<span style="color: cyan">WRITE</span>] pmt pause_telemetry
+
+
+[2026-03-10 14:20:42.697] [<span style="color: yellow">READ</span>] pmt pause_telemetry
+
+<span style="color: red">pmt: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:42.704] [<span style="color: cyan">WRITE</span>] pmt run_telemetry
+
+
+[2026-03-10 14:20:43.165] [<span style="color: yellow">READ</span>] pmt run_telemetry
+
+<span style="color: red">pmt: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:43.165] [<span style="color: cyan">WRITE</span>] pmt get_periodic_telemetry
+
+
+[2026-03-10 14:20:43.616] [<span style="color: yellow">READ</span>] pmt get_periodic_telemetry
+
+<span style="color: red">pmt: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:43.616] [<span style="color: cyan">WRITE</span>] pmt pause_telemetry
+
+
+[2026-03-10 14:20:44.070] [<span style="color: yellow">READ</span>] pmt pause_telemetry
+
+<span style="color: red">pmt: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:44.086] [<span style="color: cyan">WRITE</span>] peci pause_gpu_update
+
+
+[2026-03-10 14:20:44.537] [<span style="color: yellow">READ</span>] peci pause_gpu_update
+
+<span style="color: red">peci: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:44.537] [<span style="color: cyan">WRITE</span>] peci run_gpu_update
+
+
+[2026-03-10 14:20:44.977] [<span style="color: yellow">READ</span>] peci run_gpu_update
+
+<span style="color: red">peci: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:44.977] [<span style="color: cyan">WRITE</span>] peci get_endpt_localpci_cfg
+
+
+[2026-03-10 14:20:45.430] [<span style="color: yellow">READ</span>] peci get_endpt_localpci_cfg
+
+<span style="color: red">peci: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:45.430] [<span style="color: cyan">WRITE</span>] peci get_pkg_cfg
+
+
+[2026-03-10 14:20:45.883] [<span style="color: yellow">READ</span>] peci get_pkg_cfg
+
+<span style="color: red">peci: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:46.897] [<span style="color: cyan">WRITE</span>] peci get_pkg_cfg
+
+
+[2026-03-10 14:20:47.346] [<span style="color: yellow">READ</span>] peci get_pkg_cfg
+
+<span style="color: red">peci: command not found
+
+<span style="color: green">amc:~$ 
+[2026-03-10 14:20:47.353] [<span style="color: cyan">WRITE</span>] peci get_gpu_svn
+
+
+[2026-03-10 14:20:47.796] [<span style="color: yellow">READ</span>] peci get_gpu_svn
+
+<span style="color: red">peci: command not found
+
+<span style="color: green">amc:~$ 
+</pre></div></div>
+        <h2>Serial Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">1</td>
+                        <td style="width: 25%;">Serial Port</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">Serial port opened successfully</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>i3c Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">2</td>
+                        <td style="width: 25%;">i3c scan</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i3c scan successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">3</td>
+                        <td style="width: 25%;">i3c write check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: pmt pause_telemetry Failed! Alert !!! the pmt pause_telemetry test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">4</td>
+                        <td style="width: 25%;">i3c read</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! the i3c read test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">5</td>
+                        <td style="width: 25%;">i3c broadcast_enec</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i3c broadcast_enec successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">6</td>
+                        <td style="width: 25%;">i3c broadcast disec</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i3c_broadcast_disec successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">7</td>
+                        <td style="width: 25%;">i3c i3c_direct_ccc_enec check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! i3c direct ccc enec test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">8</td>
+                        <td style="width: 25%;">i3c i3c_direct_ccc_disec check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! i3c direct ccc disec test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">9</td>
+                        <td style="width: 25%;">i3c  i3c_direct_ccc_getstatus check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! the i3c get status test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">10</td>
+                        <td style="width: 25%;">i3c  i3c_direct_ccc_getdcr check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! the i3c get dcr test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">11</td>
+                        <td style="width: 25%;">i3c  i3c_direct_ccc_getbcr check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! the i3c get bcr test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">12</td>
+                        <td style="width: 25%;">i3c  i3c_direct_ccc_setmrl check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! the i3c direct ccc set mrl test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">13</td>
+                        <td style="width: 25%;">i3c i3c_direct_ccc_setmwl check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! the i3c set direct ccc mwl test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">14</td>
+                        <td style="width: 25%;">i3c i3c_broadcast_ccc_setmrl</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i3c_broadcast_ccc_setmrl successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">15</td>
+                        <td style="width: 25%;">i3c i3c_broadcast_ccc_rstdaa</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i3c_broadcast_ccc_rstdaa successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">16</td>
+                        <td style="width: 25%;">i3c i3c_broadcast_ccc_entdaa</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i3c_broadcast_ccc_entdaa successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">17</td>
+                        <td style="width: 25%;">i3c i3c_direct_ccc_setnewda</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i3c_direct_ccc_setnewda successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">18</td>
+                        <td style="width: 25%;">i3c direct_ccc_getmrl check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! the i3c direct ccc getmrl test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">19</td>
+                        <td style="width: 25%;">i3c direct_ccc_getmwl check</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i3c Failed! Alert !!! the i3c direct ccc getmwl test failed</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>Sensor Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">20</td>
+                        <td style="width: 25%;">Sensor List Numeric</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: sensor list_numeric Verification Failed! Alert !!! the sensor list_numeric value has crossed the maximum value</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>i2c Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">21</td>
+                        <td style="width: 25%;">i2c scan0</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i2c scan 0 successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">22</td>
+                        <td style="width: 25%;">i2c scan1</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i2c scan 1 successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">23</td>
+                        <td style="width: 25%;">i2c scan3</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i2c scan3 successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">24</td>
+                        <td style="width: 25%;">i2c set speed</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i2c set speed successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">25</td>
+                        <td style="width: 25%;">i2c get speed</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i2c get speed successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">26</td>
+                        <td style="width: 25%;">i2c write</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i2c write successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">27</td>
+                        <td style="width: 25%;">i2c read</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: i2c Failed! Alert !!! the i2c read test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">28</td>
+                        <td style="width: 25%;">i2c reg read</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">name 'i2c_reg_read' is not defined</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">29</td>
+                        <td style="width: 25%;">i2c reg write</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">i2c reg write successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">30</td>
+                        <td style="width: 25%;">i2c target register</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">name 'i2c_target_register' is not defined</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">31</td>
+                        <td style="width: 25%;">i2c target get addr</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">name 'i2c_target_get_address' is not defined</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>fru Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">32</td>
+                        <td style="width: 25%;">fru set manufacturer</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru manufacturer successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">33</td>
+                        <td style="width: 25%;">fru set product series</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru product series successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">34</td>
+                        <td style="width: 25%;">fru set serial number</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set serial number successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">35</td>
+                        <td style="width: 25%;">fru set part number</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set part number successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">36</td>
+                        <td style="width: 25%;">fru set card type</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set card type successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">37</td>
+                        <td style="width: 25%;">fru set tile info</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set tile info successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">38</td>
+                        <td style="width: 25%;">fru set platform type</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set platform type successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">39</td>
+                        <td style="width: 25%;">fru set fab id</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set fab id successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">40</td>
+                        <td style="width: 25%;">fru set product name</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set product name successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">41</td>
+                        <td style="width: 25%;">fru set hw revision</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set hw revision successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">42</td>
+                        <td style="width: 25%;">fru set odm</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set odm successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">43</td>
+                        <td style="width: 25%;">fru set card tdp</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set card tdp successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">44</td>
+                        <td style="width: 25%;">fru set uuid</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set uuid successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">45</td>
+                        <td style="width: 25%;">fru set crc</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set crc successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">46</td>
+                        <td style="width: 25%;">fru set amc slave addr</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set amc slave addr successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">47</td>
+                        <td style="width: 25%;">fru set fru file id</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set file id successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">48</td>
+                        <td style="width: 25%;">fru set mfg date</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru set mfg date successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">49</td>
+                        <td style="width: 25%;">fru set rework tracker</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru rework tracker successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">50</td>
+                        <td style="width: 25%;">fru set disable write</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">fru disable write successful</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>EEPROM Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">51</td>
+                        <td style="width: 25%;">EEPROM write and verify</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">EEPROM write and read successful</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>spi Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">52</td>
+                        <td style="width: 25%;">spi 0 reinit</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">spi 0 reinit successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">53</td>
+                        <td style="width: 25%;">spi 1 reinit</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">spi 1 reinit successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">54</td>
+                        <td style="width: 25%;">spi 0 read write</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">spi 0 read write successful</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>zephyar Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">55</td>
+                        <td style="width: 25%;">zephyar commands</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">zephyar commands successful</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>amc Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">56</td>
+                        <td style="width: 25%;">amc version check</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">amc version check commands successful</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>gpio Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">57</td>
+                        <td style="width: 25%;">gpio get</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">gpio get successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">58</td>
+                        <td style="width: 25%;">gpio set</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">gpio set pin successful</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">59</td>
+                        <td style="width: 25%;">gpio get</td>
+                        <td class="success" style="width: 15%;">Success</td>
+                        <td style="width: 50%;">gpio get successful</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>pmt Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">60</td>
+                        <td style="width: 25%;">pmt get_telemetry_precheck</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: pmt get_telemetry_precheck Failed! Alert !!! the pmt get_telemetry_precheck test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">61</td>
+                        <td style="width: 25%;">pmt get_static_telemetry</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: pmt get_static_telemetry Failed! Missing or zero sample_buf for sample ids: {449, 450, 451, 453}</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">62</td>
+                        <td style="width: 25%;">pmt pause_telemetry</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: pmt pause_telemetry Failed! Alert !!! the pmt pause_telemetry test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">63</td>
+                        <td style="width: 25%;">pmt run_telemetry</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: pmt run_telemetry Failed! Alert !!! the pmt run_telemetry test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">64</td>
+                        <td style="width: 25%;">pmt get_periodic_telemetry</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: No of samples updated not found in output!</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">65</td>
+                        <td style="width: 25%;">pmt pmt_get_periodic_telemetry after pause -> run</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: pmt pause_telemetry Failed! Alert !!! the pmt pause_telemetry test failed</td>
+                    </tr>
+                
+        </table>
+        
+        <h2>peci Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">66</td>
+                        <td style="width: 25%;">peci pause_gpu_update</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: peci pause_gpu_update Failed! Alert !!! the peci pause_gpu_update test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">67</td>
+                        <td style="width: 25%;">peci run_gpu_update</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: peci run_gpu_update Failed! Alert !!! the peci run_gpu_update test failed</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">68</td>
+                        <td style="width: 25%;">peci get_endpt_localpci_cfg</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: peci get_endpt_localpci_cfg Failed! Missing or incorrect configs: ['SSDID', 'SSVID', 'DID', 'VID', 'PCIE_LINK_SPEED', 'PCIE_LINK_WIDTH'], found: {'SSDID': None, 'SSVID': None, 'DID': None, 'VID': None, 'PCIE_LINK_SPEED': None, 'PCIE_LINK_WIDTH': None}</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">69</td>
+                        <td style="width: 25%;">peci get_get_pkg_cfg</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: No of samples updated not found in output!</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">70</td>
+                        <td style="width: 25%;">peci get_get_pkg_cfg after pause -> run</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: No of samples updated not found in output!</td>
+                    </tr>
+                
+                    <tr>
+                        <td style="width: 10%;">71</td>
+                        <td style="width: 25%;">peci get_gpu_svn</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">❌ Failure: peci get_gpu_svn Failed! Alert !!! the peci get_gpu_svn test failed</td>
+                    </tr>
+                
+        </table>
+        
+        </body>
+        </html>
+    

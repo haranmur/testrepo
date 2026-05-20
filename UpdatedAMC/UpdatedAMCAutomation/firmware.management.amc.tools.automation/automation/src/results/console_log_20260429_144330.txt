@@ -1,0 +1,14 @@
+[2026-04-29 14:43:30.411] [[36mWRITE[0m] fru set_serial_number 1777488210
+
+[2026-04-29 14:43:31.078] [[33mREAD[0m] fru set_serial_number 1777488210
+[1;32mamc:~$ [m
+[2026-04-29 14:43:31.082] [[36mWRITE[0m] reset warm
+
+[2026-04-29 14:43:31.751] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY

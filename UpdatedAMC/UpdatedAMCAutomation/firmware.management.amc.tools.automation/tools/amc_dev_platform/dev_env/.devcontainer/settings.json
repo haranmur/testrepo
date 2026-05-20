@@ -1,0 +1,121 @@
+{
+	"git.enabled": false,
+	"git.autofetch": false,
+	"kconfig.zephyr.base": "${env:ZEPHYR_BASE}",
+	"devicetree.zephyr": "${env:ZEPHYR_BASE}",
+	// Hush CMake
+	"cmake.configureOnOpen": false,
+	// IntelliSense
+	"C_Cpp.default.compilerPath": "/opt/toolchains/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc.exe",
+	"C_Cpp.default.compileCommands": "/workdir/PROJECTS/build/compile_commands.json",
+    "C_Cpp.clang_format_style": "file",
+    "C_Cpp.clang_format_path": "/workdir/PROJECTS/intel_amc_zephyr/.clang-format",
+	//"cmake.configureOnOpen": false,
+	// The number of spaces a tab is equal to. This setting is overridden
+	// based on the file contents when `editor.detectIndentation` is true.
+	"editor.tabSize": 4,
+	"editor.insertSpaces": false,
+	// When opening a file, `editor.tabSize` and `editor.insertSpaces`
+	// will be detected based on the file contents. Set to false to keep
+	// the values you've explicitly set, above.
+	"editor.detectIndentation": false,
+	"editor.rulers": [
+		{
+			"column": 80,
+			"color": "#f54949"
+		},
+		{
+			"column": 132,
+			"color": "#07f54e"
+		}
+	],
+	"editor.cursorBlinking": "smooth",
+	"editor.formatOnSave": false,
+	"editor.codeActionsOnSave": [],
+	"editor.renderWhitespace": "all",
+	"editor.renderControlCharacters": false,
+	"files.watcherExclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		"**/tmp/**": true,
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/dist/**": true,
+		"**/log/**": true,
+		"**/logs/**": true,
+		"**/.fdk/**": true,
+		"**/.west/**": true,
+		"**/.vscode/**": true,
+		"${workspaceRoot}/../zephyr/**": true
+	},
+	"files.exclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		"**/tmp/**": true,
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/dist/**": true,
+		"**/log/**": true,
+		"**/.fdk/**": true,
+		"**/.west/**": true
+	},
+	"search.exclude": {
+		"**/.git/objects/**": true,
+		"**/.git/subtree-cache/**": true,
+		"**/node_modules/**": true,
+		"**/tmp/**": true,
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/CVS": true,
+		"**/.DS_Store": true,
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/dist/**": true,
+		"**/log/**": true,
+		"**/.west/**": true
+	},
+	"indentRainbow.indicatorStyle": "light",
+	"svg.preview.background": "transparent",
+	"cSpell.words": [
+		"aarch",
+		"bkpt",
+		"cdasm",
+		"cdmem",
+		"cjtag",
+		"cppdbg",
+		"dprintf",
+		"eabi",
+		"hwthread",
+		"insn",
+		"insns",
+		"instrs",
+		"jlink",
+		"jtag",
+		"Logpoints",
+		"nuttx",
+		"Prio",
+		"pyocd",
+		"SEGGER",
+		"stlink",
+		"Syms",
+		"XPERIPHERALS",
+		"xtensa"
+	],
+	"terminal.integrated.env.linux": {
+		"ZEPHYR_SDK_INSTALL_DIR": "/opt/toolchains/zephyr-sdk-0.17.0",
+		"ZEPHYR_BASE": "/workdir/PROJECTS/zephyr"
+	}
+}

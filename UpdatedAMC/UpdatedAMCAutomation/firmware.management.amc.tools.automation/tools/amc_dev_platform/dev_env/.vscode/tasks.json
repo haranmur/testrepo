@@ -1,0 +1,142 @@
+// INTEL CONFIDENTIAL
+// Copyright 2024 Intel Corporation
+//
+// This software and the related documents are Intel copyrighted materials,
+// and your use of them is governed by the express license under which they
+// were provided to you (License). Unless the License provides otherwise,
+// you may not use, modify, copy, publish, distribute, disclose or
+// transmit this software or the related documents without
+// Intel's prior written permission.
+//
+// This software and the related documents are provided as is,
+// with no express or implied warranties, other than those
+// that are expressly stated in the License.
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Set ZEPHYR_SDK_INSTALL_DIR",
+            "type": "shell",
+            "command": "export ZEPHYR_SDK_INSTALL_DIR=$(find /opt/toolchains/ -type d -name \"zephyr-sdk-0.17.0\" -exec realpath {} \\;)",
+        },
+        {
+            "label": "Echo Variable",
+            "type": "shell",
+            "command": "echo $ZEPHYR_SDK_INSTALL_DIR"
+        },
+        {
+            "label": "PreLaunch echo variable",
+            "dependsOn": [
+                "Set ZEPHYR_SDK_INSTALL_DIR",
+                "Echo Variable"
+            ]
+        },
+        {
+            "label": "Check evb CONFIG_DEBUG_THREAD",
+            "type": "shell",
+            "command": "bash -c 'CONFIG_FILE=\"/workdir/PROJECTS/zephyr/boards/arm/ast1030_evb/ast1030_evb_defconfig\"; CONFIG_OPTION=\"CONFIG_DEBUG_THREAD=Y\"; if ! grep -q \"^${CONFIG_OPTION}$\" \"$CONFIG_FILE\"; then echo \"$CONFIG_OPTION\" >> \"$CONFIG_FILE\"; echo \"Added ${CONFIG_OPTION} to ${CONFIG_FILE}\"; else echo \"${CONFIG_OPTION} is already present in ${CONFIG_FILE}\"; fi'"
+        },
+        // BUILD
+        {
+            "label": "AMC Build",
+            "type": "shell",
+            "group": "build",
+            "command": "bash -c 'pwd && ./intel_amc_zephyr/apply_patches.sh && ./intel_amc_zephyr/build.sh && ./intel_amc_zephyr/generate_binaries.sh'",
+            "options": {
+                "cwd": "/workdir/PROJECTS"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+        },
+        {
+            "label": "AMC Build no zephyr patching",
+            "type": "shell",
+            "group": "build",
+            "command": "bash -c 'pwd && ./intel_amc_zephyr/build.sh && ./intel_amc_zephyr/generate_binaries.sh'",
+            "options": {
+                "cwd": "/workdir/PROJECTS"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+        },
+        {
+            "label": "Initialize AMC repo",
+            "type": "shell",
+            "group": "build",
+            "command": "bash  amc_start.sh",
+            "options": {
+                "cwd": "/workdir"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "dependsOn": [
+                "Check evb CONFIG_DEBUG_THREAD"
+            ]
+        },
+        {
+            "label": "evb West Build",
+            "type": "shell",
+            "group": "build",
+            "command": "bash -c 'pwd && source zephyr/zephyr-env.sh && west build zephyr/samples/hello_world -p auto -b ast1030_evb -d build/ast1030_evb'",
+            "options": {
+                "cwd": "/workdir/PROJECTS"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "dependsOn": [
+                "Check evb CONFIG_DEBUG_THREAD"
+            ]
+            ///            "dependsOn": [
+            ///                "Initialize West Workspace"
+            ///            ]
+        },
+        {
+            "label": "AMC uart Boot",
+            "type": "shell",
+            "command": "/bin/bash",
+            "args": [
+            "/workspaces/serial_program.sh"
+            ],
+            "problemMatcher": [],
+            "group": {
+            "kind": "build",
+            "isDefault": false
+            },
+            "presentation": {
+            "reveal": "always",
+            "panel": "shared"
+            },
+            "runOptions": {
+            "runOn": "default",
+            "reevaluateOnRerun": true,
+            "instanceLimit": 1
+            }
+        },
+        {
+            "label": "AMC Validation automation",
+            "type": "shell",
+            "command": "/bin/bash",
+            "args": [
+            "/workspaces/amc_tools_automation_run.sh"
+            ],
+            "problemMatcher": [],
+            "group": {
+            "kind": "build",
+            "isDefault": false
+            },
+            "presentation": {
+            "reveal": "always",
+            "panel": "shared"
+            },
+            "runOptions": {
+            "runOn": "default",
+            "reevaluateOnRerun": true,
+            "instanceLimit": 1
+            }
+        }
+    ]
+}

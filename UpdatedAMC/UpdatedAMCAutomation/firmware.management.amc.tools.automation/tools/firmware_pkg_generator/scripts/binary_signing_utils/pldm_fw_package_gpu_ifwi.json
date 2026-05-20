@@ -1,0 +1,55 @@
+{
+	"PackageHeaderInformation": {
+		"PackageHeaderIdentifier": "F018878CCB7D49439800A02F059ACA02",
+		"PackageHeaderFormatRevision": "01",
+		"PackageHeaderSize": "ZZZZ",
+		"PackageReleaseDateTime": "0000000000002D150C02E50708",
+		"ComponentBitmapBitLength": "0008",
+		"PackageVersionStringType": "01",
+		"PackageVersionStringLength": "20",
+		"PackageVersionString": "3030303030303033303030303030303130303030303030303030303030303030"
+	},
+	"FirmwareDeviceIdentificationArea": {
+		"DeviceIDRecordCount": "01",
+		"FirmwareDeviceIDRecords": [
+			{
+				"RecordLength": "YYYY",
+				"DescriptorCount": "01",
+				"DeviceUpdateOptionFlags": "00000000",
+				"ComponentImageSetVersionStringType": "01",
+				"ComponentImageSetVersionStringLength": "20",
+				"FirmwareDevicePackageDataLength": "0000",
+				"ApplicableComponents": "01",
+				"ComponentImageSetVersionString": "3030303030303033303030303030303130303030303030303030303030303030",
+				"RecordDescriptors": [
+					{
+						"DescriptorType": "0000",
+						"DescriptorLength": "0002",
+						"DescriptorData": "8086"
+					}
+				],
+				"FirmwareDevicePackageData": ""
+			}
+		]
+	},
+	"ComponentImageInformationArea": {
+		"ComponentImageCount": "0001",
+		"ComponentImageInformation": [
+			{
+				"ComponentClassification": "000A",
+				"ComponentIdentifier": "0002",
+				"ComponentComparisonStamp": "FFFFFFFF",
+				"ComponentOptions": "0000",
+				"RequestedComponentActivationMethod": "0002",
+				"ComponentLocationOffset": "WW0XX",
+				"ComponentSize": "00202000",
+				"ComponentVersionStringType": "01",
+				"ComponentVersionStringLength": "20",
+				"ComponentVersionString": "6766785f363031302e3030303030303030303030303030303030303030303030"
+			}
+		]
+	},
+	"PackageHeaderChecksum": {
+		"PackageHeaderChecksum": "IIIIIIII"
+	}
+}

@@ -1,0 +1,363 @@
+[2026-04-29 14:52:21.422] [[36mWRITE[0m] reboot
+
+[2026-04-29 14:52:30.169] [[33mREAD[0m] reboot
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/getty[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/modprobe[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mHost and Network Name Lookups[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mTimer Units[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mDaily rotation of log files[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mDaily Cleanup of Temporary Directories[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSystem Time Set[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mHardware activated USB gadget[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mProcess Core Dump Socket[0m.
+         Stopping [0;1;39mStart bmcweb server[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mAssert bmc_booted LED[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/obmc-led-group-start[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mMulti-User System[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mLogin Prompts[0m.
+         Stopping [0;1;39mNetwork IPMI daemon[0m...
+         Stopping [0;1;39mAvahi mDNS/DNS-SD Stack[0m...
+         Stopping [0;1;39mBeep code manager[0m...
+         Stopping [0;1;39mCallback Manager[0m...
+         Stopping [0;1;39mIntel BMC CPU Crashdump[0m...
+         Stopping [0;1;39mOptane PMem application[0m...
+         Stopping [0;1;39mIntel CPU Raw PECI interface[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mConvert PAM config files[0m.
+         Stopping [0;1;39mHSBP Manager[0m...
+         Stopping [0;1;39mLPC Snoop Daemon[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mWait for /xyz/open…project/led/groups/bmc_booted[0m.
+         Stopping [0;1;39mNode Manager Proxy[0m...
+         Stopping [0;1;39mOverlay sync to NV storage[0m...
+         Stopping [0;1;39mPhosphor Console …tening on device /dev/ttyS2[0m...
+         Stopping [0;1;39mPhosphor certificate manager for authority[0m...
+         Stopping [0;1;39mPhosphor certificate manager for bmcweb[0m...
+         Stopping [0;1;39mPhosphor certificate manager for nslcd[0m...
+         Stopping [0;1;39mPhosphor certificate manager for vr_manager[0m...
+         Stopping [0;1;39mPhosphor IPMI KCS DBus Bridge[0m...
+         Stopping [0;1;39mPhosphor IPMI KCS DBus Bridge[0m...
+         Stopping [0;1;39mPhosphor-Pid-Cont…in-based Fan Control Daemon[0m...
+         S         Stopping [0;1;39mSerial Getty on ttyS4[0m...
+         Stopping [0;1;39mLightweight SLP Server[0m...
+         Stopping [0;1;39mSpecial mode manager[0m...
+         Stopping [0;1;39mDaemon to control service configuration[0m...
+         Stopping [0;1;39mOpenBMC ipKVM daemon[0m...
+[  139.811446] watchdog: watchdog1: watchdog did not stop!
+         Stopping [0;1;39mBMC Hardware Watchdog Daemon[0m...
+         Stopping [0;1;39mUser Login Management[0m...
+         Stopping [0;1;39mLoad/Save Random Seed[0m...
+         Stopping [0;1;39mSPD Bus manager[0m...
+         Stopping [0;1;39mIntel Power Control for the Host 0[0m...
+         Stopping [0;1;39mCUPS - Compute Usage Per Second[0m...
+         Stopping [0;1;39mFru Device[0m...
+         Stopping [0;1;39mHost misc manager[0m...
+         Stopping [0;1;39mHost Error Monitor[0m...
+         Stopping [0;1;39mIPMI SEL Logging Service[0m...
+         Stopping [0;1;39mPhosphor Log Manager[0m...
+         Stopping [0;1;39mPhosphor Network Manager[0m...
+         Stopping [0;1;39mPMT Service (Platform Monitoring Technology)[0m...
+         Stopping [0;1;39mRestriction mode manager[0m...
+         Stopping [0;1;39mSecurity Manager …ebug service, User security[0m...
+         Stopping [0;1;39mPhosphor Download Manager[0m...
+         Stopping [0;1;39mPhosphor Version Software Manager[0m...
+         Stopping [0;1;39mPhosphor BMC State Manager[0m...
+         Stopping [0;1;39mPost code manager[0m...
+         Stopping [0;1;39mRsyslog config updater[0m...
+         Stopping [0;1;39mTelemetry[0m...
+         Stopping [0;1;39mPhosphor Time Manager daemon[0m...
+         Stopping [0;1;39mPhosphor U-Boot environment manager[0m...
+         Stopping [0;1;39mPhosphor User Manager[0m...
+         Stopping [0;1;39mVirtual Media Service[0m...
+         Stopping [0;1;39mAdd-in-Card Crashdump[0m...
+         Stopping [0;1;39mBIOS Config Manag…e BIOS configuration update[0m...
+         Stopping [0;1;39mBIOS Config Passw…e BIOS configuration update[0m...
+         Stopping [0;1;39mCPU Sensor[0m...
+         Stopping [0;1;39mExit Air Temp Sensor[0m...
+         Stopping [0;1;39mFan Sensor[0m...
+         Stopping [0;1;39mHwmon Temp Sensor[0m...
+         Stopping [0;1;39mIntrusion Sensor[0m...
+         Stopping [0;1;39mIPMB Sensor[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mPhosphor sysfs LED controller[0m...
+         Stopping [0;1;39mMCTP Daemon[0m...
+         Stopping [0;1;39mMCTP Daemon[0m...
+         Stopping [0;1;39mMCTP Daemon[0m...
+         Stopping [0;1;39mMCU Temp Sensor[0m...
+         Stopping [0;1;39mNVMe Management Interface Daemon[0m...
+         Stopping [0;1;39mPLDM daemon[0m...
+         Stopping [0;1;39mPMCI Launcher[0m...
+         Stopping [0;1;39mPSU Sensor[0m...
+         Stopping [0;1;39mService to get PCIe info over PECI[0m...
+         Stopping [0;1;39mIntel BMC CPU Info[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mBeep code manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mIntel BMC CPU Crashdump[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mIntel CPU Raw PECI interface[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mHSBP Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mLPC Snoop Daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mOverlay sync to NV storage[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor certificate manager for authority[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor certificate manager for bmcweb[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor certificate manager for nslcd[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor certificate manager for vr_manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mNetwork IPMI daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mNode Manager Proxy[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor IPMI KCS DBus Bridge[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor IPMI KCS DBus Bridge[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mphosphor systemd target monitor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor Watchdog[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mRotate the event logs[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mDaemon to control service configuration[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mBMC Hardware Watchdog Daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mUser Login Management[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mSPD Bus manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mIntel Power Control for the Host 0[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mFru Device[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mHost misc manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mHost Error Monitor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mIPMI SEL Logging Service[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor Log Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPMT Service (Platform Monitoring Technology)[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor Download Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPost code manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mRsyslog config updater[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mTelemetry[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor U-Boot environment manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor User Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mVirtual Media Service[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mAdd-in-Card Crashdump[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mBIOS Config Manage…ote BIOS configuration update[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mBIOS Config Passwo…ote BIOS configuration update[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor sysfs LED controller[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mNVMe Management Interface Daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPLDM daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPMCI Launcher[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mService to get PCIe info over PECI[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mOpenBMC ipKVM daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mAvahi mDNS/DNS-SD Stack[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mStart bmcweb server[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor-Pid-Contr…rgin-based Fan Control Daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mLightweight SLP Server[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mCUPS - Compute Usage Per Second[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor Network Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mSecurity Manager -…eDebug service, User security[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor BMC State Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mCPU Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mExit Air Temp Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mFan Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mHwmon Temp Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mIntrusion Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mIPMB Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mMCU Temp Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPSU Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mCallback Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mSerial Getty on ttyS4[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mRestriction mode manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor Time Manager daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mIntel BMC CPU Info[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor Version Software Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mSpecial mode manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mMCTP Daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mMCTP Daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mMCTP Daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mOptane PMem application[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mLoad/Save Random Seed[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor Console M…istening on device /dev/ttyS2[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/obmc-console[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/phosphor-certificate-manager[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/phosphor-ipmi-kcs[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/serial-getty[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /syste…project.Chassis.Control.Power[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /syste…penbmc_project.led.controller[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/xyz.openbmc_project.mctpd[0m.
+         Stopping [0;1;39mIPMB bridge[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mWait for /xyz/open…rol/security/restriction_mode[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mWait for /xyz/openbmc_project/time/sync_method[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mWait for /xyz/open…roject/u_boot/environment/mgr[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/mapper-wait[0m.
+         Stopping [0;1;39mSystem Logging Service[0m...
+         Stopping [0;1;39mIntel BMC SMBIOS MDR V2[0m...
+         Stopping [0;1;39mPermit User Sessions[0m...
+         Stopping [0;1;39mPhosphor LED Group Management Daemon[0m...
+         Stopping [0;1;39mSettings[0m...
+         Stopping [0;1;39mOpenBMC Software Update Manager[0m...
+         Stopping [0;1;39mAdc Sensor[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mIPMB bridge[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mSettings[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mSystem Logging Service[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor LED Group Management Daemon[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mOpenBMC Software Update Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mAdc Sensor[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mIntel BMC SMBIOS MDR V2[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPermit User Sessions[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mNetwork[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mPhosphor Object Mapper[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mRemote File Systems[0m.
+         Stopping [0;1;39mPhosphor Inband IPMI[0m...
+         Stopping [0;1;39mNetwork Name Resolution[0m...
+         Stopping [0;1;39mEntity Manager[0m...
+         Stopping [0;1;39mPhosphor DBus Service Discovery Manager[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mNetwork Name Resolution[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor Inband IPMI[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mPhosphor DBus Service Discovery Manager[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mEntity Manager[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mBasic System[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mPath Units[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mDispatch Password …ts to Console Directory Watch[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mForward Password R…uests to Wall Directory Watch[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSlice Units[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mUser and Session Slice[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSocket Units[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mAvahi mDNS/DNS-SD Stack Activation Socket[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mBMC Webserver socket[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mPhosphor Host Console SSH Per-Connection socket[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mphosphor-ipmi-net@eth0.socket[0m.
+[[0;32m  OK  [0m] Removed slice [0;1;39mSlice /system/phosphor-ipmi-net[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mSyslog Socket[0m.
+         Stopping [0;1;39mD-Bus System Message Bus[0m...
+         Stopping [0;1;39mNetwork Configuration[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mD-Bus System Message Bus[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mD-Bus System Message Bus Socket[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSystem Initialization[0m.
+         Stopping [0;1;39mNetwork Time Synchronization[0m...
+[[0;32m  OK  [0m] Stopped [0;1;39mNetwork Configuration[0m.
+[[0;32m  OK  [0m] Closed [0;1;39mNetwork Service Netlink Socket[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mApply Kernel Variables[0m.
+
+[2026-04-29 14:53:35.200] [[36mWRITE[0m] root
+
+[2026-04-29 14:53:35.870] [[33mREAD[0m] [[0;32m  OK  [0m] Stopped [0;1;39mNetwork Time Synchronization[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mCreate Volatile Files and Directories[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mLocal File Systems[0m.
+         Unmounting [0;1;39m/home[0m...
+         Unmounting [0;1;39m/media[0m...
+         Unmounting [0;1;39m/srv[0m...
+         Unmounting [0;1;39m/tmp/.rwfs[0m...
+         Unmounting [0;1;39m/var/lib/systemd/coredump[0m...
+         Unmounting [0;1;39m/var/sofs[0m...
+[[0;32m  OK  [0m] Unmounted [0;1;39m/home[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39m/media[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39m/srv[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39m/tmp/.rwfs[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39m/var/lib/systemd/coredump[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39m/var/sofs[0m.
+         Unmounting [0;1;39mTemporary Directory /tmp[0m...
+         Unmounting [0;1;39m/var[0m...
+[[0;32m  OK  [0m] Unmounted [0;1;39mTemporary Directory /tmp[0m.
+[[0;32m  OK  [0m] Unmounted [0;1;39m/var[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mPreparation for Local File Systems[0m.
+[[0;32m  OK  [0m] Stopped target [0;1;39mSwaps[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mUnmount All Filesystems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mRemount Root and Kernel File Systems[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mFile System Check on Root Device[0m.
+[[0;32m  OK  [0m] Stopped [0;1;39mCreate Static Device Nodes in /dev[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Shutdown[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mLate Shutdown Services[0m.
+[[0;32m  OK  [0m] Finished [0;1;39mSystem Reboot[0m.
+[[0;32m  OK  [0m] Reached target [0;1;39mSystem Reboot[0m.
+[  149.102495] watchdog: watchdog0: watchdog did not stop!
+[  149.151651] systemd-shutdown[1]: Syncing filesystems and block devices.
+[  149.159404] systemd-shutdown[1]: Sending SIGTERM to remaining processes...
+[  149.177762] systemd-journald[139]: Received SIGTERM from PID 1 (systemd-shutdow).
+[  149.222870] systemd-shutdown[1]: Sending SIGKILL to remaining processes...
+[  149.253460] systemd-shutdown[1]: Using hardware watchdog 'aspeed_wdt', version 0, device /dev/watchdog
+[  149.267244] systemd-shutdown[1]: Unmounting file systems.
+[  149.276146] [595]: Remounting '/etc' read-only in with options 'lowerdir=/etc,upperdir=/tmp/.overlay/etc,workdir=/tmp/.overlay/etc.work'.
+[  149.293847] [596]: Unmounting '/etc'.
+[  149.336271] systemd-shutdown[1]: All filesystems unmounted.
+[  149.342664] systemd-shutdown[1]: Deactivating swaps.
+[  149.348338] systemd-shutdown[1]: All swaps deactivated.
+[  149.354559] systemd-shutdown[1]: Detaching loop devices.
+[  149.366872] systemd-shutdown[1]: All loop devices detached.
+[  149.373178] systemd-shutdown[1]: Stopping MD devices.
+[  149.379314] systemd-shutdown[1]: All MD devices stopped.
+[  149.385347] systemd-shutdown[1]: Detaching DM devices.
+[  149.391689] systemd-shutdown[1]: All DM devices detached.
+[  149.397742] systemd-shutdown[1]: All filesystems, swaps, loop devices, MD devices and DM devices detached.
+[  149.411419] systemd-shutdown[1]: Syncing filesystems and block devices.
+[  149.419050] systemd-shutdown[1]: Rebooting.
+[  149.425997] reboot: Restarting system
+BP0c00
+
+
+U-Boot 2019.04 (May 31 2024 - 19:32:32 +0000)
+
+SOC: AST2600-A3 
+RST: WDT1 SOC 
+PCI RST: #2 
+eSPI Mode: SIO:Enable : SuperIO-2e
+Eth: MAC0: RMII/NCSI, MAC1: RGMII, MAC2: RMII/NCSI, MAC3: RMII/NCSI
+Model: Intel server board with AST2600 as the BMC
+       Watchdog enabled
+DRAM:  already initialized, Reserving 32768 Bytes for IRQ stack at: 9cf43640
+496 MiB (capacity:512 MiB, VGA:16 MiB), ECC off
+PCIE-0: Link down
+MMC:   emmc_slot0@100: 0
+Loading Environment from SPI Flash... SF: Detected mx66l1g45g with page size 256 Bytes, erase size 4 KiB, total 128 MiB
+OK
+In:    serial@1e784000
+Out:   serial@1e784000
+Err:   serial@1e784000
+Model: Intel server board with AST2600 as the BMC
+Saving Environment to SPI Flash... SF: Detected mx66l1g45g with page size 256 Bytes, erase size 4 KiB, total 128 MiB
+Erasing SPI flash...Writing to SPI flash...done
+Valid environment: 1
+OK
+Board ID: 0x01
+Net:   eth1: ftgmac@1e680000
+FFUJ: 0
+## Loading kernel from FIT Image at 20b00000 ...
+   Using 'conf-aspeed-bmc-intel-ast2600.dtb' configuration
+   Trying 'kernel-1' kernel subimage
+root
+Password: 
+[2026-04-29 14:53:35.870] [[36mWRITE[0m] 0penBmc1
+
+[2026-04-29 14:53:36.655] [[33mREAD[0m] 
+Last login: Wed Apr 29 18:50:58 UTC 2026 on ttyS4
+7[r[999;999H[6n
+[2026-04-29 14:53:46.669] [[36mWRITE[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/FruDevice/inteldatacentergpuflexseries_1
+
+[2026-04-29 14:53:47.341] [[33mREAD[0m] root@intel-obmc:~# busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_projecct/FruDevice/inteldatacentergpuflexseries_1
+NAME                                TYPE      SIGNATURE RESULT/VALUE                       FLAGS
+[0;1;39morg.freedesktop.DBus.Introspectable[0m interface -         -                                  -
+.Introspect                         method    -         s                                  -
+[0;1;39morg.freedesktop.DBus.Peer          [0m interface -         -                                  -
+.GetMachineId                       method    -         s                                  -
+.Ping                               method    -         -                                  -
+[0;1;39morg.freedesktop.DBus.Properties    [0m interface -         -                                  -
+.Get                                method    ss        v                                  -
+.GetAll                             method    s         a{sv}                              -
+.Set                                method    ssv       -                                  -
+.PropertiesChanged                  signal    sa{sv}as  -                                  -
+[0;1;39mxyz.openbmc_project.FruDevice      [0m interface -         -                                  -
+.ADDRESS                            property  u         1                                  emits-change
+.BUS                                property  u         254                                emits-change
+.PRODUCT_MANUFACTURER               property  s         "0002"                             emits-change
+.PRODUCT_PART_NUMBER                property  s         "ff        "                       emits-change
+.PRODUCT_PRODUCT_NAME               property  s         "inteldatacentergpuflexseries    " emits-change
+.PRODUCT_SERIAL_NUMBER              property  s         "1777488283                      " emits-change
+.PRODUCT_VERSION                    property  s         "00"                               emits-change
+root@intel-obmc:~# 
+root@intel-obmc:~# 

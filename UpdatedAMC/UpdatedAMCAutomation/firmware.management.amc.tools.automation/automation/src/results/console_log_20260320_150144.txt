@@ -1,0 +1,10 @@
+[2026-03-20 15:01:44.120] [[36mWRITE[0m] reset warm
+
+[2026-03-20 15:01:44.813] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY

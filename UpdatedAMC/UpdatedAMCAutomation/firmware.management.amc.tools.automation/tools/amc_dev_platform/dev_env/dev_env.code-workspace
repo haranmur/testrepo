@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "name": "devEnv",
+            "path": "."
+        },
+        {
+            "name": "workDir",
+            "path": "/workdir"
+        }
+    ]
+}

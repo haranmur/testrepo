@@ -1,0 +1,75 @@
+{
+    "name": "vscodeZephyr",
+    "image": "docker.io/zephyrprojectrtos/zephyr-build:v0.27.4",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "workbench.colorTheme": "Monokai Dimmed",
+                "terminal.integrated.shell.linux": "bash",
+                "extensions.ignoreRecommendations": true
+            },
+            "extensions": [
+                // core
+                "ms-vscode.cpptools",
+                // debug
+                "mcu-debug.debug-tracker-vscode", // needed by cortex-debug
+                "marus25.cortex-debug",
+                "ms-vscode.vscode-serial-monitor",
+                "plorefice.devicetree",
+                "trond-snekvik.devicetree",
+                // editing
+                "stkb.rewrap",
+                "wayou.vscode-todo-highlight",
+                "ssigwart.trailing-whitespace-fixer",
+                "ryu1kn.text-marker",
+                "oderwat.indent-rainbow",
+                // task utils
+                "augustocdias.tasks-shell-input", // needed by dynamic task input
+                "xaver.clang-format",
+                "moshfeu.compare-folders",
+                "outofsync42.select-compare-tabs"
+
+            ]
+        }
+    },
+    "workspaceFolder": "/workspaces",
+    // See https://code.visualstudio.com/remote/advancedcontainers/add-local-file-mount
+    // Mount local folders that are external to the workspace
+    // user can add local folder mount [eg. bin folder to host]
+    // "source=${your_local_folder},target=/workdir/PROJECTS/build/bin,type=bind,consistency=default",
+    "mounts": [
+        "source=${localWorkspaceFolder},target=/workspaces/,type=bind,consistency=default",
+        "source=dev_env_volume,target=/workdir,type=volume"
+    ],
+    "runArgs": [
+        "-v",
+        "/dev:/dev", // Mount /dev directory
+        "--privileged", // Allows access to tty* devices
+        "-w",
+        "/workdir",
+        "--env",
+        "HTTP_PROXY=${env:http_proxy:-}",
+        "--env",
+        "HTTPS_PROXY=${env:http_proxy:-}",
+        "--env",
+        "NO_PROXY=${env:no_proxy:-}",
+        "--env",
+        "http_proxy=${env:http_proxy:-}",
+        "--env",
+        "https_proxy=${env:http_proxy:-}",
+        "--env",
+        "no_proxy=${env:no_proxy:-}"
+    ],
+    "containerEnv": {
+        "WORKSPACE_FOLDER": "/workdir",
+        "GDB_SERVER_IP": "${env:GDB_SERVER_IP}",
+        "GDB_SERVER_PORT": "${env:GDB_SERVER_PORT}",
+        "GDB_SERVER": "${env:GDB_SERVER_IP}:${env:GDB_SERVER_PORT}"
+    },
+    "postCreateCommand": "bash -c 'bash /workspaces/postcreate.sh'",
+    //    "overrideCommand": false,
+    //    "remoteUser": "user",
+    "remoteEnv": {
+        "SHELL": "/usr/bin/bash"
+    }
+}

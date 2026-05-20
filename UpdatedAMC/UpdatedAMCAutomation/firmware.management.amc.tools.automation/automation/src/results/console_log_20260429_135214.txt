@@ -1,0 +1,16 @@
+[2026-04-29 13:52:14.954] [[36mWRITE[0m] fru set_serial_number 1777485134
+
+[2026-04-29 13:52:20.034] [[33mREAD[0m] 
+[2026-04-29 13:52:20.034] [[36mWRITE[0m] warm reset
+
+[2026-04-29 13:52:25.073] [[33mREAD[0m] 
+[2026-04-29 13:53:05.204] [[36mWRITE[0m] reboot
+
+[2026-04-29 13:53:05.653] [[33mREAD[0m] reboot
+[2026-04-29 13:53:45.656] [[36mWRITE[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/FruDevice/inteldatacentergpuflexseries_1
+
+[2026-04-29 13:53:46.105] [[33mREAD[0m] 
+Phosphor OpenBMC (Phosphor OpenBMC Project Reference Distro) nodistro.0 intel-obmc ttyS4
+
+intel-obmc login: busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/FruDevice/inteldatacentergpuflexseries_1
+

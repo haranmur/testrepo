@@ -1,0 +1,4 @@
+[2026-04-09 13:16:17.474] [[36mWRITE[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/sensors/temperature/OUTLET_TEMP_1
+
+[2026-04-09 13:16:17.922] [[33mREAD[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/sensors/temperature/OUTLET_TEMP_1
+

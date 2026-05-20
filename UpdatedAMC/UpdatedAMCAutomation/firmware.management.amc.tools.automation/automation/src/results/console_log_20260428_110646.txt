@@ -1,0 +1,11 @@
+[2026-04-28 11:06:46.383] [[36mWRITE[0m] reset cold
+
+[2026-04-28 11:06:48.064] [[33mREAD[0m] [00:47:02.433,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[00:47:02.433,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[00:47:02.433,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[00:47:02.533,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[00:47:02.533,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 11:06:53.204] [[36mWRITE[0m] reset cold
+
+[2026-04-28 11:06:58.232] [[33mREAD[0m] 

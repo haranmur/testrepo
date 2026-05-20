@@ -1,0 +1,5 @@
+[2026-03-20 15:14:52.135] [[36mWRITE[0m] reset cold
+
+[2026-03-20 15:14:52.502] [[33mREAD[0m]  1 retries! with code: 4[0m
+[02:28:55.296,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+

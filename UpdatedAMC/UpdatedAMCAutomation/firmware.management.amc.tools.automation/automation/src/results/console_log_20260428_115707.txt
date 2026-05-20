@@ -1,0 +1,3007 @@
+[2026-04-28 11:57:07.146] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:57:08.263] [[33mREAD[0m] [01:37:20.493,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:37:20.493,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:37:20.493,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:37:20.594,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:37:20.594,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 11:57:13.414] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:57:18.466] [[33mREAD[0m] 
+[2026-04-28 11:57:23.612] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:57:24.282] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:57:29.422] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:57:30.088] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:57:52.169] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:57:53.393] [[33mREAD[0m] [01:38:05.600,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:38:05.600,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:38:05.600,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:38:05.701,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:38:05.701,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 11:57:58.527] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:58:03.573] [[33mREAD[0m] 
+[2026-04-28 11:58:08.714] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:58:09.385] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:58:14.524] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:58:15.195] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:58:37.232] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:58:38.458] [[33mREAD[0m] [01:38:50.707,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:38:50.707,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:38:50.707,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:38:50.808,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:38:50.808,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 11:58:43.613] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:58:48.646] [[33mREAD[0m] 
+[2026-04-28 11:58:53.783] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:58:54.455] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:58:59.594] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:59:00.279] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:59:22.299] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:59:23.632] [[33mREAD[0m] [01:39:35.814,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:39:35.814,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:39:35.814,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:39:35.915,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:39:35.915,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 11:59:28.768] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:59:33.799] [[33mREAD[0m] 
+[2026-04-28 11:59:38.953] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:59:39.622] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:59:44.766] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:59:45.433] [[33mREAD[0m] reset war�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:00:07.567] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:00:08.799] [[33mREAD[0m] [01:40:20.921,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:40:20.921,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:40:20.921,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:40:21.021,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:40:21.021,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:00:13.940] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:00:18.984] [[33mREAD[0m] 
+[2026-04-28 12:00:24.145] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:00:24.812] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:00:29.953] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:00:30.617] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:00:52.704] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:00:53.938] [[33mREAD[0m] [01:41:06.028,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:41:06.028,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:41:06.028,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:41:06.128,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:41:06.128,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:00:59.096] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:01:04.141] [[33mREAD[0m] 
+[2026-04-28 12:01:09.294] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:01:09.958] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:01:15.097] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:01:15.787] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:01:37.869] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:01:39.097] [[33mREAD[0m] [01:41:51.135,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:41:51.135,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:41:51.135,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:41:51.235,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:41:51.235,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:01:44.225] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:01:49.270] [[33mREAD[0m] 
+[2026-04-28 12:01:54.423] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:01:55.095] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:02:00.235] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:02:00.907] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:02:22.921] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:02:24.266] [[33mREAD[0m] [01:42:36.242,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:42:36.242,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:42:36.242,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:42:36.342,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:42:36.342,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:02:29.406] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:02:34.454] [[33mREAD[0m] 
+[2026-04-28 12:02:39.612] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:02:40.282] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:02:45.422] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:02:46.086] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:03:08.154] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:03:09.388] [[33mREAD[0m] [01:43:21.348,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:43:21.348,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:43:21.348,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:43:21.449,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:43:21.449,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:03:14.525] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:03:19.606] [[33mREAD[0m] 
+[2026-04-28 12:03:24.777] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:03:25.450] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:03:30.596] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:03:31.256] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:03:55.184] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:03:56.504] [[33mREAD[0m] [01:44:08.556,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:44:08.556,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:44:08.556,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:44:08.556,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:04:01.647] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:04:06.695] [[33mREAD[0m] 
+[2026-04-28 12:04:11.847] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:04:12.520] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:04:17.679] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:04:18.353] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:04:40.408] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:04:41.659] [[33mREAD[0m] [01:44:53.663,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:44:53.663,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:44:53.663,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:44:53.663,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:04:46.803] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:04:51.846] [[33mREAD[0m] 
+[2026-04-28 12:04:56.980] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:04:57.653] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:05:02.784] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:05:03.455] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:05:25.555] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:05:26.786] [[33mREAD[0m] [01:45:38.770,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:45:38.770,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:45:38.770,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:45:38.770,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:05:31.931] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:05:36.976] [[33mREAD[0m] 
+[2026-04-28 12:05:42.129] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:05:42.803] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:05:47.962] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:05:48.637] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:06:10.716] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:06:11.952] [[33mREAD[0m] [01:46:23.877,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:46:23.877,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:46:23.877,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:46:23.877,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:06:17.086] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:06:22.139] [[33mREAD[0m] 
+[2026-04-28 12:06:27.302] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:06:27.977] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:06:33.126] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:06:33.802] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:06:55.889] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:06:57.008] [[33mREAD[0m] [01:47:08.984,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:47:08.984,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:47:08.984,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:47:08.984,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:07:02.151] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:07:07.214] [[33mREAD[0m] 
+[2026-04-28 12:07:12.367] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:07:13.043] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:07:18.159] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:07:18.833] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:07:40.899] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:07:42.245] [[33mREAD[0m] [01:47:54.091,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:47:54.091,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:47:54.091,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:47:54.091,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:07:47.377] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:07:52.425] [[33mREAD[0m] 
+[2026-04-28 12:07:57.578] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:07:58.252] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:08:03.394] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:08:04.068] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:08:26.147] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:08:27.387] [[33mREAD[0m] [01:48:39.197,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:48:39.198,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:48:39.198,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:48:39.198,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:08:32.528] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:08:37.575] [[33mREAD[0m] 
+[2026-04-28 12:08:42.743] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:08:43.417] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:08:48.582] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:08:49.266] [[33mREAD[0m] reset war�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:09:11.340] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:09:12.463] [[33mREAD[0m] [01:49:24.304,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:49:24.304,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:49:24.305,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:49:24.305,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:09:17.612] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:09:22.673] [[33mREAD[0m] 
+[2026-04-28 12:09:27.826] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:09:28.501] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:09:33.660] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:09:34.351] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:09:56.412] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:09:57.662] [[33mREAD[0m] [01:50:09.411,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:50:09.411,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:50:09.412,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:50:09.412,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:10:02.788] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:10:07.852] [[33mREAD[0m] 
+[2026-04-28 12:10:13.021] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:10:13.710] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:10:18.878] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:10:19.551] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:10:41.668] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:10:42.791] [[33mREAD[0m] [01:50:54.518,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:50:54.518,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:50:54.519,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:50:54.519,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:10:47.934] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:10:52.980] [[33mREAD[0m] 
+[2026-04-28 12:10:58.148] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:10:58.836] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:11:04.001] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:11:04.673] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:11:26.738] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:11:27.861] [[33mREAD[0m] [01:51:39.625,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:51:39.625,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:51:39.625,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:51:39.625,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:11:33.004] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:11:38.049] [[33mREAD[0m] 
+[2026-04-28 12:11:43.205] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:11:43.878] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:11:49.038] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:11:49.713] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:12:11.774] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:12:13.006] [[33mREAD[0m] [01:52:24.732,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:52:24.732,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:52:24.733,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:52:24.733,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:12:18.150] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:12:23.198] [[33mREAD[0m] 
+[2026-04-28 12:12:28.347] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:12:29.021] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:12:34.155] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:12:34.825] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:12:56.901] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:12:58.150] [[33mREAD[0m] [01:53:09.839,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:53:09.839,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:53:09.840,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:53:09.840,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:13:03.281] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:13:08.326] [[33mREAD[0m] 
+[2026-04-28 12:13:13.482] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:13:14.156] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:13:19.291] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:13:19.964] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:13:42.029] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:13:43.263] [[33mREAD[0m] [01:53:54.946,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:53:54.946,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:53:54.946,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:53:54.946,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:13:48.405] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:13:53.421] [[33mREAD[0m] 
+[2026-04-28 12:13:58.571] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:13:59.237] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:14:04.374] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:14:05.042] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:14:27.062] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:14:28.402] [[33mREAD[0m] [01:54:40.053,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:54:40.053,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:54:40.053,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:54:40.053,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:14:33.549] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:14:38.581] [[33mREAD[0m] 
+[2026-04-28 12:14:43.717] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:14:44.390] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:14:49.531] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:14:50.199] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:15:12.223] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:15:13.567] [[33mREAD[0m] [01:55:25.160,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:55:25.160,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:55:25.160,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:55:25.160,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:15:18.715] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:15:23.743] [[33mREAD[0m] 
+[2026-04-28 12:15:28.888] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:15:29.556] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:15:34.703] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:15:35.369] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:15:57.428] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:15:58.658] [[33mREAD[0m] [01:56:10.267,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:56:10.267,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:56:10.267,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:56:10.267,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:16:03.798] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:16:08.816] [[33mREAD[0m] 
+[2026-04-28 12:16:13.967] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:16:14.634] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:16:19.794] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:16:20.462] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:16:42.518] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:16:43.880] [[33mREAD[0m] [01:56:55.373,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:56:55.374,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:56:55.374,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:56:55.374,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:16:49.026] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:16:54.070] [[33mREAD[0m] 
+[2026-04-28 12:16:59.231] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:16:59.899] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:17:05.065] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:17:05.730] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:17:27.771] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:17:29.002] [[33mREAD[0m] [01:57:40.480,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:57:40.480,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:57:40.481,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:57:40.481,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:17:34.143] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:17:39.187] [[33mREAD[0m] 
+[2026-04-28 12:17:44.342] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:17:45.031] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:17:50.197] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:17:50.868] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:18:12.953] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:18:14.185] [[33mREAD[0m] [01:58:25.587,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:58:25.587,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:58:25.588,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:58:25.588,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:18:19.330] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:18:24.376] [[33mREAD[0m] 
+[2026-04-28 12:18:29.529] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:18:30.204] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:18:35.347] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:18:36.021] [[33mREAD[0m] reset war�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:18:58.083] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:18:59.314] [[33mREAD[0m] [01:59:10.694,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:59:10.694,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:59:10.695,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:59:10.695,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:19:04.452] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:19:09.495] [[33mREAD[0m] 
+[2026-04-28 12:19:14.647] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:19:15.322] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:19:20.453] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:19:21.126] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:19:43.204] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:19:44.434] [[33mREAD[0m] [01:59:55.801,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:59:55.801,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:59:55.802,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:59:55.802,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:19:49.564] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:19:54.610] [[33mREAD[0m] 
+[2026-04-28 12:19:59.763] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:20:00.435] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:20:05.570] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:20:06.241] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:20:28.289] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:20:29.523] [[33mREAD[0m] [02:00:40.908,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:00:40.908,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:00:40.908,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:00:40.908,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:20:34.665] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:20:39.710] [[33mREAD[0m] 
+[2026-04-28 12:20:44.864] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:20:45.536] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:20:50.675] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:20:51.348] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:21:13.350] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:21:14.694] [[33mREAD[0m] [02:01:26.015,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:01:26.015,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:01:26.015,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:01:26.015,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:21:19.828] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:21:24.873] [[33mREAD[0m] 
+[2026-04-28 12:21:30.031] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:21:30.702] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:21:35.849] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:21:36.521] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:21:58.565] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:21:59.796] [[33mREAD[0m] [02:02:11.122,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:02:11.122,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:02:11.122,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:02:11.122,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:22:04.936] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:22:09.982] [[33mREAD[0m] 
+[2026-04-28 12:22:15.138] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:22:15.812] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:22:20.971] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:22:21.642] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:22:43.664] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:22:45.005] [[33mREAD[0m] [02:02:56.229,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:02:56.229,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:02:56.229,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:02:56.229,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:22:50.148] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:22:55.190] [[33mREAD[0m] 
+[2026-04-28 12:23:00.346] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:23:01.016] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:23:06.185] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:23:06.852] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:23:28.946] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:23:30.067] [[33mREAD[0m] [02:03:41.337,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:03:41.337,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:03:41.337,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:03:41.337,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:23:35.201] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:23:40.244] [[33mREAD[0m] 
+[2026-04-28 12:23:45.401] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:23:46.073] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:23:51.210] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:23:51.883] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:24:13.931] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:24:15.275] [[33mREAD[0m] [02:04:26.443,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:04:26.444,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:04:26.444,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:04:26.444,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:24:20.415] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:24:25.462] [[33mREAD[0m] 
+[2026-04-28 12:24:30.614] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:24:31.287] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:24:36.448] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:24:37.119] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:24:59.191] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:25:00.424] [[33mREAD[0m] [02:05:11.550,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:05:11.550,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:05:11.551,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:05:11.551,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:25:05.555] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:25:10.599] [[33mREAD[0m] 
+[2026-04-28 12:25:15.760] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:25:16.426] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:25:21.571] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:25:22.245] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:25:44.320] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:25:45.557] [[33mREAD[0m] [02:05:56.657,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:05:56.657,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:05:56.658,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:05:56.658,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:25:50.687] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:25:55.734] [[33mREAD[0m] 
+[2026-04-28 12:26:00.876] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:26:01.550] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:26:06.713] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:26:07.400] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:26:29.419] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:26:30.648] [[33mREAD[0m] [02:06:41.764,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:06:41.764,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:06:41.765,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:06:41.765,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:26:35.785] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:26:40.832] [[33mREAD[0m] 
+[2026-04-28 12:26:45.987] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:26:46.657] [[33mREAD[0m] reset war�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:26:51.821] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:26:52.488] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:27:14.487] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:27:15.831] [[33mREAD[0m] [02:07:26.871,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:07:26.871,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:07:26.871,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:07:26.872,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:27:20.971] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:27:26.016] [[33mREAD[0m] 
+[2026-04-28 12:27:31.166] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:27:31.831] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:27:36.976] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:27:37.649] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:27:59.603] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:28:00.947] [[33mREAD[0m] [02:08:11.978,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:08:11.978,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:08:11.979,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:08:11.979,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:28:06.089] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:28:11.136] [[33mREAD[0m] 
+[2026-04-28 12:28:16.272] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:28:16.960] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:28:22.092] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:28:22.765] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:28:44.749] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:28:46.098] [[33mREAD[0m] [02:08:57.085,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:08:57.085,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:08:57.085,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:08:57.085,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:28:51.232] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:28:56.276] [[33mREAD[0m] 
+[2026-04-28 12:29:01.434] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:29:02.119] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:29:07.265] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:29:07.939] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:29:30.008] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:29:31.235] [[33mREAD[0m] [02:09:42.192,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:09:42.192,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:09:42.192,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:09:42.192,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:29:36.380] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:29:41.430] [[33mREAD[0m] 
+[2026-04-28 12:29:46.580] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:29:47.253] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:29:52.389] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:29:53.063] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:30:15.062] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:30:16.292] [[33mREAD[0m] [02:10:27.298,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:10:27.299,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:10:27.299,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:10:27.299,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:30:21.431] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:30:26.474] [[33mREAD[0m] 
+[2026-04-28 12:30:31.628] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:30:32.317] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:30:37.479] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:30:38.153] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:31:00.214] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:31:01.447] [[33mREAD[0m] [02:11:12.405,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:11:12.405,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:11:12.406,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:11:12.406,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:31:06.580] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:31:11.623] [[33mREAD[0m] 
+[2026-04-28 12:31:16.778] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:31:17.453] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:31:22.618] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:31:23.287] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:31:45.272] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:31:46.618] [[33mREAD[0m] [02:11:57.512,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:11:57.512,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:11:57.513,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:11:57.513,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:31:51.769] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:31:56.810] [[33mREAD[0m] 
+[2026-04-28 12:32:01.965] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:32:02.639] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:32:07.786] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:32:08.456] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:32:30.517] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:32:31.766] [[33mREAD[0m] [02:12:42.619,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:12:42.619,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:12:42.619,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:12:42.619,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:32:36.906] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:32:41.950] [[33mREAD[0m] 
+[2026-04-28 12:32:47.109] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:32:47.777] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:32:52.923] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:32:53.593] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:33:15.654] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:33:16.883] [[33mREAD[0m] [02:13:27.726,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:13:27.726,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:13:27.726,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:13:27.726,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:33:22.012] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:33:27.061] [[33mREAD[0m] 
+[2026-04-28 12:33:32.204] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:33:32.877] [[33mREAD[0m] reset war�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:33:38.023] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:33:38.698] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:34:00.683] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:34:02.030] [[33mREAD[0m] [02:14:12.833,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:14:12.833,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:14:12.833,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:14:12.833,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:34:07.177] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:34:12.225] [[33mREAD[0m] 
+[2026-04-28 12:34:17.353] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:34:18.024] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:34:23.186] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:34:23.858] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:34:45.872] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:34:47.122] [[33mREAD[0m] [02:14:57.940,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:14:57.940,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:14:57.940,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:14:57.940,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:34:52.261] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:34:57.303] [[33mREAD[0m] 
+[2026-04-28 12:35:02.455] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:35:03.127] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:35:08.288] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:35:08.964] [[33mREAD[0m] reset war�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:35:30.933] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:35:32.279] [[33mREAD[0m] [02:15:43.047,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:15:43.047,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:15:43.047,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:15:43.047,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:35:37.432] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:35:42.471] [[33mREAD[0m] 
+[2026-04-28 12:35:47.608] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:35:48.282] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:35:53.426] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:35:54.099] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:36:16.132] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:36:17.476] [[33mREAD[0m] [02:16:28.154,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:16:28.154,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:16:28.154,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:16:28.154,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:36:22.617] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:36:27.656] [[33mREAD[0m] 
+[2026-04-28 12:36:32.796] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:36:33.467] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:36:38.613] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:36:39.286] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:37:01.327] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:37:02.557] [[33mREAD[0m] [02:17:13.260,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:17:13.261,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:17:13.261,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:17:13.261,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:37:07.697] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:37:12.744] [[33mREAD[0m] 
+[2026-04-28 12:37:17.883] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:37:18.554] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:37:23.716] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:37:24.389] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:37:46.386] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:37:47.727] [[33mREAD[0m] [02:17:58.367,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:17:58.368,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:17:58.368,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:17:58.368,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:37:52.872] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:37:57.918] [[33mREAD[0m] 
+[2026-04-28 12:38:03.054] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:38:03.729] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:38:08.866] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:38:09.538] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:38:31.559] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:38:32.904] [[33mREAD[0m] [02:18:43.474,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:18:43.474,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:18:43.475,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:18:43.475,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:38:38.034] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:38:43.081] [[33mREAD[0m] 
+[2026-04-28 12:38:48.225] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:38:48.891] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:38:54.055] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:38:54.722] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:39:16.721] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:39:17.955] [[33mREAD[0m] [02:19:28.581,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:19:28.582,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:19:28.582,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:19:28.582,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:39:23.096] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:39:28.143] [[33mREAD[0m] 
+[2026-04-28 12:39:33.290] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:39:33.969] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:39:39.116] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:39:39.790] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:40:01.834] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:40:03.181] [[33mREAD[0m] [02:20:13.689,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:20:13.689,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:20:13.689,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:20:13.689,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:40:08.316] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:40:13.364] [[33mREAD[0m] 
+[2026-04-28 12:40:18.501] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:40:19.173] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:40:24.319] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:40:24.987] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:40:46.991] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:40:48.221] [[33mREAD[0m] [02:20:58.796,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:20:58.796,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:20:58.796,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:20:58.796,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:40:53.370] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:40:58.417] [[33mREAD[0m] 
+[2026-04-28 12:41:03.562] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:41:04.228] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:41:09.366] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:41:10.055] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:41:32.049] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:41:33.396] [[33mREAD[0m] [02:21:43.903,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:21:43.903,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:21:43.903,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:21:43.903,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:41:38.543] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:41:43.603] [[33mREAD[0m] 
+[2026-04-28 12:41:48.744] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:41:49.411] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:41:54.571] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:41:55.245] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:42:17.208] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:42:18.552] [[33mREAD[0m] [02:22:29.010,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:22:29.010,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:22:29.010,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:22:29.010,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:42:23.700] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:42:28.740] [[33mREAD[0m] 
+[2026-04-28 12:42:33.878] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:42:34.548] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:42:39.693] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:42:40.366] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:43:02.346] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:43:03.692] [[33mREAD[0m] [02:23:14.117,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:23:14.117,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:23:14.117,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:23:14.117,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:43:08.836] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:43:13.883] [[33mREAD[0m] 
+[2026-04-28 12:43:19.020] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:43:19.694] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:43:24.836] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:43:25.525] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:43:47.550] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:43:48.784] [[33mREAD[0m] [02:23:59.224,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:23:59.224,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:23:59.225,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:23:59.225,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:43:53.925] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:43:58.988] [[33mREAD[0m] 
+[2026-04-28 12:44:04.125] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:44:04.797] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:44:09.948] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:44:10.617] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:44:32.609] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:44:33.970] [[33mREAD[0m] [02:24:44.331,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:24:44.331,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:24:44.331,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:24:44.331,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:44:39.108] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:44:44.155] [[33mREAD[0m] 
+[2026-04-28 12:44:49.293] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:44:49.967] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:44:55.126] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:44:55.799] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:45:17.810] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:45:19.157] [[33mREAD[0m] [02:25:29.438,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:25:29.439,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:25:29.439,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:25:29.439,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:45:24.296] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:45:29.343] [[33mREAD[0m] 
+[2026-04-28 12:45:34.480] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:45:35.152] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:45:40.315] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:45:40.988] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:46:02.955] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:46:04.191] [[33mREAD[0m] [02:26:14.545,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:26:14.545,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:26:14.546,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:26:14.546,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:46:09.338] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:46:14.383] [[33mREAD[0m] 
+[2026-04-28 12:46:19.521] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:46:20.208] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:46:25.347] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:46:26.022] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:46:47.954] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:46:49.407] [[33mREAD[0m] [02:26:59.652,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:26:59.652,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:26:59.652,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:26:59.652,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:46:54.539] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:46:59.584] [[33mREAD[0m] 
+[2026-04-28 12:47:04.720] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:47:05.410] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:47:10.557] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:47:11.229] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:47:33.213] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:47:34.557] [[33mREAD[0m] [02:27:44.759,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:27:44.759,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:27:44.760,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:27:44.760,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:47:39.706] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:47:44.752] [[33mREAD[0m] 
+[2026-04-28 12:47:49.890] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:47:50.560] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:47:55.708] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:47:56.379] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:48:18.356] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:48:19.702] [[33mREAD[0m] [02:28:29.866,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:28:29.866,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:28:29.867,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:28:29.867,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:48:24.848] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:48:29.894] [[33mREAD[0m] 
+[2026-04-28 12:48:35.033] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:48:35.703] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:48:40.864] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:48:41.538] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:49:03.458] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:49:04.806] [[33mREAD[0m] [02:29:14.973,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:29:14.973,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:29:14.973,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:29:14.974,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:49:09.942] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:49:14.983] [[33mREAD[0m] 
+[2026-04-28 12:49:20.105] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:49:20.768] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:49:25.931] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:49:26.602] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:49:48.643] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:49:49.879] [[33mREAD[0m] [02:30:00.080,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:30:00.080,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:30:00.080,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:30:00.081,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:49:55.010] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:50:00.057] [[33mREAD[0m] 
+[2026-04-28 12:50:05.195] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:50:05.870] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:50:11.028] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:50:11.703] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:50:33.716] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:50:35.059] [[33mREAD[0m] [02:30:45.187,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:30:45.187,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:30:45.187,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:30:45.187,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:50:40.203] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:50:45.250] [[33mREAD[0m] 
+[2026-04-28 12:50:50.387] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:50:51.063] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:50:56.206] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:50:56.867] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:51:18.939] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:51:20.184] [[33mREAD[0m] [02:31:30.294,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:31:30.294,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:31:30.294,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:31:30.294,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:51:25.325] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:51:30.368] [[33mREAD[0m] 
+[2026-04-28 12:51:35.516] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:51:36.182] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:51:41.325] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:51:41.999] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:52:04.001] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:52:05.347] [[33mREAD[0m] [02:32:15.400,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:32:15.400,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:32:15.401,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:32:15.401,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:52:10.496] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:52:15.543] [[33mREAD[0m] 
+[2026-04-28 12:52:20.681] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:52:21.353] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:52:26.513] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:52:27.188] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:52:49.161] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:52:50.521] [[33mREAD[0m] [02:33:00.507,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:33:00.507,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:33:00.508,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:33:00.508,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:52:55.673] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:53:00.712] [[33mREAD[0m] 
+[2026-04-28 12:53:05.855] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:53:06.518] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:53:11.680] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:53:12.353] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:53:34.331] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:53:35.562] [[33mREAD[0m] [02:33:45.615,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:33:45.615,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:33:45.615,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:33:45.615,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:53:40.708] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:53:45.753] [[33mREAD[0m] 
+[2026-04-28 12:53:50.904] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:53:51.565] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:53:56.702] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:53:57.377] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:54:19.307] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:54:20.760] [[33mREAD[0m] [02:34:30.721,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:34:30.721,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:34:30.722,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:34:30.722,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:54:25.903] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:54:30.949] [[33mREAD[0m] 
+[2026-04-28 12:54:36.070] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:54:36.744] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:54:41.881] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:54:42.545] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:55:04.653] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:55:05.890] [[33mREAD[0m] [02:35:15.828,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:35:15.829,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:35:15.829,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:35:15.830,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:55:11.879] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:55:16.941] [[33mREAD[0m] 
+[2026-04-28 12:55:22.076] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:55:22.763] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:55:27.909] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:55:28.580] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:55:50.609] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:55:51.057] [[33mREAD[0m] I3C write failed after 1 retries! with code: 4[0m
+[02:36:00.936,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:55:56.202] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:56:01.230] [[33mREAD[0m] 
+[2026-04-28 12:56:06.368] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:56:07.037] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:56:12.179] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:56:12.867] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:56:34.903] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:56:36.131] [[33mREAD[0m] [02:36:46.043,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:36:46.043,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:36:46.043,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:36:46.043,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:56:41.386] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:56:46.434] [[33mREAD[0m] 
+[2026-04-28 12:56:51.583] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:56:52.261] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:56:57.407] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:56:58.094] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:57:20.110] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:57:21.347] [[33mREAD[0m] [02:37:31.150,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:37:31.150,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:37:31.150,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:37:31.150,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:57:26.478] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:57:31.524] [[33mREAD[0m] 
+[2026-04-28 12:57:36.668] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:57:37.335] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:57:42.468] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:57:43.143] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:58:05.194] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:58:06.427] [[33mREAD[0m] [02:38:16.256,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:38:16.256,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:38:16.257,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:38:16.257,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:58:11.576] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:58:16.634] [[33mREAD[0m] 
+[2026-04-28 12:58:21.773] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:58:22.442] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:58:27.589] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:58:28.263] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:58:50.300] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:58:51.532] [[33mREAD[0m] [02:39:01.363,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:39:01.363,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:39:01.364,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:39:01.364,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:58:56.673] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:59:01.715] [[33mREAD[0m] 
+[2026-04-28 12:59:06.858] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:59:07.525] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:59:12.699] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:59:13.374] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:59:35.402] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:59:36.749] [[33mREAD[0m] [02:39:46.470,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:39:46.470,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:39:46.471,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:39:46.471,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 12:59:41.878] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:59:46.924] [[33mREAD[0m] 
+[2026-04-28 12:59:52.091] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:59:52.778] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 12:59:57.930] [[36mWRITE[0m] reset warm
+
+[2026-04-28 12:59:58.597] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:00:20.651] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:00:21.901] [[33mREAD[0m] [02:40:31.577,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:40:31.577,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:40:31.578,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:40:31.578,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:00:27.189] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:00:32.252] [[33mREAD[0m] 
+[2026-04-28 13:00:37.387] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:00:38.060] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:00:43.231] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:00:43.895] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:01:05.957] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:01:06.966] [[33mREAD[0m] [02:41:16.685,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:41:16.685,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:41:16.685,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:41:16.685,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:01:12.103] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:01:17.134] [[33mREAD[0m] 
+[2026-04-28 13:01:22.271] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:01:22.946] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:01:28.106] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:01:28.775] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:01:50.823] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:01:52.187] [[33mREAD[0m] [02:42:01.792,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:42:01.792,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:42:01.792,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:42:01.792,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:01:57.318] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:02:02.365] [[33mREAD[0m] 
+[2026-04-28 13:02:07.502] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:02:08.176] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:02:13.318] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:02:13.993] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:02:35.944] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:02:37.288] [[33mREAD[0m] [02:42:46.898,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:42:46.899,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:42:46.899,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:42:46.899,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:02:42.431] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:02:47.494] [[33mREAD[0m] 
+[2026-04-28 13:02:52.633] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:02:53.305] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:02:58.439] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:02:59.112] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:03:21.071] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:03:22.414] [[33mREAD[0m] [02:43:32.006,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:43:32.006,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:43:32.007,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:43:32.007,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:03:27.561] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:03:32.606] [[33mREAD[0m] 
+[2026-04-28 13:03:37.742] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:03:38.416] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:03:43.574] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:03:44.263] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:04:06.316] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:04:07.550] [[33mREAD[0m] [02:44:17.113,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:44:17.113,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:44:17.114,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:44:17.114,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:04:12.691] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:04:17.734] [[33mREAD[0m] 
+[2026-04-28 13:04:22.874] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:04:23.544] [[33mREAD[0m] reset war�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:04:28.673] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:04:29.362] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:04:51.405] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:04:52.641] [[33mREAD[0m] [02:45:02.220,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:45:02.220,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:45:02.220,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:45:02.220,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:04:57.775] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:05:02.822] [[33mREAD[0m] 
+[2026-04-28 13:05:07.958] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:05:08.631] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:05:13.774] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:05:14.462] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:05:36.482] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:05:37.827] [[33mREAD[0m] [02:45:47.328,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:45:47.328,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:45:47.328,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:45:47.328,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:05:42.973] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:05:48.018] [[33mREAD[0m] 
+[2026-04-28 13:05:53.135] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:05:53.809] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:05:58.943] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:05:59.617] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:06:21.652] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:06:23.000] [[33mREAD[0m] [02:46:32.434,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:46:32.434,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:46:32.435,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:46:32.435,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:06:28.143] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:06:33.188] [[33mREAD[0m] 
+[2026-04-28 13:06:38.336] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:06:39.003] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:06:44.135] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:06:44.808] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:07:06.810] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:07:08.153] [[33mREAD[0m] [02:47:17.542,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:47:17.542,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:47:17.542,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:47:17.542,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:07:13.270] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:07:18.319] [[33mREAD[0m] 
+[2026-04-28 13:07:23.457] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:07:24.130] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:07:29.273] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:07:29.961] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:07:51.991] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:07:53.228] [[33mREAD[0m] [02:48:02.649,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:48:02.649,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:48:02.649,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:48:02.649,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:07:58.372] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:08:03.419] [[33mREAD[0m] 
+[2026-04-28 13:08:08.556] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:08:09.231] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:08:14.382] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:08:15.049] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:08:37.024] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:08:38.368] [[33mREAD[0m] [02:48:47.756,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:48:47.756,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:48:47.756,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:48:47.756,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:08:43.498] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:08:48.545] [[33mREAD[0m] 
+[2026-04-28 13:08:53.684] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:08:54.370] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:08:59.519] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:09:00.194] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:09:22.235] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:09:23.464] [[33mREAD[0m] [02:49:32.863,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:49:32.864,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:49:32.864,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:49:32.864,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:09:28.605] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:09:33.653] [[33mREAD[0m] 
+[2026-04-28 13:09:38.790] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:09:39.462] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:09:44.607] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:09:45.280] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:10:07.332] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:10:08.672] [[33mREAD[0m] [02:50:17.971,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:50:17.971,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:50:17.971,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:50:17.971,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:10:13.817] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:10:18.864] [[33mREAD[0m] 
+[2026-04-28 13:10:23.984] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:10:24.673] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:10:29.805] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:10:30.477] [[33mREAD[0m] reset w�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:10:52.530] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:10:53.763] [[33mREAD[0m] [02:51:03.078,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:51:03.078,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:51:03.078,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:51:03.078,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:10:58.907] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:11:03.970] [[33mREAD[0m] 
+[2026-04-28 13:11:09.108] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:11:09.782] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:11:14.926] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:11:15.598] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:11:37.661] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:11:38.893] [[33mREAD[0m] [02:51:48.185,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[02:51:48.185,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[02:51:48.185,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[02:51:48.185,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 13:11:44.028] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:11:49.072] [[33mREAD[0m] 
+[2026-04-28 13:11:54.212] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:11:54.888] [[33mREAD[0m] reset warBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 13:12:00.049] [[36mWRITE[0m] reset warm
+
+[2026-04-28 13:12:00.719] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY

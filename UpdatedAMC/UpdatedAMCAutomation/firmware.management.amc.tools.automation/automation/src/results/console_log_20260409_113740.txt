@@ -1,0 +1,35 @@
+[2026-04-09 11:37:40.860] [[36mWRITE[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/sensors/temperature/OUTLET_TEMP_1
+
+[2026-04-09 11:37:41.753] [[33mREAD[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/sensors/temperature/OUTLET_TEMP_1
+NAME                                                  TYPE      SIGNATURE RESULT/VALUE                             FLAGS
+[0;1;39morg.freedesktop.DBus.Introspectable                  [0m interface -         -                                        -
+.Introspect                                           method    -         s                                        -
+[0;1;39morg.freedesktop.DBus.Peer                            [0m interface -         -                                        -
+.GetMachineId                                         method    -         s                                        -
+.Ping                                                 method    -         -                                        -
+[0;1;39morg.freedesktop.DBus.Properties                      [0m interface -         -                                        -
+.Get                                                  method    ss        v                                        -
+.GetAll                                               method    s         a{sv}                                    -
+.Set                                                  method    ssv       -                                        -
+.PropertiesChanged                                    signal    sa{sv}as  -                                        -
+[0;1;39mxyz.openbmc_project.Sensor.Threshold.Critical        [0m interface -         -                                        -
+.CriticalAlarmHigh                                    property  b         false                                    emits-change
+.CriticalAlarmLow                                     property  b         false                                    emits-change
+.CriticalHigh                                         property  d         95                                       emits-change
+.CriticalLow                                          property  d         0                                        emits-change
+[0;1;39mxyz.openbmc_project.Sensor.Threshold.Warning         [0m interface -         -                                        -
+.WarningAlarmHigh                                     property  b         false                                    emits-change
+.WarningAlarmLow                                      property  b         false                                    emits-change
+.WarningHigh                                          property  d         75                                       emits-change
+.WarningLow                                           property  d         0                                        emits-change
+[0;1;39mxyz.openbmc_project.Sensor.Value                     [0m interface -         -                                        -
+.MaxValue                                             property  d         254                                      emits-change
+.MinValue                                             property  d         0                                        emits-change
+.Unit                                                 property  s         "xyz.openbmc_project.Sensor.Value.Uni... emits-change
+.Value                                                property  d         27                                       emits-change
+[0;1;39mxyz.openbmc_project.State.Decorator.Availability     [0m interface -         -                                        -
+.Available                                            property  b         true                                     emits-change writable
+[0;1;39mxyz.openbmc_project.State.Decorator.OperationalStatus[0m interface -         -                                        -
+.Functional                                           property  b         true                                     emits-change
+root@intel-obmc:~# 
+root@intel-obmc:~# 

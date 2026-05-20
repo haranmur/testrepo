@@ -1,0 +1,2 @@
+[1] Sensor List Numeric: Success - Sensor list numeric verification passed
+[1] Sensor List Numeric: Success - Sensor list numeric verification passed

@@ -1,0 +1,74 @@
+[1] Serial Port: Success - Serial port opened successfully
+[2] i3c scan: Success - i3c scan successful
+[3] i3c write check: Failure - ❌ Failure: pmt pause_telemetry Failed! Alert !!! the pmt pause_telemetry test failed
+[4] i3c read: Failure - ❌ Failure: i3c Failed! Alert !!! the i3c read test failed
+[5] i3c broadcast_enec: Success - i3c broadcast_enec successful
+[6] i3c broadcast disec: Success - i3c_broadcast_disec successful
+[7] i3c i3c_direct_ccc_enec check: Failure - ❌ Failure: i3c Failed! Alert !!! i3c direct ccc enec test failed
+[8] i3c i3c_direct_ccc_disec check: Failure - ❌ Failure: i3c Failed! Alert !!! i3c direct ccc disec test failed
+[9] i3c  i3c_direct_ccc_getstatus check: Failure - ❌ Failure: i3c Failed! Alert !!! the i3c get status test failed
+[10] i3c  i3c_direct_ccc_getdcr check: Failure - ❌ Failure: i3c Failed! Alert !!! the i3c get dcr test failed
+[11] i3c  i3c_direct_ccc_getbcr check: Failure - ❌ Failure: i3c Failed! Alert !!! the i3c get bcr test failed
+[12] i3c  i3c_direct_ccc_setmrl check: Failure - ❌ Failure: i3c Failed! Alert !!! the i3c direct ccc set mrl test failed
+[13] i3c i3c_direct_ccc_setmwl check: Failure - ❌ Failure: i3c Failed! Alert !!! the i3c set direct ccc mwl test failed
+[14] i3c i3c_broadcast_ccc_setmrl: Success - i3c_broadcast_ccc_setmrl successful
+[15] i3c i3c_broadcast_ccc_rstdaa: Success - i3c_broadcast_ccc_rstdaa successful
+[16] i3c i3c_broadcast_ccc_entdaa: Success - i3c_broadcast_ccc_entdaa successful
+[17] i3c i3c_direct_ccc_setnewda: Success - i3c_direct_ccc_setnewda successful
+[18] i3c direct_ccc_getmrl check: Failure - ❌ Failure: i3c Failed! Alert !!! the i3c direct ccc getmrl test failed
+[19] i3c direct_ccc_getmwl check: Failure - ❌ Failure: i3c Failed! Alert !!! the i3c direct ccc getmwl test failed
+[20] Sensor List Numeric: Failure - ❌ Failure: sensor list_numeric Verification Failed! Alert !!! the sensor list_numeric value has crossed the maximum value
+[21] i2c scan0: Success - i2c scan 0 successful
+[22] i2c scan1: Success - i2c scan 1 successful
+[23] i2c scan3: Success - i2c scan3 successful
+[24] i2c set speed: Success - i2c set speed successful
+[25] i2c get speed: Success - i2c get speed successful
+[26] i2c write: Success - i2c write successful
+[27] i2c read: Failure - ❌ Failure: i2c Failed! Alert !!! the i2c read test failed
+[28] i2c reg read: Failure - name 'i2c_reg_read' is not defined
+[29] i2c reg write: Success - i2c reg write successful
+[30] i2c target register: Failure - name 'i2c_target_register' is not defined
+[31] i2c target get addr: Failure - name 'i2c_target_get_address' is not defined
+[32] fru set manufacturer: Success - fru manufacturer successful
+[33] fru set product series: Success - fru product series successful
+[34] fru set serial number: Success - fru set serial number successful
+[35] fru set part number: Success - fru set part number successful
+[36] fru set card type: Success - fru set card type successful
+[37] fru set tile info: Success - fru set tile info successful
+[38] fru set platform type: Success - fru set platform type successful
+[39] fru set fab id: Success - fru set fab id successful
+[40] fru set product name: Success - fru set product name successful
+[41] fru set hw revision: Success - fru set hw revision successful
+[42] fru set odm: Success - fru set odm successful
+[43] fru set card tdp: Success - fru set card tdp successful
+[44] fru set uuid: Success - fru set uuid successful
+[45] fru set crc: Success - fru set crc successful
+[46] fru set amc slave addr: Success - fru set amc slave addr successful
+[47] fru set fru file id: Success - fru set file id successful
+[48] fru set mfg date: Success - fru set mfg date successful
+[49] fru set rework tracker: Success - fru rework tracker successful
+[50] fru set disable write: Success - fru disable write successful
+[51] EEPROM write and verify: Success - EEPROM write and read successful
+[52] spi 0 reinit: Success - spi 0 reinit successful
+[53] spi 1 reinit: Success - spi 1 reinit successful
+[54] spi 0 read write: Success - spi 0 read write successful
+[55] zephyar commands: Success - zephyar commands successful
+[56] amc version check: Success - amc version check commands successful
+[57] gpio get: Success - gpio get successful
+[58] gpio set: Success - gpio set pin successful
+[59] gpio get: Success - gpio get successful
+[60] pmt get_telemetry_precheck: Failure - ❌ Failure: pmt get_telemetry_precheck Failed! Alert !!! the pmt get_telemetry_precheck test failed
+[61] pmt get_static_telemetry: Failure - ❌ Failure: pmt get_static_telemetry Failed! Missing or zero sample_buf for sample ids: {449, 450, 451, 453}
+[62] pmt pause_telemetry: Failure - ❌ Failure: pmt pause_telemetry Failed! Alert !!! the pmt pause_telemetry test failed
+[63] pmt run_telemetry: Failure - ❌ Failure: pmt run_telemetry Failed! Alert !!! the pmt run_telemetry test failed
+[64] pmt get_periodic_telemetry: Failure - ❌ Failure: No of samples updated not found in output!
+[65] pmt pmt_get_periodic_telemetry after pause -> run: Failure - ❌ Failure: pmt pause_telemetry Failed! Alert !!! the pmt pause_telemetry test failed
+[66] peci pause_gpu_update: Failure - ❌ Failure: peci pause_gpu_update Failed! Alert !!! the peci pause_gpu_update test failed
+[67] peci run_gpu_update: Failure - ❌ Failure: peci run_gpu_update Failed! Alert !!! the peci run_gpu_update test failed
+[68] peci get_endpt_localpci_cfg: Failure - ❌ Failure: peci get_endpt_localpci_cfg Failed! Missing or incorrect configs: ['SSDID', 'SSVID', 'DID', 'VID', 'PCIE_LINK_SPEED', 'PCIE_LINK_WIDTH'], found: {'SSDID': None, 'SSVID': None, 'DID': None, 'VID': None, 'PCIE_LINK_SPEED': None, 'PCIE_LINK_WIDTH': None}
+[69] peci get_get_pkg_cfg: Failure - ❌ Failure: No of samples updated not found in output!
+[70] peci get_get_pkg_cfg after pause -> run: Failure - ❌ Failure: No of samples updated not found in output!
+[71] peci get_gpu_svn: Failure - ❌ Failure: peci get_gpu_svn Failed! Alert !!! the peci get_gpu_svn test failed
+
+HTML report generated: C:\Users\gta\Desktop\AMC Automation\firmware.management.amc.tools.automation\automation\src\results\amc_test_report_20260310_141955.html
+Open in browser: file://C:\Users\gta\Desktop\AMC Automation\firmware.management.amc.tools.automation\automation\src\results\amc_test_report_20260310_141955.html

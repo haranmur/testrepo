@@ -1,0 +1,5 @@
+[2026-03-11 11:51:49.153] [[36mWRITE[0m] warm reset
+
+[2026-03-11 11:51:49.604] [[33mREAD[0m] warm reset
+[1;31mwarm: command not found
+[m[1;32mamc:~$ [m

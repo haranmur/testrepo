@@ -1,0 +1,1745 @@
+[2026-03-10 14:19:55.147] [WRITE] 
+
+
+[2026-03-10 14:19:55.613] [READ] 
+
+amc:~$ 
+[2026-03-10 14:19:55.613] [WRITE] i3c scan 1
+
+
+[2026-03-10 14:19:56.062] [READ] i3c scan 1
+
+ IxC |  PID / LVR   | Address 
+
+==============================
+
+ I3C | 020A018E100F | 0x08
+
+==============================
+
+1 devices found on bus 1
+
+amc:~$ 
+[2026-03-10 14:19:56.066] [WRITE] pmt pause_telemetry
+
+
+[2026-03-10 14:19:56.510] [READ] pmt pause_telemetry
+
+pmt: command not found
+
+amc:~$ 
+[2026-03-10 14:19:56.526] [WRITE] i3c read 1
+
+
+[2026-03-10 14:19:56.977] [READ] i3c read 1
+
+I3C rx failed
+
+amc:~$ 
+[2026-03-10 14:19:56.977] [WRITE] i3c broadcast_ccc_enec 1 0xb
+
+
+[2026-03-10 14:19:57.425] [READ] i3c broadcast_ccc_enec 1 0xb
+
+CCC: ENEC (0x01) successful
+
+amc:~$ 
+[2026-03-10 14:19:57.441] [WRITE] i3c broadcast_ccc_disec 1 0xb
+
+
+[2026-03-10 14:19:57.896] [READ] i3c broadcast_ccc_disec 1 0xb
+
+CCC: DISEC (0x02) successful
+
+amc:~$ 
+[2026-03-10 14:19:57.896] [WRITE] i3c direct_ccc_enec 1 8 0xb
+
+
+[2026-03-10 14:19:58.344] [READ] i3c direct_ccc_enec 1 8 0xb
+
+CCC: ENEC (0x80) error
+
+amc:~$ 
+[2026-03-10 14:19:58.344] [WRITE] i3c direct_ccc_disec 1 8 0xb
+
+
+[2026-03-10 14:19:58.794] [READ] i3c direct_ccc_disec 1 8 0xb
+
+CCC: DISEC (0x81) error
+
+amc:~$ 
+[2026-03-10 14:19:58.810] [WRITE] i3c direct_ccc_getstatus 1 0x8
+
+
+[2026-03-10 14:19:59.257] [READ] i3c direct_ccc_getstatus 1 0x8
+
+CCC: GETSTATUS (0x90) error
+
+amc:~$ 
+[2026-03-10 14:19:59.257] [WRITE] i3c direct_ccc_getdcr 1 0x8
+
+
+[2026-03-10 14:19:59.703] [READ] i3c direct_ccc_getdcr 1 0x8
+
+CCC: GETDCR (0x8F) error
+
+amc:~$ 
+[2026-03-10 14:19:59.703] [WRITE] i3c direct_ccc_getbcr 1 8
+
+
+[2026-03-10 14:20:00.150] [READ] i3c direct_ccc_getbcr 1 8
+
+CCC: GETBCR (0x8E) error
+
+amc:~$ 
+[2026-03-10 14:20:00.150] [WRITE] i3c direct_ccc_setmrl 1 8 1 1
+
+
+[2026-03-10 14:20:00.598] [READ] i3c direct_ccc_setmrl 1 8 1 1
+
+CCC: SETMRL (0x8A) error
+
+amc:~$ 
+[2026-03-10 14:20:00.598] [WRITE] i3c direct_ccc_setmwl 1 8 1 1
+
+
+[2026-03-10 14:20:01.047] [READ] i3c direct_ccc_setmwl 1 8 1 1
+
+CCC: SETMWL (0x89) error
+
+amc:~$ 
+[2026-03-10 14:20:01.049] [WRITE] i3c broadcast_ccc_setmrl 1 8 16 4
+
+
+[2026-03-10 14:20:01.494] [READ] i3c broadcast_ccc_setmrl 1 8 16 4
+
+CCC: SETMRL (0x0A) successful
+
+amc:~$ 
+[2026-03-10 14:20:01.509] [WRITE] i3c broadcast_ccc_rstdaa 1
+
+
+[2026-03-10 14:20:01.961] [READ] i3c broadcast_ccc_rstdaa 1
+
+CCC: RSTDAA (0x06) successful
+
+amc:~$ 
+[2026-03-10 14:20:01.965] [WRITE] i3c broadcast_ccc_entdaa 1
+
+
+[2026-03-10 14:20:02.411] [READ] i3c broadcast_ccc_entdaa 1
+
+CCC: ENTDAA (0x07) successful
+
+amc:~$ 
+[2026-03-10 14:20:02.411] [WRITE] i3c direct_ccc_setnewda 1 8 8
+
+
+[2026-03-10 14:20:02.860] [READ] i3c direct_ccc_setnewda 1 8 8
+
+CCC: SETNEWDA (0x88) successful
+
+amc:~$ 
+[2026-03-10 14:20:02.860] [WRITE] i3c direct_ccc_getmrl 1 0x8
+
+
+[2026-03-10 14:20:03.313] [READ] i3c direct_ccc_getmrl 1 0x8
+
+CCC: GETMRL (0x8C) error
+
+amc:~$ 
+[2026-03-10 14:20:03.317] [WRITE] i3c direct_ccc_getmwl 1 0x8
+
+
+[2026-03-10 14:20:03.756] [READ] i3c direct_ccc_getmwl 1 0x8
+
+CCC: GETMWL (0x8B) error
+
+amc:~$ 
+[2026-03-10 14:20:03.756] [WRITE] sensor monitor_mode 0
+
+
+[2026-03-10 14:20:04.205] [READ] sensor monitor_mode 0
+
+Monitor mode disabled, starting sensor scan
+
+amc:~$ 
+[2026-03-10 14:20:04.205] [WRITE] sensor list_numeric
+
+
+[2026-03-10 14:20:04.775] [READ] sensor list_numeric
+
+=====================================================================================
+
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+
+=====================================================================================
+
+1   inlet_temp                               44      0     95      C       
+
+2   outlet_temp                              57      0     95      C       
+
+3   pmbus_mp29011_voltage_gt                715      0   1051     mV       
+
+4   pmbus_mp29011_current_gt                  5      0     50      A       
+
+5   pmbus_mp29011_power_gt                    3      0     53      W       
+
+6   pmbus_mp29011_voltage_sa                715    735    765     mV    BAD
+
+7   pmbus_mp29011_current_sa                  5      0     26      A       
+
+8   pmbus_mp29011_power_sa                    3      0     20      W       
+
+9   pmbus_mp29011_voltage_ddr               715   1212   1288     mV    BAD
+
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+
+11  pmbus_mp29011_power_ddr                   3      0     34      W       
+
+12  pmbus_mp29011_temp                       59      0    150      C       
+
+13  pmbus_mp29011_tbp                        31      0     75      W       
+
+=====================================================================================
+
+amc:~$ 
+[2026-03-10 14:20:04.775] [WRITE] i2c scan 0
+
+
+[2026-03-10 14:20:05.225] [READ] i2c scan 0
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: 50 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus 0
+
+amc:~$ 
+[2026-03-10 14:20:05.225] [WRITE] i2c scan 1
+
+
+[2026-03-10 14:20:05.676] [READ] i2c scan 1
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- 24 -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus 1
+
+amc:~$ 
+[2026-03-10 14:20:05.676] [WRITE] i2c scan 3
+
+
+[2026-03-10 14:20:06.129] [READ] i2c scan 3
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- 48 -- 4a -- -- -- -- -- 
+
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+2 devices found on bus 3
+
+amc:~$ 
+[2026-03-10 14:20:06.136] [WRITE] i2c set_speed 0 1
+
+
+[2026-03-10 14:20:06.579] [READ] i2c set_speed 0 1
+
+Bus frequency set successfully
+
+amc:~$ 
+[2026-03-10 14:20:06.579] [WRITE] i2c get_speed 0
+
+
+[2026-03-10 14:20:07.027] [READ] i2c get_speed 0
+
+Bus frequency is 100kHz
+
+amc:~$ 
+[2026-03-10 14:20:07.027] [WRITE] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+
+[2026-03-10 14:20:07.477] [READ] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+I2C tx success
+
+amc:~$ 
+[2026-03-10 14:20:07.481] [WRITE] i2c scan i2c@7e7b0200
+
+
+[2026-03-10 14:20:07.927] [READ] i2c scan i2c@7e7b0200
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: 50 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus i2c@7e7b0200
+
+amc:~$ 
+[2026-03-10 14:20:07.927] [WRITE] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+
+[2026-03-10 14:20:08.374] [READ] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+I2C tx success
+
+amc:~$ 
+[2026-03-10 14:20:08.376] [WRITE] i2c read i2c@7e7b0200 0x50 0x1 0x02
+
+
+[2026-03-10 14:20:08.824] [READ] i2c read i2c@7e7b0200 0x50 0x1 0x02
+
+I2C rx success
+
+Data: 0xff 
+
+amc:~$ 
+[2026-03-10 14:20:08.824] [WRITE] i2c reg_write 0 0x48 0x01 0x2 0xAA 0xBB
+
+
+[2026-03-10 14:20:09.277] [READ] i2c reg_write 0 0x48 0x01 0x2 0xAA 0xBB
+
+I2C tx failed
+
+amc:~$ 
+[2026-03-10 14:20:09.299] [WRITE] fru set_manufacturer intel
+
+
+[2026-03-10 14:20:10.304] [READ] fru set_manufacturer intel
+
+amc:~$ [01:35:58.394,000] <err> AMC_I2C: I2C write failed!
+
+amc:~$ amc:~$ 
+[2026-03-10 14:20:10.304] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:10.758] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : inteldatacentergpuflexseries
+
+Product Name             : intel
+
+Serial number            : 0
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:10.758] [WRITE] fru set_product_series melville_sound
+
+
+[2026-03-10 14:20:11.509] [READ] fru set_product_series melville_sound
+
+amc:~$ 
+[2026-03-10 14:20:11.509] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:11.950] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 0
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:11.966] [WRITE] fru set_serial_number 987654321
+
+
+[2026-03-10 14:20:12.758] [READ] fru set_serial_number 987654321
+
+amc:~$ 
+[2026-03-10 14:20:12.758] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:13.201] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:13.217] [WRITE] fru set_part_number XXX-999
+
+
+[2026-03-10 14:20:13.985] [READ] fru set_part_number XXX-999
+
+amc:~$ 
+[2026-03-10 14:20:13.985] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:14.428] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:14.444] [WRITE] fru set_card_type 0
+
+
+[2026-03-10 14:20:15.228] [READ] fru set_card_type 0
+
+amc:~$ 
+[2026-03-10 14:20:15.231] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:15.678] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:15.694] [WRITE] fru set_tile_info 1
+
+
+[2026-03-10 14:20:16.482] [READ] fru set_tile_info 1
+
+Setting tile info: 1
+
+amc:~$ 
+[2026-03-10 14:20:16.482] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:16.932] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:16.932] [WRITE] fru set_platform_type 1
+
+
+[2026-03-10 14:20:17.737] [READ] fru set_platform_type 1
+
+amc:~$ 
+[2026-03-10 14:20:17.737] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:18.187] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:18.187] [WRITE] fru set_fab_id 2
+
+
+[2026-03-10 14:20:18.974] [READ] fru set_fab_id 2
+
+amc:~$ 
+[2026-03-10 14:20:18.974] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:19.426] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:19.442] [WRITE] fru set_product_name intel
+
+
+[2026-03-10 14:20:20.229] [READ] fru set_product_name intel
+
+amc:~$ 
+[2026-03-10 14:20:20.231] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:20.684] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:20.686] [WRITE] fru set_hw_rev 0
+
+
+[2026-03-10 14:20:21.469] [READ] fru set_hw_rev 0
+
+amc:~$ 
+[2026-03-10 14:20:21.474] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:21.922] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:21.943] [WRITE] fru set_odm 0
+
+
+[2026-03-10 14:20:22.727] [READ] fru set_odm 0
+
+amc:~$ 
+[2026-03-10 14:20:22.728] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:23.177] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:23.196] [WRITE] fru set_card_tdp -1
+
+
+[2026-03-10 14:20:23.982] [READ] fru set_card_tdp -1
+
+amc:~$ 
+[2026-03-10 14:20:23.989] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:24.449] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:24.449] [WRITE] fru set_uuid ff
+
+
+[2026-03-10 14:20:25.234] [READ] fru set_uuid ff
+
+amc:~$ 
+[2026-03-10 14:20:25.242] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:25.687] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:25.689] [WRITE] fru set_crc 0
+
+
+[2026-03-10 14:20:26.491] [READ] fru set_crc 0
+
+amc:~$ 
+[2026-03-10 14:20:26.491] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:26.959] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:26.975] [WRITE] fru set_amc_slave_addr 0xFF
+
+
+[2026-03-10 14:20:27.760] [READ] fru set_amc_slave_addr 0xFF
+
+amc:~$ 
+[2026-03-10 14:20:27.764] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:28.212] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:28.212] [WRITE] fru set_fru_file_id 256
+
+
+[2026-03-10 14:20:29.000] [READ] fru set_fru_file_id 256
+
+amc:~$ 
+[2026-03-10 14:20:29.000] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:29.452] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:29.452] [WRITE] fru set_mfg_date 2025-15-31 31:63
+
+
+[2026-03-10 14:20:30.241] [READ] fru set_mfg_date 2025-15-31 31:63
+
+amc:~$ 
+[2026-03-10 14:20:30.241] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:30.708] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:30.708] [WRITE] fru set_rework_tracker ffffffaa
+
+
+[2026-03-10 14:20:31.497] [READ] fru set_rework_tracker ffffffaa
+
+amc:~$ 
+[2026-03-10 14:20:31.505] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:31.963] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : ffffffaa
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:31.963] [WRITE] fru set_disable_write_fru 0
+
+
+[2026-03-10 14:20:32.750] [READ] fru set_disable_write_fru 0
+
+amc:~$ 
+[2026-03-10 14:20:32.766] [WRITE] fru display_general
+
+
+[2026-03-10 14:20:33.217] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : ffffffaa
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2026-03-10 14:20:33.233] [WRITE] eeprom read 0x10 16
+
+
+[2026-03-10 14:20:33.682] [READ] eeprom read 0x10 16
+
+0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 
+
+0xff 0xff 0xff 0xff 0xff 0xff 
+
+amc:~$ 
+[2026-03-10 14:20:33.682] [WRITE] eeprom write 0x10 4 a b c d 
+
+
+[2026-03-10 14:20:34.130] [READ] eeprom write 0x10 4 a b c d 
+
+0x0a 0x0b 0x0c 0x0d 
+
+amc:~$ 
+[2026-03-10 14:20:34.130] [WRITE] eeprom read 0x10 16
+
+
+[2026-03-10 14:20:34.579] [READ] eeprom read 0x10 16
+
+0x0a 0x0b 0x0c 0x0d 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 
+
+0xff 0xff 0xff 0xff 0xff 0xff 
+
+amc:~$ 
+[2026-03-10 14:20:34.579] [WRITE] spi reinit 0
+
+
+[2026-03-10 14:20:35.029] [READ] spi reinit 0
+
+SPI reinit successful
+
+amc:~$ 
+[2026-03-10 14:20:35.029] [WRITE] spi reinit 1
+
+
+[2026-03-10 14:20:35.480] [READ] spi reinit 1
+
+SPI reinit successful
+
+amc:~$ 
+[2026-03-10 14:20:35.496] [WRITE] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+
+[2026-03-10 14:20:35.946] [READ] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+Ensure spi erase is done before writing to spi flash
+
+SPI write success
+
+amc:~$ 
+[2026-03-10 14:20:35.946] [WRITE] spi read 0 0x06 0xfdf1
+
+
+[2026-03-10 14:20:36.397] [READ] spi read 0 0x06 0xfdf1
+
+SPI read successful
+
+Data: 0x01 0x02 0x03 0x04 0x05 0x06 
+
+amc:~$ 
+[2026-03-10 14:20:36.397] [WRITE] help
+
+
+[2026-03-10 14:20:36.961] [READ] help
+
+Please press the <Tab> button to see all available commands.
+
+You can also use the <Tab> button to prompt or auto-complete all commands or its subcommands.
+
+You can try to call commands with <-h> or <--help> parameter for more information.
+
+
+
+Available commands:
+
+  clear    :Clear screen.
+
+  device   :Device commands
+
+  eeprom   :eeprom commands
+
+  flash    :Flash shell commands
+
+  fru      :FRU commands
+
+  gpio     :AMC GPIO config cmds
+
+  help     :Prints the help message.
+
+  history  :Command history.
+
+  i2c      :I2C commands
+
+  i3c      :I3C commands
+
+  log      :Commands for controlling logger
+
+  power    :Power command
+
+  reset    :Reset AMC
+
+  resize   :Console gets terminal screen size or assumes default in case the
+
+readout fails. It must be executed after each terminal width change
+
+to ensure correct text display.
+
+  retval   :Print return value of most recent command
+
+  sensor   :Telemetry command
+
+  shell    :Useful, not Unix-like shell commands.
+
+  spi      :SPI commands
+
+  timer    :Timer Testing Commands
+
+  version  :Show version information
+
+amc:~$ 
+[2026-03-10 14:20:36.961] [WRITE] history
+
+
+[2026-03-10 14:20:37.415] [READ] history
+
+[  0] history
+
+[  1] help
+
+[  2] spi read 0 0x06 0xfdf1
+
+[  3] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+amc:~$ 
+[2026-03-10 14:20:37.419] [WRITE] resize
+
+
+[2026-03-10 14:20:37.863] [READ] resize
+
+7
+[2026-03-10 14:20:37.863] [WRITE] retval
+
+
+[2026-03-10 14:20:38.848] [READ] 8No response from the terminal, assumed 80x24 screen size
+
+amc:~$ 
+[2026-03-10 14:20:38.853] [WRITE] clear
+
+
+[2026-03-10 14:20:39.301] [READ] clear
+
+amc:~$ 
+[2026-03-10 14:20:39.304] [WRITE] version amc
+
+
+[2026-03-10 14:20:39.751] [READ] version amc
+
+AMC Version               : 0.1.0.0
+
+Recommended SVN           : 0
+
+Zephyr Kernel Version     : 3.4.0
+
+Board Zephyr SDK Version  : 0
+
+Build Type                : debug
+
+Build Time                : 2025-05-01 00:12:24
+
+amc:~$ 
+[2026-03-10 14:20:39.751] [WRITE] gpio get
+
+
+[2026-03-10 14:20:40.329] [READ] gpio get
+
+|======||======|======|======|======|======|======|======|======|
+
+|      || PIN0 | PIN1 | PIN2 | PIN3 | PIN4 | PIN5 | PIN6 | PIN7 |
+
+|======||======|======|======|======|======|======|======|======|
+
+|PORT_A||IN   1|OUT  0|OUT  0|OUT  0|OUT  0|IN   0|OUT  0|IN   0|
+
+|PORT_B||IN   1|IN   0|IN   1|IN   1|OUT  0|OUT  0|IN   1|IN   1|
+
+|PORT_C||IN   0|IN   1|IN   0|IN   1|IN   0|IN   0|IN   0|IN   0|
+
+|PORT_D||IN   0|OUT  0|IN   0|IN   1|IN   1|IN   1|IN   1|IN   0|
+
+|PORT_E||OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  1|OUT  1|OUT  1|
+
+|PORT_F||PWM   |PWM   |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_G||TACH  |TACH  |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_H||NC    |NC    |NC    |NC    |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_I||I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_J||I3C   |I3C   |I3C   |I3C   |I2C   |I2C   |I3C   |I3C   |
+
+|PORT_K||I2C   |I2C   |I2C   |I2C   |I3C   |I3C   |I2C   |I2C   |
+
+|PORT_L||OUT  1|IN   1|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|
+
+|PORT_M||OUT  0|OUT  0|IN   0|IN   0|IN   0|IN   0|XXXXXX|XXXXXX|
+
+|PORT_N||OUT  0|IN   1|IN   0|OUT  0|NC    |NC    |NC    |NC    |
+
+|PORT_O||NC    |NC    |NC    |NC    |JTAG  |OUT  0|JTAG  |JTAG  |
+
+|PORT_P||JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |SPI   |NC    |
+
+|PORT_Q||SPI   |SPI   |SPI   |SPI   |SPI   |XXXXXX|SPI   |SPI   |
+
+|PORT_R||XXXXXX|XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_S||XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_T||NC    |NC    |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_U||NC    |NC    |NC    |NC    |NC    |ADC   |ADC   |ADC   |
+
+|======||======|======|======|======|======|======|======|======|
+
+amc:~$ 
+[2026-03-10 14:20:40.332] [WRITE] gpio set E 2 0
+
+
+[2026-03-10 14:20:40.777] [READ] gpio set E 2 0
+
+Set port: E pin: 2 with value: 0
+
+amc:~$ 
+[2026-03-10 14:20:40.779] [WRITE] gpio get
+
+
+[2026-03-10 14:20:41.335] [READ] gpio get
+
+|======||======|======|======|======|======|======|======|======|
+
+|      || PIN0 | PIN1 | PIN2 | PIN3 | PIN4 | PIN5 | PIN6 | PIN7 |
+
+|======||======|======|======|======|======|======|======|======|
+
+|PORT_A||IN   1|OUT  0|OUT  0|OUT  0|OUT  0|IN   0|OUT  0|IN   0|
+
+|PORT_B||IN   1|IN   0|IN   1|IN   1|OUT  0|OUT  0|IN   1|IN   1|
+
+|PORT_C||IN   0|IN   1|IN   0|IN   1|IN   0|IN   0|IN   0|IN   0|
+
+|PORT_D||IN   0|OUT  0|IN   0|IN   1|IN   1|IN   1|IN   1|IN   0|
+
+|PORT_E||OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  1|OUT  1|OUT  1|
+
+|PORT_F||PWM   |PWM   |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_G||TACH  |TACH  |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_H||NC    |NC    |NC    |NC    |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_I||I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_J||I3C   |I3C   |I3C   |I3C   |I2C   |I2C   |I3C   |I3C   |
+
+|PORT_K||I2C   |I2C   |I2C   |I2C   |I3C   |I3C   |I2C   |I2C   |
+
+|PORT_L||OUT  1|IN   1|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|
+
+|PORT_M||OUT  0|OUT  0|IN   0|IN   0|IN   0|IN   0|XXXXXX|XXXXXX|
+
+|PORT_N||OUT  0|IN   1|IN   0|OUT  0|NC    |NC    |NC    |NC    |
+
+|PORT_O||NC    |NC    |NC    |NC    |JTAG  |OUT  0|JTAG  |JTAG  |
+
+|PORT_P||JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |SPI   |NC    |
+
+|PORT_Q||SPI   |SPI   |SPI   |SPI   |SPI   |XXXXXX|SPI   |SPI   |
+
+|PORT_R||XXXXXX|XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_S||XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_T||NC    |NC    |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_U||NC    |NC    |NC    |NC    |NC    |ADC   |ADC   |ADC   |
+
+|======||======|======|======|======|======|======|======|======|
+
+amc:~$ 
+[2026-03-10 14:20:41.335] [WRITE] pmt get_telemetry_precheck
+
+
+[2026-03-10 14:20:41.781] [READ] pmt get_telemetry_precheck
+
+pmt: command not found
+
+amc:~$ 
+[2026-03-10 14:20:41.796] [WRITE] pmt get_static_telemetry
+
+
+[2026-03-10 14:20:42.249] [READ] pmt get_static_telemetry
+
+pmt: command not found
+
+amc:~$ 
+[2026-03-10 14:20:42.249] [WRITE] pmt pause_telemetry
+
+
+[2026-03-10 14:20:42.697] [READ] pmt pause_telemetry
+
+pmt: command not found
+
+amc:~$ 
+[2026-03-10 14:20:42.704] [WRITE] pmt run_telemetry
+
+
+[2026-03-10 14:20:43.165] [READ] pmt run_telemetry
+
+pmt: command not found
+
+amc:~$ 
+[2026-03-10 14:20:43.165] [WRITE] pmt get_periodic_telemetry
+
+
+[2026-03-10 14:20:43.616] [READ] pmt get_periodic_telemetry
+
+pmt: command not found
+
+amc:~$ 
+[2026-03-10 14:20:43.616] [WRITE] pmt pause_telemetry
+
+
+[2026-03-10 14:20:44.070] [READ] pmt pause_telemetry
+
+pmt: command not found
+
+amc:~$ 
+[2026-03-10 14:20:44.086] [WRITE] peci pause_gpu_update
+
+
+[2026-03-10 14:20:44.537] [READ] peci pause_gpu_update
+
+peci: command not found
+
+amc:~$ 
+[2026-03-10 14:20:44.537] [WRITE] peci run_gpu_update
+
+
+[2026-03-10 14:20:44.977] [READ] peci run_gpu_update
+
+peci: command not found
+
+amc:~$ 
+[2026-03-10 14:20:44.977] [WRITE] peci get_endpt_localpci_cfg
+
+
+[2026-03-10 14:20:45.430] [READ] peci get_endpt_localpci_cfg
+
+peci: command not found
+
+amc:~$ 
+[2026-03-10 14:20:45.430] [WRITE] peci get_pkg_cfg
+
+
+[2026-03-10 14:20:45.883] [READ] peci get_pkg_cfg
+
+peci: command not found
+
+amc:~$ 
+[2026-03-10 14:20:46.897] [WRITE] peci get_pkg_cfg
+
+
+[2026-03-10 14:20:47.346] [READ] peci get_pkg_cfg
+
+peci: command not found
+
+amc:~$ 
+[2026-03-10 14:20:47.353] [WRITE] peci get_gpu_svn
+
+
+[2026-03-10 14:20:47.796] [READ] peci get_gpu_svn
+
+peci: command not found
+
+amc:~$ 
+
+HTML report generated: C:\Users\gta\Desktop\AMC Automation\firmware.management.amc.tools.automation\automation\src\results\amc_test_report_20260310_141955.html
+Open in browser: file://C:\Users\gta\Desktop\AMC Automation\firmware.management.amc.tools.automation\automation\src\results\amc_test_report_20260310_141955.html

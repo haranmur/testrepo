@@ -1,0 +1,1 @@
+[1] BMC SSH Module: Skipped - BMC_IP is not set in environment/configs. Skipping BMC SSH tests.

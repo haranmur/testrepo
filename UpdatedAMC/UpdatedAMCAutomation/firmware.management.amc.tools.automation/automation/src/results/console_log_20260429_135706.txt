@@ -1,0 +1,24 @@
+[2026-04-29 13:57:06.727] [[36mWRITE[0m] fru set_serial_number 1777485426
+
+[2026-04-29 13:57:11.758] [[33mREAD[0m] 
+[2026-04-29 13:57:11.761] [[36mWRITE[0m] warm reset
+
+[2026-04-29 13:57:16.797] [[33mREAD[0m] 
+[2026-04-29 13:57:56.935] [[36mWRITE[0m] reboot
+
+[2026-04-29 13:57:57.601] [[33mREAD[0m] reboot
+Password: 
+[2026-04-29 13:58:37.615] [[36mWRITE[0m] root
+
+[2026-04-29 13:58:38.063] [[33mREAD[0m] 
+
+[2026-04-29 13:58:38.063] [[36mWRITE[0m] 0penBmc1
+
+[2026-04-29 13:58:38.509] [[33mREAD[0m] 0penBmc1
+
+
+[2026-04-29 13:58:38.509] [[36mWRITE[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/FruDevice/inteldatacentergpuflexseries_1
+
+[2026-04-29 13:58:38.956] [[33mREAD[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/FruDevice/inteldatacentergpuflexseries_1
+
+

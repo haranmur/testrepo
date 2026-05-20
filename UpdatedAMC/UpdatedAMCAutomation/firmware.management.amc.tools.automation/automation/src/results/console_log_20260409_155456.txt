@@ -1,0 +1,57 @@
+[2026-04-09 15:54:56.404] [[36mWRITE[0m] sensor list_numeric
+
+[2026-04-09 15:54:57.191] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               27      0     95      C       
+2   outlet_temp                              28      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  0      0     50      A       
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                  0      0     26      A       
+8   pmbus_mp29011_power_sa                    0      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 0      0     26      A       
+11  pmbus_mp29011_power_ddr                   0      0     34      W       
+12  pmbus_mp29011_temp                       25      0    150      C       
+13  pmbus_mp29011_tbp                         2      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m

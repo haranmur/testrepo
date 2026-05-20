@@ -1,0 +1,59 @@
+
+    <html>
+    <head>
+        <meta charset='UTF-8'>
+        <title>AMC Test Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; }
+            table { width: 100%; border-collapse: collapse; }
+            th, td { border: 1px solid #ddd; padding: 8px; }
+            th { background-color: #f2f2f2; }
+            .success { color: green; }
+            .failure { color: red; }
+            pre.serial-log-html { background: #222; color: #eee; padding: 10px; border-radius: 5px; overflow-x: auto; }
+        </style>
+        <script>
+        function toggleSerialLog() {
+            var e = document.getElementById('serial-log-block');
+            var btn = document.getElementById('serial-log-toggle');
+            if (e.style.display === 'none') {
+                e.style.display = 'block';
+                btn.textContent = 'Hide Serial Log';
+            } else {
+                e.style.display = 'none';
+                btn.textContent = 'Show Serial Log';
+            }
+        }
+        </script>
+    </head>
+    <body>
+        <h1>AMC Test Report</h1>
+        <p>Generated on: 2025-11-20 14:47:07</p>
+        <p>
+            <b>Related logs:</b>
+            <a href='console_log_20251120_144707.txt' target='_blank'>Console Log (.txt)</a> |
+            <a href='summary_result_20251120_144707.txt' target='_blank'>Summary Results (.txt)</a> |
+            <a href='bmc_ssh_test_log_20251120_144707.txt' target='_blank'>BMC SSH Test Log(.txt)</a>
+        </p>
+    <table><tr><th> Modules </th><th>Port</th></tr><tr><td>Results [✅/❌]</td><td style='background-color: #f8d7da;'><span class='success'>0</span>/<span class='failure'>1</span></td></tr></table>
+        <h2>Port Module</h2>
+        <table>
+            <tr>
+                <th style="width: 10%;">#</th>
+                <th style="width: 25%;">Test</th>
+                <th style="width: 15%;">Status</th>
+                <th style="width: 50%;">Details</th>
+            </tr>
+        
+                    <tr>
+                        <td style="width: 10%;">1</td>
+                        <td style="width: 25%;">Port</td>
+                        <td class="failure" style="width: 15%;">Failure</td>
+                        <td style="width: 50%;">Failed to open port: could not open port 'COM5': PermissionError(13, 'Access is denied.', None, 5)</td>
+                    </tr>
+                
+        </table>
+        
+        </body>
+        </html>
+    

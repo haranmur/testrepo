@@ -1,0 +1,1 @@
+uart_fw_py.exe --platform ast1030 --spi 0 --cs 0 --comport COM8 --baudrate 115200 --input_image flash_amc_1.1.0.0_20250820_111603_dbg.bin

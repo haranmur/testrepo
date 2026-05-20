@@ -1,0 +1,34 @@
+[2026-03-10 17:18:46.756] [[36mWRITE[0m] reset warm
+[2026-03-10 17:18:46.756] [[36mWRITE[0m] 
+
+[2026-03-10 17:18:56.956] [[33mREAD[0m] reset warm�BPc0
+*** Booting Loader! Version: 0.1.0.0 ***
+[00:00:00.014,000] [0m<inf> LOADER: *** AMC AST Chip is AST1030A1 ***[0m
+[00:00:00.022,000] [0m<inf> LOADER: Init Completed: ECDSA Engine[0m
+[00:00:00.028,000] [0m<inf> LOADER: Init Completed: SHA Engine[0m
+[00:00:00.035,000] [0m<inf> LOADER: Boot indicator: PRIMARY[0m
+[00:00:00.890,000] [0m<inf> LOADER: Cleaning up for AMC to boot[0m
+[00:00:00.890,000] [0m<inf> LOADER: Loading AMC[0m
+[00:00:00.890,000] [0m<inf> LOADER: Starting AMC boot[0m
+[m
+
+[1;32mamc:~$ [m[7D[J
+*** Booting Program! Version: 0.1.0.0 ***
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: ECDSA Engine[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: SHA Engine[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: GPIO[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: GPIO Interrupt[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: Timers[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: I2C[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: I3C[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: EEPROM[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> MAIN: Init Completed: FRU[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> MAIN: Init Completed: SPI[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> MAIN: Init Completed: Sensors[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> AMC_MCTP: 
+ MCTP Control Init[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> MAIN: Init Completed: PLDM[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.530,000] [0m<inf> MAIN: Init Completed: PLDM_FW_UPDATE[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.530,000] [0m<inf> MAIN: Init Completed: PLDM_MON_CTRL[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.530,000] [0m<inf> MAIN: Init Completed: Power[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m

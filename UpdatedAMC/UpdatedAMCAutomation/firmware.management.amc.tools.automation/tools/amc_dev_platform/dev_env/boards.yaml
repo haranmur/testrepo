@@ -1,0 +1,13 @@
+boards:
+  - name: AC1
+    SUT_IP: CHIOTWH-XXX.amr.corp.intel.com
+    SUT_PORT: 6604
+    SUT_PDU_IP: ""
+    SUT_PDU_OUTLET: 7
+    PDU_USER: ""
+    PDU_PASS: ""
+    BMC_IP: ""
+    BMC_USER: ""
+    BMC_PASSWORD: ""
+    GDB_SERVER_IP: 127.0.0.1
+    GDB_SERVER_PORT: 5000

@@ -1,0 +1,5 @@
+{
+        "slave_addr": "0x40",
+        "device" : "/dev/i2c-4",
+        "image_path": "amc.img"
+}

@@ -1,0 +1,32 @@
+[2026-03-20 14:41:53.012] [[36mWRITE[0m] cold reset
+
+[2026-03-20 14:41:53.449] [[33mREAD[0m] cold reset
+[1;31mcold: command not found
+[m[1;32mamc:~$ [m
+[2026-03-20 14:41:58.587] [[36mWRITE[0m] cold reset
+
+[2026-03-20 14:42:00.776] [[33mREAD[0m] [01:56:04.895,000] [1;31m<err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms[0m
+[01:56:04.895,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[01:56:04.896,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:56:04.896,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-03-20 14:42:05.930] [[36mWRITE[0m] cold reset
+
+[2026-03-20 14:42:06.359] [[33mREAD[0m] cold reset
+[1;31mcold: command not found
+[m[1;32mamc:~$ [m
+[2026-03-20 14:42:11.507] [[36mWRITE[0m] cold reset
+
+[2026-03-20 14:42:11.952] [[33mREAD[0m] cold reset
+[1;31mcold: command not found
+[m[1;32mamc:~$ [m
+[2026-03-20 14:42:17.109] [[36mWRITE[0m] cold reset
+
+[2026-03-20 14:42:17.553] [[33mREAD[0m] cold reset
+[1;31mcold: command not found
+[m[1;32mamc:~$ [m
+[2026-03-20 14:42:22.698] [[36mWRITE[0m] cold reset
+
+[2026-03-20 14:42:23.143] [[33mREAD[0m] cold reset
+[1;31mcold: command not found
+[m[1;32mamc:~$ [m

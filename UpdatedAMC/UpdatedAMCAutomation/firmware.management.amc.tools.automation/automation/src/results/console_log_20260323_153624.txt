@@ -1,0 +1,56 @@
+[2026-03-23 15:36:24.786] [[36mWRITE[0m] reset cold
+
+[2026-03-23 15:36:25.442] [[33mREAD[0m] reset co�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-03-23 15:36:30.595] [[36mWRITE[0m] reset cold
+
+[2026-03-23 15:36:31.030] [[33mREAD[0m] t - no IBI received within 2000 ms[0m
+[74:47:33.454,000] [1;31m<err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80[0m
+[74:47:33.455,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[74:47:33.455,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-03-23 15:36:36.176] [[36mWRITE[0m] reset cold
+
+[2026-03-23 15:36:36.828] [[33mREAD[0m] reset co�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-03-23 15:36:41.983] [[36mWRITE[0m] reset cold
+
+[2026-03-23 15:36:42.639] [[33mREAD[0m] reset co�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-03-23 15:36:47.797] [[36mWRITE[0m] reset cold
+
+[2026-03-23 15:36:48.237] [[33mREAD[0m] reset co�BPc
+*** Booting Loader! Version: 0.1.0.0 ***
+[00:00:00.014,000] [0m<inf> LOADER: *** AMC AST Chip is AST1030A1 ***[0m
+[00:00:00.021,000] [0m<inf> LOADER: Init Completed: ECDSA Engine[0m
+[00:00:00.028,000] [0m<inf> LOADER: Init Completed: SHA Engine[0m
+[00:00:00.035,000] [0m<inf> LOADER: Setting to boot from Image A[0m
+
+[2026-03-23 15:36:53.377] [[36mWRITE[0m] reset cold
+
+[2026-03-23 15:36:54.029] [[33mREAD[0m] reset colBPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY

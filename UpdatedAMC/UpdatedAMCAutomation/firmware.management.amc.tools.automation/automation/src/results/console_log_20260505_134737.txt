@@ -1,0 +1,2363 @@
+[2026-05-05 13:47:37.132] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:47:38.026] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               27      0     95      C       
+2   outlet_temp                              29      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  0      0     50      A       
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                  1      0     26      A       
+8   pmbus_mp29011_power_sa                    0      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 0      0     26      A       
+11  pmbus_mp29011_power_ddr                   0      0     34      W       
+12  pmbus_mp29011_temp                       26      0    150      C       
+13  pmbus_mp29011_tbp                         2      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:47:43.069] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:47:43.844] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               27      0     95      C       
+2   outlet_temp                              29      0     95      C       
+3   pmbus_mp29011_voltage_gt                823      0   1051     mV       
+4   pmbus_mp29011_current_gt                 23      0     50      A       
+5   pmbus_mp29011_power_gt                   17      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 27      0     26      A    BAD
+8   pmbus_mp29011_power_sa                   20      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                15      0     26      A       
+11  pmbus_mp29011_power_ddr                  18      0     34      W       
+12  pmbus_mp29011_temp                       32      0    150      C       
+13  pmbus_mp29011_tbp                        71      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:47:48.898] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:47:49.683] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               27      0     95      C       
+2   outlet_temp                              29      0     95      C       
+3   pmbus_mp29011_voltage_gt                854      0   1051     mV       
+4   pmbus_mp29011_current_gt                 41      0     50      A       
+5   pmbus_mp29011_power_gt                   34      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   7      0     34      W       
+12  pmbus_mp29011_temp                       35      0    150      C       
+13  pmbus_mp29011_tbp                        71      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:47:54.728] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:47:55.616] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               28      0     95      C       
+2   outlet_temp                              29      0     95      C       
+3   pmbus_mp29011_voltage_gt                934      0   1051     mV       
+4   pmbus_mp29011_current_gt                 27      0     50      A       
+5   pmbus_mp29011_power_gt                   25      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       38      0    150      C       
+13  pmbus_mp29011_tbp                        58      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:00.675] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:01.463] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               28      0     95      C       
+2   outlet_temp                              30      0     95      C       
+3   pmbus_mp29011_voltage_gt                934      0   1051     mV       
+4   pmbus_mp29011_current_gt                 27      0     50      A       
+5   pmbus_mp29011_power_gt                   25      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       40      0    150      C       
+13  pmbus_mp29011_tbp                        59      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:06.505] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:07.293] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               28      0     95      C       
+2   outlet_temp                              31      0     95      C       
+3   pmbus_mp29011_voltage_gt                934      0   1051     mV       
+4   pmbus_mp29011_current_gt                 28      0     50      A       
+5   pmbus_mp29011_power_gt                   26      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       41      0    150      C       
+13  pmbus_mp29011_tbp                        60      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:12.341] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:12.679] [[33mREAD[0m] [7D[J[03:05:49.648,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:05:49.648,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[03:05:49.664,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m
+[2026-05-05 13:48:17.741] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:18.079] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               29      0     95      C       
+2   outlet_temp                              31      0     95      C       
+3   pmbus_mp29011_voltage_gt                762      0   1051     mV       
+4   pmbus_mp29011_current_gt                 45      0     50      A       
+5   pmbus_mp29011_power_gt                   34      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       43      0    150      C       
+13  pmbus_mp29011_tbp                        71      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:23.142] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:23.480] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               29      0     95      C       
+2   outlet_temp                              32      0     95      C       
+3   pmbus_mp29011_voltage_gt                768      0   1051     mV       
+4   pmbus_mp29011_current_gt                 45      0     50      A       
+5   pmbus_mp29011_power_gt                   34      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       44      0    150      C       
+13  pmbus_mp29011_tbp                        71      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:28.544] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:29.331] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               30      0     95      C       
+2   outlet_temp                              33      0     95      C       
+3   pmbus_mp29011_voltage_gt                762      0   1051     mV       
+4   pmbus_mp29011_current_gt                 45      0     50      A       
+5   pmbus_mp29011_power_gt                   34      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       46      0    150      C       
+13  pmbus_mp29011_tbp                        72      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [msensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               30      0     95      C       
+2   outlet_temp                              34      0     95      C       
+3   pmbus_mp29011_voltage_gt                762      0   1051     mV       
+4   pmbus_mp29011_current_gt                 45      0     50      A       
+5   pmbus_mp29011_power_gt                   34      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       47      0    150      C       
+13  pmbus_mp29011_tbp                        71      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:34.388] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:35.288] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               30      0     95      C       
+2   outlet_temp                              35      0     95      C       
+3   pmbus_mp29011_voltage_gt                928      0   1051     mV       
+4   pmbus_mp29011_current_gt                 20      0     50      A       
+5   pmbus_mp29011_power_gt                   18      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       47      0    150      C       
+13  pmbus_mp29011_tbp                        49      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:40.335] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:41.106] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              36      0     95      C       
+3   pmbus_mp29011_voltage_gt                928      0   1051     mV       
+4   pmbus_mp29011_current_gt                 20      0     50      A       
+5   pmbus_mp29011_power_gt                   18      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       48      0    150      C       
+13  pmbus_mp29011_tbp                        49      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:46.152] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:46.937] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              37      0     95      C       
+3   pmbus_mp29011_voltage_gt                928      0   1051     mV       
+4   pmbus_mp29011_current_gt                 20      0     50      A       
+5   pmbus_mp29011_power_gt                   17      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       48      0    150      C       
+13  pmbus_mp29011_tbp                        50      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:48:51.984] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:52.320] [[33mREAD[0m] [7D[J[03:06:31.544,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m
+[2026-05-05 13:48:57.363] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:48:58.598] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              37      0     95      C       
+3   pmbus_mp29011_voltage_gt                464      0   1051     mV       
+4   pmbus_mp29011_current_gt                 10      0     50      A       
+5   pmbus_mp29011_power_gt                    9      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       47      0    150      C       
+13  pmbus_mp29011_tbp                        38      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [msensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              38      0     95      C       
+3   pmbus_mp29011_voltage_gt                465      0   1051     mV       
+4   pmbus_mp29011_current_gt                 10      0     50      A       
+5   pmbus_mp29011_power_gt                    9      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       45      0    150      C       
+13  pmbus_mp29011_tbp                        38      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m[7D[J[03:06:39.954,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:06:39.955,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[03:06:40.205,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:06:40.205,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m
+[2026-05-05 13:49:03.634] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:04.535] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              38      0     95      C       
+3   pmbus_mp29011_voltage_gt                467      0   1051     mV       
+4   pmbus_mp29011_current_gt                 10      0     50      A       
+5   pmbus_mp29011_power_gt                    9      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       45      0    150      C       
+13  pmbus_mp29011_tbp                        38      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:49:09.572] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:10.470] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              39      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                 10      0     50      A       
+5   pmbus_mp29011_power_gt                    9      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       44      0    150      C       
+13  pmbus_mp29011_tbp                        38      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:49:15.528] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:15.864] [[33mREAD[0m] [7D[J[03:06:52.624,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:06:52.624,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[03:06:52.675,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:06:52.972,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[03:06:52.979,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m
+[2026-05-05 13:49:20.913] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:21.250] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              39      0     95      C       
+3   pmbus_mp29011_voltage_gt                807      0   1051     mV       
+4   pmbus_mp29011_current_gt                 22      0     50      A       
+5   pmbus_mp29011_power_gt                   17      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 27      0     26      A    BAD
+8   pmbus_mp29011_power_sa                   20      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1198   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                15      0     26      A       
+11  pmbus_mp29011_power_ddr                  18      0     34      W       
+12  pmbus_mp29011_temp                       48      0    150      C       
+13  pmbus_mp29011_tbp                        71      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:49:26.302] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:27.197] [[33mREAD[0m] [7D[J[03:06:57.984,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [msensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              39      0     95      C       
+3   pmbus_mp29011_voltage_gt                834      0   1051     mV       
+4   pmbus_mp29011_current_gt                 41      0     50      A       
+5   pmbus_mp29011_power_gt                   34      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1198   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   7      0     34      W       
+12  pmbus_mp29011_temp                       48      0    150      C       
+13  pmbus_mp29011_tbp                        71      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [msensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              40      0     95      C       
+3   pmbus_mp29011_voltage_gt                928      0   1051     mV       
+4   pmbus_mp29011_current_gt                 29      0     50      A       
+5   pmbus_mp29011_power_gt                   26      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       51      0    150      C       
+13  pmbus_mp29011_tbp                        60      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:49:32.232] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:33.018] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              40      0     95      C       
+3   pmbus_mp29011_voltage_gt                928      0   1051     mV       
+4   pmbus_mp29011_current_gt                 29      0     50      A       
+5   pmbus_mp29011_power_gt                   26      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1198   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       51      0    150      C       
+13  pmbus_mp29011_tbp                        61      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:49:38.057] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:38.395] [[33mREAD[0m] [7D[J[03:07:18.852,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:07:18.894,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[03:07:18.906,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:07:18.923,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:07:18.924,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:07:18.930,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:07:18.947,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[03:07:18.947,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[03:07:18.948,000] [0m<inf> AMC_GPIO: IRQ: GPU_PWR_BRK_CRIT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m
+[2026-05-05 13:49:43.417] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:43.747] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              40      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  0      0     50      A       
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 21      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 7      0     26      A       
+11  pmbus_mp29011_power_ddr                   8      0     34      W       
+12  pmbus_mp29011_temp                       49      0    150      C       
+13  pmbus_mp29011_tbp                        34      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:49:48.793] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:49.120] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                712      0   1051     mV       
+4   pmbus_mp29011_current_gt                  7      0     50      A       
+5   pmbus_mp29011_power_gt                    2      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   16      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   7      0     34      W       
+12  pmbus_mp29011_temp                       48      0    150      C       
+13  pmbus_mp29011_tbp                        30      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:49:54.169] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:54.507] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  2      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   7      0     34      W       
+12  pmbus_mp29011_temp                       47      0    150      C       
+13  pmbus_mp29011_tbp                        33      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:49:59.556] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:49:59.893] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                512      0   1051     mV       
+4   pmbus_mp29011_current_gt                  2      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       46      0    150      C       
+13  pmbus_mp29011_tbp                        27      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:04.947] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:05.278] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  7      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   5      0     34      W       
+12  pmbus_mp29011_temp                       45      0    150      C       
+13  pmbus_mp29011_tbp                        29      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:10.337] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:10.671] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                359      0   1051     mV       
+4   pmbus_mp29011_current_gt                  1      0     50      A       
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1198   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   7      0     34      W       
+12  pmbus_mp29011_temp                       46      0    150      C       
+13  pmbus_mp29011_tbp                        31      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:15.706] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:16.490] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                357      0   1051     mV       
+4   pmbus_mp29011_current_gt                  4      0     50      A       
+5   pmbus_mp29011_power_gt                    3      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       44      0    150      C       
+13  pmbus_mp29011_tbp                        27      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [msensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                357      0   1051     mV       
+4   pmbus_mp29011_current_gt                  2      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       44      0    150      C       
+13  pmbus_mp29011_tbp                        31      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:21.524] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:22.312] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               32      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                709      0   1051     mV       
+4   pmbus_mp29011_current_gt                  6      0     50      A       
+5   pmbus_mp29011_power_gt                    2      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1198   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       43      0    150      C       
+13  pmbus_mp29011_tbp                        27      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:27.354] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:28.243] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              41      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  0      0     50      A       
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   5      0     34      W       
+12  pmbus_mp29011_temp                       43      0    150      C       
+13  pmbus_mp29011_tbp                        27      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:33.291] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:34.077] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              40      0     95      C       
+3   pmbus_mp29011_voltage_gt                702      0   1051     mV       
+4   pmbus_mp29011_current_gt                  2      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       43      0    150      C       
+13  pmbus_mp29011_tbp                        27      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:39.129] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:39.907] [[33mREAD[0m] [7D[J[03:08:17.388,000] [0m<inf> AMC_GPIO: WQ: VR_GPU1_VRHOT_N detected after 100ms delay[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [msensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              40      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  0      0     50      A       
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       42      0    150      C       
+13  pmbus_mp29011_tbp                        30      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:44.957] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:45.744] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              40      0     95      C       
+3   pmbus_mp29011_voltage_gt                351      0   1051     mV       
+4   pmbus_mp29011_current_gt                  0      0     50      A       
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       42      0    150      C       
+13  pmbus_mp29011_tbp                        30      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:50:50.792] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:51.129] [[33mREAD[0m] [7D[J[03:08:30.801,000] [0m<inf> AMC_GPIO: WQ: VR_GPU1_VRHOT_N detected after 100ms delay[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m
+[2026-05-05 13:50:56.172] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:50:56.956] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              40      0     95      C       
+3   pmbus_mp29011_voltage_gt                709      0   1051     mV       
+4   pmbus_mp29011_current_gt                  4      0     50      A       
+5   pmbus_mp29011_power_gt                    2      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   7      0     34      W       
+12  pmbus_mp29011_temp                       42      0    150      C       
+13  pmbus_mp29011_tbp                        30      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m[7D[J[03:08:32.102,000] [0m<inf> AMC_GPIO: WQ: VR_GPU1_VRHOT_N detected after 100ms delay[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [msensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              40      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  0      0     50      A       
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       42      0    150      C       
+13  pmbus_mp29011_tbp                        30      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:51:02.000] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:51:02.897] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              39      0     95      C       
+3   pmbus_mp29011_voltage_gt                421      0   1051     mV       
+4   pmbus_mp29011_current_gt                  2      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       42      0    150      C       
+13  pmbus_mp29011_tbp                        28      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:51:07.941] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:51:08.840] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              39      0     95      C       
+3   pmbus_mp29011_voltage_gt                713      0   1051     mV       
+4   pmbus_mp29011_current_gt                  3      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   7      0     34      W       
+12  pmbus_mp29011_temp                       42      0    150      C       
+13  pmbus_mp29011_tbp                        32      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:51:13.882] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:51:14.668] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              39      0     95      C       
+3   pmbus_mp29011_voltage_gt                709      0   1051     mV       
+4   pmbus_mp29011_current_gt                  4      0     50      A       
+5   pmbus_mp29011_power_gt                    2      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 6      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       41      0    150      C       
+13  pmbus_mp29011_tbp                        27      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:51:19.711] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:51:20.500] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              39      0     95      C       
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+4   pmbus_mp29011_current_gt                  7      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   7      0     34      W       
+12  pmbus_mp29011_temp                       42      0    150      C       
+13  pmbus_mp29011_tbp                        35      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m
+[2026-05-05 13:51:25.539] [[36mWRITE[0m] sensor list_numeric
+
+[2026-05-05 13:51:26.435] [[33mREAD[0m] sensor list_numeric
+=====================================================================================
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+=====================================================================================
+1   inlet_temp                               31      0     95      C       
+2   outlet_temp                              39      0     95      C       
+3   pmbus_mp29011_voltage_gt                367      0   1051     mV       
+4   pmbus_mp29011_current_gt                  1      0     50      A       
+5   pmbus_mp29011_power_gt                    1      0     53      W       
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+7   pmbus_mp29011_current_sa                 20      0     26      A       
+8   pmbus_mp29011_power_sa                   15      0     20      W       
+9   pmbus_mp29011_voltage_ddr              1200   1212   1288     mV    BAD
+10  pmbus_mp29011_current_ddr                 5      0     26      A       
+11  pmbus_mp29011_power_ddr                   6      0     34      W       
+12  pmbus_mp29011_temp                       41      0    150      C       
+13  pmbus_mp29011_tbp                        27      0     75      W       
+14  link_cap_speed_0                          0      0     10   Bits       
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+16  link_cap_width_0                          0      0      8   Bits       
+17  link_cur_width_0                          0      0      8   Bits    OFF
+18  pcie_gen_0                                5      0      8   Bits       
+19  margin_to_tprochot_0                     25      0    105      C       
+20  margin_to_tcontrol_0                     30      0    105      C       
+21  soc_temp_0                                0      0    125      C    OFF
+22  gt_temp_0                                 0      0    120      C    OFF
+23  media_temp_0                              0      0    115      C    OFF
+24  max_mem_temp_0                            0      0    110      C    OFF
+25  soc_power_0                               0      0     70      W    OFF
+26  mem_power_0                              22      0     56      W       
+27  gt_freq_0                                 0      0     12     Hz    OFF
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+33  poison_data_status_0                      0      0      8   Bits    OFF
+34  spi_err_src_0                             0      0      8 Errors    OFF
+35  ecc_state_0                               0      0      8 Errors    OFF
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+=====================================================================================
+[1;32mamc:~$ [m

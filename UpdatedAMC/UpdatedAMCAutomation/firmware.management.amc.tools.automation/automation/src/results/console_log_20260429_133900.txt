@@ -1,0 +1,39 @@
+[2026-04-29 13:39:00.177] [[36mWRITE[0m] fru set_serial_number 1777484340
+
+[2026-04-29 13:39:00.849] [[33mREAD[0m] fru set_serial_number 1777484340
+[1;32mamc:~$ [m
+[2026-04-29 13:39:00.851] [[36mWRITE[0m] warm reset
+
+[2026-04-29 13:39:01.291] [[33mREAD[0m] warm reset
+[1;31mwarm: command not found
+[m[1;32mamc:~$ [m
+[2026-04-29 13:39:21.431] [[36mWRITE[0m] reboot
+
+[2026-04-29 13:39:21.990] [[33mREAD[0m] reeboot
+[0;1;31mFailed to introspect object /xyz/openbmc_projreboot of service xyz.openbmc_project.pldm: Unknown object '/xyz/openbmc_projreboot'.[0m
+root@intel-obmc:~# 
+root@intel-obmc:~# 
+[2026-04-29 13:39:21.997] [[36mWRITE[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/FruDevice/inteldatacentergpuflexseries_1
+
+[2026-04-29 13:39:22.661] [[33mREAD[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_projecct/FruDevice/inteldatacentergpuflexseries_1
+NAME                                TYPE      SIGNATURE RESULT/VALUE                       FLAGS
+[0;1;39morg.freedesktop.DBus.Introspectable[0m interface -         -                                  -
+.Introspect                         method    -         s                                  -
+[0;1;39morg.freedesktop.DBus.Peer          [0m interface -         -                                  -
+.GetMachineId                       method    -         s                                  -
+.Ping                               method    -         -                                  -
+[0;1;39morg.freedesktop.DBus.Properties    [0m interface -         -                                  -
+.Get                                method    ss        v                                  -
+.GetAll                             method    s         a{sv}                              -
+.Set                                method    ssv       -                                  -
+.PropertiesChanged                  signal    sa{sv}as  -                                  -
+[0;1;39mxyz.openbmc_project.FruDevice      [0m interface -         -                                  -
+.ADDRESS                            property  u         1                                  emits-change
+.BUS                                property  u         254                                emits-change
+.PRODUCT_MANUFACTURER               property  s         "0002"                             emits-change
+.PRODUCT_PART_NUMBER                property  s         "ff        "                       emits-change
+.PRODUCT_PRODUCT_NAME               property  s         "inteldatacentergpuflexseries    " emits-change
+.PRODUCT_SERIAL_NUMBER              property  s         "0                               " emits-change
+.PRODUCT_VERSION                    property  s         "00"                               emits-change
+root@intel-obmc:~# 
+root@intel-obmc:~# 

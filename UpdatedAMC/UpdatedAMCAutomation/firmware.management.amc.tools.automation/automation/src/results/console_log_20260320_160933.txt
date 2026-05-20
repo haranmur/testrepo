@@ -1,0 +1,10 @@
+[2026-03-20 16:09:33.559] [[36mWRITE[0m] reset cold
+
+[2026-03-20 16:09:34.216] [[33mREAD[0m] reset co�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY

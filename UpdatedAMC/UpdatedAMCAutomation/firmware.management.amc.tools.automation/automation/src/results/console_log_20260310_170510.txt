@@ -1,0 +1,59 @@
+[2026-03-10 17:05:10.743] [[36mWRITE[0m] reset warm
+[2026-03-10 17:05:10.758] [[36mWRITE[0m] 
+
+[2026-03-10 17:05:20.994] [[33mREAD[0m] reset warmBPc0
+*** Booting Loader! Version: 0.1.0.0 ***
+[00:00:00.014,000] [0m<inf> LOADER: *** AMC AST Chip is AST1030A1 ***[0m
+[00:00:00.022,000] [0m<inf> LOADER: Init Completed: ECDSA Engine[0m
+[00:00:00.028,000] [0m<inf> LOADER: Init Completed: SHA Engine[0m
+[00:00:00.035,000] [0m<inf> LOADER: Boot indicator: PRIMARY[0m
+[00:00:00.890,000] [0m<inf> LOADER: Cleaning up for AMC to boot[0m
+[00:00:00.890,000] [0m<inf> LOADER: Loading AMC[0m
+[00:00:00.890,000] [0m<inf> LOADER: Starting AMC boot[0m
+[m
+
+[1;32mamc:~$ [m[7D[J
+*** Booting Program! Version: 0.1.0.0 ***
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: ECDSA Engine[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: SHA Engine[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: GPIO[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: GPIO Interrupt[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: Timers[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: I2C[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: I3C[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.432,000] [0m<inf> MAIN: Init Completed: EEPROM[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> MAIN: Init Completed: FRU[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> MAIN: Init Completed: SPI[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> MAIN: Init Completed: Sensors[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> AMC_MCTP: 
+ MCTP Control Init[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.529,000] [0m<inf> MAIN: Init Completed: PLDM[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.530,000] [0m<inf> MAIN: Init Completed: PLDM_FW_UPDATE[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.530,000] [0m<inf> MAIN: Init Completed: PLDM_MON_CTRL[0m
+[1;32mamc:~$ [m[7D[J[00:00:00.530,000] [0m<inf> MAIN: Init Completed: Power[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m
+[2026-03-10 17:05:27.052] [[33mREAD[0m] 
+[2026-03-10 17:05:32.093] [[33mREAD[0m] 
+[2026-03-10 17:05:37.118] [[33mREAD[0m] 
+[2026-03-10 17:05:42.159] [[33mREAD[0m] 
+[2026-03-10 17:05:47.216] [[33mREAD[0m] 
+[2026-03-10 17:05:52.273] [[33mREAD[0m] 
+[2026-03-10 17:05:57.300] [[33mREAD[0m] 
+[2026-03-10 17:06:02.339] [[33mREAD[0m] 
+[2026-03-10 17:06:07.397] [[33mREAD[0m] 
+[2026-03-10 17:06:12.438] [[33mREAD[0m] 
+[2026-03-10 17:06:17.511] [[33mREAD[0m] 
+[2026-03-10 17:06:22.568] [[33mREAD[0m] 
+[2026-03-10 17:06:27.626] [[33mREAD[0m] 
+[2026-03-10 17:06:32.666] [[33mREAD[0m] 
+[2026-03-10 17:06:37.707] [[33mREAD[0m] 
+[2026-03-10 17:06:42.749] [[33mREAD[0m] 
+[2026-03-10 17:06:47.790] [[33mREAD[0m] 
+[2026-03-10 17:06:52.853] [[33mREAD[0m] 
+[2026-03-10 17:06:55.987] [[33mREAD[0m] [7D[J[00:01:42.998,000] [1;31m<err> AMC_I2C: I2C write failed![0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [m
+[2026-03-10 17:07:02.048] [[33mREAD[0m] 
+[2026-03-10 17:07:07.048] [[33mREAD[0m] 
+[2026-03-10 17:07:12.105] [[33mREAD[0m] 
+[2026-03-10 17:07:17.146] [[33mREAD[0m] 
+[2026-03-10 17:07:22.156] [[33mREAD[0m] 

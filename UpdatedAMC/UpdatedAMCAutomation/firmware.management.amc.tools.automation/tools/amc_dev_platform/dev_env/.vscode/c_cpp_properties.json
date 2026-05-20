@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${env:WORKSPACE_FOLDER}/**",
+                "/opt/toolchains/zephyr-sdk-0.17.0/arm-zephyr-eabi/include",
+                "${env:WORKSPACE_FOLDER}/PROJECTS/intel_amc_zephyr/amc/**",
+                "${env:WORKSPACE_FOLDER}/PROJECTS/zephyr/include/**"
+            ],
+            "browse": {
+                "path": [
+                    "${env:WORKSPACE_FOLDER}/**",
+                    "${env:WORKSPACE_FOLDER}/PROJECTS/intel_amc_zephyr/amc/src/**",
+                    "${env:WORKSPACE_FOLDER}/PROJECTS/intel_amc_zephyr/amc/**",
+                    "${env:WORKSPACE_FOLDER}/PROJECTS/zephyr/include/**"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [],
+            "compilerPath": "/opt/toolchains/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

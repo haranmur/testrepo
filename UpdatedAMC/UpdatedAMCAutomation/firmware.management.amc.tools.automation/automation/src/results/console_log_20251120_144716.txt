@@ -1,0 +1,2133 @@
+[2025-11-20 14:47:16.945] [WRITE] 
+
+
+[2025-11-20 14:47:17.372] [READ] 
+
+amc:~$ 
+[2025-11-20 14:47:17.372] [WRITE] i3c scan 1
+
+
+[2025-11-20 14:47:17.814] [READ] i3c scan 1
+
+ IxC |  PID / LVR   | Address 
+
+==============================
+
+ I3C | 020A018E100F | 0x08
+
+==============================
+
+1 devices found on bus 1
+
+amc:~$ 
+[2025-11-20 14:47:17.816] [WRITE] pmt pause_telemetry
+
+
+[2025-11-20 14:47:18.259] [READ] pmt pause_telemetry
+
+PMT periodic telemetry update paused
+
+amc:~$ 
+[2025-11-20 14:47:18.259] [WRITE] peci pause_gpu_update
+
+
+[2025-11-20 14:47:18.705] [READ] peci pause_gpu_update
+
+PECI periodic gpu update paused
+
+amc:~$ 
+[2025-11-20 14:47:18.705] [WRITE] i3c write 1 0x8 0x10 0x01 0xE1 0xE0 0xc8 0x7e 0x80 0x86 0x80 0x05 0x01 0x01 0x00 0x00 0x00 0x00 0x00 0xF8
+
+
+[2025-11-20 14:47:19.148] [READ] i3c write 1 0x8 0x10 0x01 0xE1 0xE0 0xc8 0x7e 0x80 0x86 0x80 0x05 0x01 0x
+
+01 0x00 0x00 0x00 0x00 0x00 0xF8
+
+I3C tx failed
+
+amc:~$ 
+[2025-11-20 14:47:19.148] [WRITE] i3c read 1
+
+
+[2025-11-20 14:47:19.592] [READ] i3c read 1
+
+Do i3c read only after i3c write
+
+amc:~$ 
+[2025-11-20 14:47:19.595] [WRITE] i3c broadcast_ccc_enec 1 0xb
+
+
+[2025-11-20 14:47:20.146] [READ] i3c broadcast_ccc_enec 1 0xb
+
+CCC: ENEC (0x01) successful
+
+amc:~$ [485:46:16.516,000] <err> AMC_I3C: I3C write failed after 1 retries! with code: 4
+
+amc:~$ amc:~$ 
+[2025-11-20 14:47:20.146] [WRITE] i3c broadcast_ccc_disec 1 0xb
+
+
+[2025-11-20 14:47:20.589] [READ] i3c broadcast_ccc_disec 1 0xb
+
+CCC: DISEC (0x02) successful
+
+amc:~$ 
+[2025-11-20 14:47:20.589] [WRITE] i3c direct_ccc_enec 1 8 0xb
+
+
+[2025-11-20 14:47:21.032] [READ] i3c direct_ccc_enec 1 8 0xb
+
+CCC: ENEC (0x80) successful
+
+amc:~$ 
+[2025-11-20 14:47:21.032] [WRITE] i3c direct_ccc_disec 1 8 0xb
+
+
+[2025-11-20 14:47:21.476] [READ] i3c direct_ccc_disec 1 8 0xb
+
+CCC: DISEC (0x81) successful
+
+amc:~$ 
+[2025-11-20 14:47:21.476] [WRITE] i3c direct_ccc_getstatus 1 0x8
+
+
+[2025-11-20 14:47:21.919] [READ] i3c direct_ccc_getstatus 1 0x8
+
+CCC: GETSTATUS (0x90) successful
+
+Status of requested target: 0x6478
+
+amc:~$ 
+[2025-11-20 14:47:21.919] [WRITE] i3c direct_ccc_getdcr 1 0x8
+
+
+[2025-11-20 14:47:22.362] [READ] i3c direct_ccc_getdcr 1 0x8
+
+CCC: GETDCR (0x8F) successful
+
+DCR of requested target: 0x08
+
+amc:~$ 
+[2025-11-20 14:47:22.362] [WRITE] i3c direct_ccc_getbcr 1 8
+
+
+[2025-11-20 14:47:22.804] [READ] i3c direct_ccc_getbcr 1 8
+
+CCC: GETBCR (0x8E) successful
+
+BCR of requested target: 0x08
+
+amc:~$ 
+[2025-11-20 14:47:22.804] [WRITE] i3c direct_ccc_setmrl 1 8 1 1
+
+
+[2025-11-20 14:47:23.248] [READ] i3c direct_ccc_setmrl 1 8 1 1
+
+CCC: SETMRL (0x8A) successful
+
+amc:~$ 
+[2025-11-20 14:47:23.251] [WRITE] i3c direct_ccc_setmwl 1 8 1 1
+
+
+[2025-11-20 14:47:23.690] [READ] i3c direct_ccc_setmwl 1 8 1 1
+
+CCC: SETMWL (0x89) successful
+
+amc:~$ 
+[2025-11-20 14:47:23.690] [WRITE] i3c broadcast_ccc_setmrl 1 8 16 4
+
+
+[2025-11-20 14:47:24.134] [READ] i3c broadcast_ccc_setmrl 1 8 16 4
+
+CCC: SETMRL (0x0A) successful
+
+amc:~$ 
+[2025-11-20 14:47:24.134] [WRITE] i3c broadcast_ccc_rstdaa 1
+
+
+[2025-11-20 14:47:24.576] [READ] i3c broadcast_ccc_rstdaa 1
+
+CCC: RSTDAA (0x06) successful
+
+amc:~$ 
+[2025-11-20 14:47:24.580] [WRITE] i3c broadcast_ccc_entdaa 1
+
+
+[2025-11-20 14:47:25.020] [READ] i3c broadcast_ccc_entdaa 1
+
+CCC: ENTDAA (0x07) successful
+
+amc:~$ 
+[2025-11-20 14:47:25.020] [WRITE] i3c direct_ccc_setnewda 1 8 8
+
+
+[2025-11-20 14:47:25.463] [READ] i3c direct_ccc_setnewda 1 8 8
+
+CCC: SETNEWDA (0x88) successful
+
+amc:~$ 
+[2025-11-20 14:47:25.469] [WRITE] i3c direct_ccc_getmrl 1 0x8
+
+
+[2025-11-20 14:47:25.907] [READ] i3c direct_ccc_getmrl 1 0x8
+
+CCC: GETMRL (0x8C) successful
+
+Max read length: 10240
+
+Max read length for IBI: 0
+
+amc:~$ 
+[2025-11-20 14:47:25.907] [WRITE] i3c direct_ccc_getmwl 1 0x8
+
+
+[2025-11-20 14:47:26.345] [READ] i3c direct_ccc_getmwl 1 0x8
+
+CCC: GETMWL (0x8B) successful
+
+Max write length: 65353
+
+amc:~$ 
+[2025-11-20 14:47:26.345] [WRITE] sensor monitor_mode 0
+
+
+[2025-11-20 14:47:26.786] [READ] sensor monitor_mode 0
+
+Monitor mode disabled, starting sensor scan
+
+amc:~$ 
+[2025-11-20 14:47:26.786] [WRITE] sensor list_numeric
+
+
+[2025-11-20 14:47:27.560] [READ] sensor list_numeric
+
+=====================================================================================
+
+NR  NAME                                  VALUE     LO     HI   UNIT STATUS
+
+=====================================================================================
+
+1   inlet_temp                               20      0     95      C       
+
+2   outlet_temp                              21      0     95      C       
+
+3   pmbus_mp29011_voltage_gt                  0      0   1051     mV       
+
+4   pmbus_mp29011_current_gt                  0      0     50      A       
+
+5   pmbus_mp29011_power_gt                    0      0     53      W       
+
+6   pmbus_mp29011_voltage_sa                775    735    765     mV    BAD
+
+7   pmbus_mp29011_current_sa                  1      0     26      A       
+
+8   pmbus_mp29011_power_sa                    0      0     20      W       
+
+9   pmbus_mp29011_voltage_ddr              1206   1212   1288     mV    BAD
+
+10  pmbus_mp29011_current_ddr                 0      0     26      A       
+
+11  pmbus_mp29011_power_ddr                   0      0     34      W       
+
+12  pmbus_mp29011_temp                       15      0    150      C       
+
+13  pmbus_mp29011_tbp                         1      0     75      W       
+
+14  link_cap_speed_0                          0      0     10   Bits       
+
+15  read_link_cur_speed_0                     0      0      8   Bits    OFF
+
+16  link_cap_width_0                          0      0      8   Bits       
+
+17  link_cur_width_0                          0      0      8   Bits    OFF
+
+18  pcie_gen_0                                5      0      8   Bits       
+
+19  margin_to_tprochot_0                     25      0    105      C       
+
+20  margin_to_tcontrol_0                     30      0    105      C       
+
+21  soc_temp_0                                0      0    125      C    OFF
+
+22  gt_temp_0                                 0      0    120      C    OFF
+
+23  media_temp_0                              0      0    115      C    OFF
+
+24  max_mem_temp_0                            0      0    110      C    OFF
+
+25  soc_power_0                               0      0     70      W    OFF
+
+26  mem_power_0                              22      0     56      W       
+
+27  gt_freq_0                                 0      0     12     Hz    OFF
+
+28  gt_freq_clip_reason_0                     0      0      8     Hz    OFF
+
+29  gt_req_freq_0                             0      0      8     Hz    OFF
+
+30  dev_err_stat_fatal_0                      0      0      8 Errors    OFF
+
+31  dev_pcie_err_status_0                     0      0      8 Errors    OFF
+
+32  err_stat_gt_fatal_0                       0      0      8 Errors    OFF
+
+33  poison_data_status_0                      0      0      8   Bits    OFF
+
+34  spi_err_src_0                             0      0      8 Errors    OFF
+
+35  ecc_state_0                               0      0      8 Errors    OFF
+
+36  page_retirement_enabled_0                 0      0      1 Errors    OFF
+
+37  no_of_pages_retired_0                     0      0    100 Errors    OFF
+
+38  msu0_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+39  msu0_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+40  msu1_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+41  msu1_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+42  msu2_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+43  msu2_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+44  msu3_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+45  msu3_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+46  msu4_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+47  msu4_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+48  msu5_mc_0_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+49  msu5_mc_1_stat_ecc_scrub_error_1bit_cnt_0      0      0    100 Errors    OFF
+
+=====================================================================================
+
+amc:~$ 
+[2025-11-20 14:47:27.564] [WRITE] i2c scan 0
+
+
+[2025-11-20 14:47:28.003] [READ] i2c scan 0
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: 50 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus 0
+
+amc:~$ 
+[2025-11-20 14:47:28.009] [WRITE] i2c scan 1
+
+
+[2025-11-20 14:47:28.446] [READ] i2c scan 1
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- 24 -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus 1
+
+amc:~$ 
+[2025-11-20 14:47:28.446] [WRITE] i2c scan 3
+
+
+[2025-11-20 14:47:28.889] [READ] i2c scan 3
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- 48 -- 4a -- -- -- -- -- 
+
+50: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+2 devices found on bus 3
+
+amc:~$ 
+[2025-11-20 14:47:28.889] [WRITE] i2c set_speed 0 1
+
+
+[2025-11-20 14:47:29.333] [READ] i2c set_speed 0 1
+
+Bus frequency set successfully
+
+amc:~$ 
+[2025-11-20 14:47:29.333] [WRITE] i2c get_speed 0
+
+
+[2025-11-20 14:47:29.773] [READ] i2c get_speed 0
+
+Bus frequency is 100kHz
+
+amc:~$ 
+[2025-11-20 14:47:29.779] [WRITE] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+
+[2025-11-20 14:47:30.217] [READ] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+I2C tx success
+
+amc:~$ 
+[2025-11-20 14:47:30.220] [WRITE] i2c scan i2c@7e7b0200
+
+
+[2025-11-20 14:47:30.661] [READ] i2c scan i2c@7e7b0200
+
+     0  1  2  3  4  5  6  7  8  9  a  b  c  d  e  f
+
+00:             -- -- -- -- -- -- -- -- -- -- -- -- 
+
+10: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+20: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+30: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+40: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+50: 50 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+60: -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- 
+
+70: -- -- -- -- -- -- -- --                         
+
+1 devices found on bus i2c@7e7b0200
+
+amc:~$ 
+[2025-11-20 14:47:30.665] [WRITE] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+
+[2025-11-20 14:47:31.104] [READ] i2c write i2c@7e7b0200 0x50 0x01 0x8
+
+I2C tx success
+
+amc:~$ 
+[2025-11-20 14:47:31.104] [WRITE] i2c read i2c@7e7b0200 0x50 0x1 0x02
+
+
+[2025-11-20 14:47:31.548] [READ] i2c read i2c@7e7b0200 0x50 0x1 0x02
+
+I2C rx success
+
+Data: 0xff 
+
+amc:~$ 
+[2025-11-20 14:47:31.548] [WRITE] i2c reg_write 0 0x48 0x01 0x2 0xAA 0xBB
+
+
+[2025-11-20 14:47:31.990] [READ] i2c reg_write 0 0x48 0x01 0x2 0xAA 0xBB
+
+I2C tx failed
+
+amc:~$ 
+[2025-11-20 14:47:31.998] [WRITE] fru set_manufacturer intel
+
+
+[2025-11-20 14:47:32.985] [READ] fru set_manufacturer intel
+
+amc:~$ [485:46:29.364,000] <err> AMC_I2C: I2C write failed!
+
+amc:~$ amc:~$ 
+[2025-11-20 14:47:32.985] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:33.427] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : inteldatacentergpuflexseries
+
+Product Name             : intel
+
+Serial number            : 0
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:33.427] [WRITE] fru set_product_series melville_sound
+
+
+[2025-11-20 14:47:34.204] [READ] fru set_product_series melville_sound
+
+amc:~$ 
+[2025-11-20 14:47:34.204] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:34.645] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 0
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:34.645] [WRITE] fru set_serial_number 987654321
+
+
+[2025-11-20 14:47:35.419] [READ] fru set_serial_number 987654321
+
+amc:~$ 
+[2025-11-20 14:47:35.419] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:35.862] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : ff
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:35.865] [WRITE] fru set_part_number XXX-999
+
+
+[2025-11-20 14:47:36.638] [READ] fru set_part_number XXX-999
+
+amc:~$ 
+[2025-11-20 14:47:36.638] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:37.079] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 1
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:37.079] [WRITE] fru set_card_type 0
+
+
+[2025-11-20 14:47:37.852] [READ] fru set_card_type 0
+
+amc:~$ 
+[2025-11-20 14:47:37.852] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:38.294] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:38.294] [WRITE] fru set_tile_info 1
+
+
+[2025-11-20 14:47:39.069] [READ] fru set_tile_info 1
+
+Setting tile info: 1
+
+amc:~$ 
+[2025-11-20 14:47:39.069] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:39.514] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:39.516] [WRITE] fru set_platform_type 1
+
+
+[2025-11-20 14:47:40.297] [READ] fru set_platform_type 1
+
+amc:~$ 
+[2025-11-20 14:47:40.299] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:40.739] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:40.739] [WRITE] fru set_fab_id 2
+
+
+[2025-11-20 14:47:41.518] [READ] fru set_fab_id 2
+
+amc:~$ 
+[2025-11-20 14:47:41.518] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:41.964] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:41.970] [WRITE] fru set_product_name intel
+
+
+[2025-11-20 14:47:42.744] [READ] fru set_product_name intel
+
+amc:~$ 
+[2025-11-20 14:47:42.744] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:43.189] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:43.189] [WRITE] fru set_hw_rev 0
+
+
+[2025-11-20 14:47:43.969] [READ] fru set_hw_rev 0
+
+amc:~$ 
+[2025-11-20 14:47:43.970] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:44.412] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 2
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:44.412] [WRITE] fru set_odm 0
+
+
+[2025-11-20 14:47:45.177] [READ] fru set_odm 0
+
+amc:~$ 
+[2025-11-20 14:47:45.177] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:45.619] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : 75
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:45.619] [WRITE] fru set_card_tdp -1
+
+
+[2025-11-20 14:47:46.399] [READ] fru set_card_tdp -1
+
+amc:~$ 
+[2025-11-20 14:47:46.399] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:46.844] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:46.845] [WRITE] fru set_uuid ff
+
+
+[2025-11-20 14:47:47.618] [READ] fru set_uuid ff
+
+amc:~$ 
+[2025-11-20 14:47:47.618] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:48.066] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : ff
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:48.069] [WRITE] fru set_crc 0
+
+
+[2025-11-20 14:47:48.852] [READ] fru set_crc 0
+
+amc:~$ 
+[2025-11-20 14:47:48.852] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:49.294] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ce
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:49.294] [WRITE] fru set_amc_slave_addr 0xFF
+
+
+[2025-11-20 14:47:50.070] [READ] fru set_amc_slave_addr 0xFF
+
+amc:~$ 
+[2025-11-20 14:47:50.070] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:50.515] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:50.515] [WRITE] fru set_fru_file_id 256
+
+
+[2025-11-20 14:47:51.297] [READ] fru set_fru_file_id 256
+
+amc:~$ 
+[2025-11-20 14:47:51.297] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:51.741] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 0000-00-00 00:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:51.741] [WRITE] fru set_mfg_date 2025-15-31 31:63
+
+
+[2025-11-20 14:47:52.518] [READ] fru set_mfg_date 2025-15-31 31:63
+
+amc:~$ 
+[2025-11-20 14:47:52.518] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:52.960] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : 0
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:52.966] [WRITE] fru set_rework_tracker ffffffaa
+
+
+[2025-11-20 14:47:53.738] [READ] fru set_rework_tracker ffffffaa
+
+amc:~$ 
+[2025-11-20 14:47:53.738] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:54.185] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : ffffffaa
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:54.192] [WRITE] fru set_disable_write_fru 0
+
+
+[2025-11-20 14:47:54.969] [READ] fru set_disable_write_fru 0
+
+amc:~$ 
+[2025-11-20 14:47:54.970] [WRITE] fru display_general
+
+
+[2025-11-20 14:47:55.406] [READ] fru display_general
+
+Manufacturer             : intel
+
+Product Series           : melville_sound
+
+Product Name             : intel
+
+Serial number            : 987654321
+
+Part number              : xxx-999
+
+UUID                     : ff
+
+Manufacturing date       : 2025-15-05 31:00
+
+Card Type                : 0
+
+Tile Info                : 1
+
+Platform Type            : 1
+
+Fab ID                   : 2
+
+Hardware Revision        : 0
+
+ODM                      : 0
+
+Card TDP                 : -1
+
+CRC                      : 0
+
+AMC Slave Address        : ff
+
+FRU File ID              : 0
+
+Rework Tracker           : ffffffaa
+
+EOM                      : 0
+
+Disable Write Fru        : 0
+
+amc:~$ 
+[2025-11-20 14:47:55.417] [WRITE] eeprom read 0x10 16
+
+
+[2025-11-20 14:47:55.866] [READ] eeprom read 0x10 16
+
+0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 
+
+0xff 0xff 0xff 0xff 0xff 0xff amc:~$ 
+[2025-11-20 14:47:55.866] [WRITE] eeprom write 0x10 4 a b c d 
+
+
+[2025-11-20 14:47:56.312] [READ] eeprom write 0x10 4 a b c d 
+
+0x0a 0x0b 0x0c 0x0d 
+
+EEPROM write successful.
+
+amc:~$ 
+[2025-11-20 14:47:56.314] [WRITE] eeprom read 0x10 16
+
+
+[2025-11-20 14:47:56.754] [READ] eeprom read 0x10 16
+
+0x0a 0x0b 0x0c 0x0d 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 0xff 
+
+0xff 0xff 0xff 0xff 0xff 0xff amc:~$ 
+[2025-11-20 14:47:56.755] [WRITE] spi reinit 0
+
+
+[2025-11-20 14:47:57.193] [READ] spi reinit 0
+
+SPI reinit successful
+
+amc:~$ 
+[2025-11-20 14:47:57.193] [WRITE] spi reinit 1
+
+
+[2025-11-20 14:47:57.623] [READ] spi reinit 1
+
+SPI reinit successful
+
+amc:~$ 
+[2025-11-20 14:47:57.626] [WRITE] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+
+[2025-11-20 14:47:58.069] [READ] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+Ensure spi erase is done before writing to spi flash
+
+SPI write success
+
+amc:~$ 
+[2025-11-20 14:47:58.069] [WRITE] spi read 0 0x06 0xfdf1
+
+
+[2025-11-20 14:47:58.507] [READ] spi read 0 0x06 0xfdf1
+
+SPI read successful
+
+Data: 0x01 0x02 0x03 0x04 0x05 0x06 
+
+amc:~$ 
+[2025-11-20 14:47:58.507] [WRITE] help
+
+
+[2025-11-20 14:47:59.057] [READ] help
+
+Please press the <Tab> button to see all available commands.
+
+You can also use the <Tab> button to prompt or auto-complete all commands or its subcommands.
+
+You can try to call commands with <-h> or <--help> parameter for more information.
+
+
+
+Available commands:
+
+  clear       : Clear screen.
+
+  device      : Device commands
+
+  eeprom      : eeprom commands
+
+  fru         : FRU commands
+
+  gpio        : AMC GPIO config cmds
+
+  help        : Prints the help message.
+
+  history     : Command history.
+
+  i2c         : I2C commands
+
+  i3c         : I3C commands
+
+  led_status  : Set LED status. Usage: led_status <status_num>
+
+  peci        : PECI command
+
+  plog        : Plog Operation
+
+  pmt         : PMT command
+
+  power       : Power command
+
+  rem         : Ignore lines beginning with 'rem '
+
+  reset       : Reset AMC
+
+  resize      : Console gets terminal screen size or assumes default in case the
+
+readout fails. It must be executed after each terminal width
+
+change to ensure correct text display.
+
+  retval      : Print return value of most recent command
+
+  sensor      : Telemetry command
+
+  shell       : Useful, not Unix-like shell commands.
+
+  spi         : SPI commands
+
+  timer       : Timer Testing Commands
+
+  version     : Show version information
+
+amc:~$ 
+[2025-11-20 14:47:59.057] [WRITE] history
+
+
+[2025-11-20 14:47:59.501] [READ] history
+
+[  0] history
+
+[  1] help
+
+[  2] spi read 0 0x06 0xfdf1
+
+[  3] spi write 0 0x06 0xfdf1 1 2 3 4 5 6
+
+amc:~$ 
+[2025-11-20 14:47:59.501] [WRITE] resize
+
+
+[2025-11-20 14:47:59.951] [READ] resize
+
+7
+[2025-11-20 14:47:59.951] [WRITE] retval
+
+
+[2025-11-20 14:48:00.957] [READ] 8No response from the terminal, assumed 80x24 screen size
+
+amc:~$ 
+[2025-11-20 14:48:00.959] [WRITE] clear
+
+
+[2025-11-20 14:48:01.405] [READ] clear
+
+amc:~$ 
+[2025-11-20 14:48:01.411] [WRITE] version amc
+
+
+[2025-11-20 14:48:01.852] [READ] version amc
+
+AMC Version               : 1.0.1.0
+
+Recommended SVN           : 0
+
+Zephyr Kernel Version     : 3.7.1
+
+Board Zephyr SDK Version  : 0
+
+Build Type                : debug
+
+Build Time                : 2025-08-01 13:03:01
+
+amc:~$ 
+[2025-11-20 14:48:01.852] [WRITE] gpio get
+
+
+[2025-11-20 14:48:02.408] [READ] gpio get
+
+|======||======|======|======|======|======|======|======|======|
+
+|      || PIN0 | PIN1 | PIN2 | PIN3 | PIN4 | PIN5 | PIN6 | PIN7 |
+
+|======||======|======|======|======|======|======|======|======|
+
+|PORT_A||IN   1|OUT  0|OUT  0|OUT  0|OUT  0|IN   0|OUT  0|IN   0|
+
+|PORT_B||IN   1|IN   0|IN   1|IN   1|OUT  0|OUT  0|IN   1|IN   1|
+
+|PORT_C||IN   0|IN   1|IN   0|IN   1|IN   0|IN   0|IN   0|IN   0|
+
+|PORT_D||IN   0|OUT  0|IN   0|IN   1|IN   1|IN   1|IN   1|IN   0|
+
+|PORT_E||OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  1|OUT  1|OUT  1|
+
+|PORT_F||PWM   |PWM   |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_G||TACH  |TACH  |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_H||NC    |NC    |NC    |NC    |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_I||I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_J||I3C   |I3C   |I3C   |I3C   |I2C   |I2C   |I3C   |I3C   |
+
+|PORT_K||I2C   |I2C   |I2C   |I2C   |I3C   |I3C   |I2C   |I2C   |
+
+|PORT_L||OUT  1|IN   1|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|
+
+|PORT_M||OUT  1|OUT  0|IN   0|IN   0|IN   0|IN   0|XXXXXX|XXXXXX|
+
+|PORT_N||OUT  1|IN   1|IN   0|OUT  0|NC    |NC    |NC    |NC    |
+
+|PORT_O||NC    |NC    |NC    |NC    |JTAG  |JTAG  |JTAG  |JTAG  |
+
+|PORT_P||JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |SPI   |NC    |
+
+|PORT_Q||SPI   |SPI   |SPI   |SPI   |SPI   |XXXXXX|SPI   |SPI   |
+
+|PORT_R||XXXXXX|XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_S||XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_T||NC    |NC    |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_U||NC    |NC    |NC    |NC    |NC    |ADC   |ADC   |ADC   |
+
+|======||======|======|======|======|======|======|======|======|
+
+amc:~$ 
+[2025-11-20 14:48:02.408] [WRITE] gpio set E 2 0
+
+
+[2025-11-20 14:48:02.854] [READ] gpio set E 2 0
+
+Set port: E pin: 2 with value: 0
+
+amc:~$ 
+[2025-11-20 14:48:02.854] [WRITE] gpio get
+
+
+[2025-11-20 14:48:03.416] [READ] gpio get
+
+|======||======|======|======|======|======|======|======|======|
+
+|      || PIN0 | PIN1 | PIN2 | PIN3 | PIN4 | PIN5 | PIN6 | PIN7 |
+
+|======||======|======|======|======|======|======|======|======|
+
+|PORT_A||IN   1|OUT  0|OUT  0|OUT  0|OUT  0|IN   0|OUT  0|IN   0|
+
+|PORT_B||IN   1|IN   0|IN   1|IN   1|OUT  0|OUT  0|IN   1|IN   1|
+
+|PORT_C||IN   0|IN   1|IN   0|IN   1|IN   0|IN   0|IN   0|IN   0|
+
+|PORT_D||IN   0|OUT  0|IN   0|IN   1|IN   1|IN   1|IN   1|IN   0|
+
+|PORT_E||OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  1|OUT  1|OUT  1|
+
+|PORT_F||PWM   |PWM   |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_G||TACH  |TACH  |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_H||NC    |NC    |NC    |NC    |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_I||I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |I2C   |
+
+|PORT_J||I3C   |I3C   |I3C   |I3C   |I2C   |I2C   |I3C   |I3C   |
+
+|PORT_K||I2C   |I2C   |I2C   |I2C   |I3C   |I3C   |I2C   |I2C   |
+
+|PORT_L||OUT  1|IN   1|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|OUT  0|
+
+|PORT_M||OUT  1|OUT  0|IN   0|IN   0|IN   0|IN   0|XXXXXX|XXXXXX|
+
+|PORT_N||OUT  1|IN   1|IN   0|OUT  0|NC    |NC    |NC    |NC    |
+
+|PORT_O||NC    |NC    |NC    |NC    |JTAG  |JTAG  |JTAG  |JTAG  |
+
+|PORT_P||JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |JTAG  |SPI   |NC    |
+
+|PORT_Q||SPI   |SPI   |SPI   |SPI   |SPI   |XXXXXX|SPI   |SPI   |
+
+|PORT_R||XXXXXX|XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_S||XXXXXX|SPI   |SPI   |XXXXXX|XXXXXX|XXXXXX|XXXXXX|XXXXXX|
+
+|PORT_T||NC    |NC    |NC    |NC    |NC    |NC    |NC    |NC    |
+
+|PORT_U||NC    |NC    |NC    |NC    |NC    |ADC   |ADC   |ADC   |
+
+|======||======|======|======|======|======|======|======|======|
+
+amc:~$ 
+[2025-11-20 14:48:03.416] [WRITE] pmt get_telemetry_precheck
+
+
+[2025-11-20 14:48:03.863] [READ] pmt get_telemetry_precheck
+
+Telemetry supported                 : 1
+
+Endpoint Capability                 : Telemetry API
+
+No of telemetry aggregators         : 3
+
+Aggregator details of OOBMSM_AGGR 1 -
+
+  Entry type                        : telemetry
+
+  Telemetry type                    : 0
+
+  GUID                              : 0x5e2f8211
+
+  Telemetry space size              : 94
+
+amc:~$ 
+[2025-11-20 14:48:03.863] [WRITE] pmt get_static_telemetry
+
+
+[2025-11-20 14:48:04.311] [READ] pmt get_static_telemetry
+
+Sample id = 449 sample_buf = 0x8b66845a2e5842ec
+
+Sample id = 450 sample_buf = 0x5e376723c92afbfd
+
+Sample id = 451 sample_buf = 0x7ea7b9fd93a30bcf
+
+Sample id = 453 sample_buf = 0xf7adcbb588dec1e4
+
+amc:~$ 
+[2025-11-20 14:48:04.314] [WRITE] pmt pause_telemetry
+
+
+[2025-11-20 14:48:04.757] [READ] pmt pause_telemetry
+
+PMT periodic telemetry update paused
+
+amc:~$ 
+[2025-11-20 14:48:04.757] [WRITE] pmt run_telemetry
+
+
+[2025-11-20 14:48:05.200] [READ] pmt run_telemetry
+
+PMT periodic telemetry update resumed
+
+amc:~$ [485:47:02.601,000] <err> AMC_I3C: I3C write failed after 1 retries! with code: 4
+
+amc:~$ [485:47:02.601,000] <err> AMC_MCTP_I3C: i3c_tx failed with error 251
+
+amc:~$ amc:~$ 
+[2025-11-20 14:48:05.200] [WRITE] pmt get_periodic_telemetry
+
+
+[2025-11-20 14:48:05.760] [READ] pmt get_periodic_telemetry
+
+No of samples updated: 1
+
+Sample id = 1 sample_buf = 0x0
+
+Sample id = 2 sample_buf = 0x0
+
+Sample id = 32 sample_buf = 0x0
+
+Sample id = 7 sample_buf = 0x0
+
+Sample id = 10 sample_buf = 0x0
+
+Sample id = 20 sample_buf = 0x0
+
+Sample id = 21 sample_buf = 0x0
+
+Sample id = 34 sample_buf = 0x0
+
+Sample id = 16 sample_buf = 0x0
+
+Sample id = 44 sample_buf = 0x0
+
+Sample id = 45 sample_buf = 0x0
+
+Sample id = 369 sample_buf = 0x0
+
+Sample id = 372 sample_buf = 0x0
+
+Sample id = 375 sample_buf = 0x0
+
+Sample id = 378 sample_buf = 0x0
+
+Sample id = 381 sample_buf = 0x0
+
+Sample id = 384 sample_buf = 0x0
+
+Sample id = 387 sample_buf = 0x0
+
+Sample id = 390 sample_buf = 0x0
+
+Sample id = 393 sample_buf = 0x0
+
+Sample id = 396 sample_buf = 0x0
+
+Sample id = 399 sample_buf = 0x0
+
+Sample id = 402 sample_buf = 0x0
+
+Sample id = 415 sample_buf = 0x0
+
+Sample id = 416 sample_buf = 0x0
+
+Sample id = 416 sample_buf = 0x0
+
+Sample id = 417 sample_buf = 0x0
+
+Sample id = 454 sample_buf = 0x0
+
+Sample id = 460 sample_buf = 0x0
+
+amc:~$ 
+[2025-11-20 14:48:05.760] [WRITE] pmt pause_telemetry
+
+
+[2025-11-20 14:48:06.205] [READ] pmt pause_telemetry
+
+PMT periodic telemetry update paused
+
+amc:~$ 
+[2025-11-20 14:48:07.212] [WRITE] pmt run_telemetry
+
+
+[2025-11-20 14:48:07.657] [READ] [485:47:04.601,000] <err> AMC_PMT: Timeout waiting for PMT response
+
+amc:~$ [485:47:04.601,000] <err> AMC_PMT: Returning error code 128 for sample id 0
+
+amc:~$ [485:47:04.601,000] <err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128
+
+amc:~$ amc:~$ pmt run_telemetry
+
+PMT periodic telemetry update resumed
+
+amc:~$ [485:47:05.002,000] <err> AMC_I3C: I3C write failed after 1 retries! with code: 4
+
+amc:~$ [485:47:05.002,000] <err> AMC_MCTP_I3C: i3c_tx failed with error 251
+
+amc:~$ amc:~$ 
+[2025-11-20 14:48:09.660] [WRITE] pmt get_periodic_telemetry
+
+
+[2025-11-20 14:48:10.214] [READ] [485:47:07.002,000] <err> AMC_PMT: Timeout waiting for PMT response
+
+amc:~$ [485:47:07.002,000] <err> AMC_PMT: Returning error code 128 for sample id 0
+
+amc:~$ [485:47:07.002,000] <err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128
+
+amc:~$ amc:~$ [485:47:07.102,000] <err> AMC_I3C: I3C write failed after 1 retries! with code: 4
+
+amc:~$ [485:47:07.102,000] <err> AMC_MCTP_I3C: i3c_tx failed with error 251
+
+amc:~$ amc:~$ pmt get_periodic_telemetry
+
+No of samples updated: 3
+
+Sample id = 1 sample_buf = 0x0
+
+Sample id = 2 sample_buf = 0x0
+
+Sample id = 32 sample_buf = 0x0
+
+Sample id = 7 sample_buf = 0x0
+
+Sample id = 10 sample_buf = 0x0
+
+Sample id = 20 sample_buf = 0x0
+
+Sample id = 21 sample_buf = 0x0
+
+Sample id = 34 sample_buf = 0x0
+
+Sample id = 16 sample_buf = 0x0
+
+Sample id = 44 sample_buf = 0x0
+
+Sample id = 45 sample_buf = 0x0
+
+Sample id = 369 sample_buf = 0x0
+
+Sample id = 372 sample_buf = 0x0
+
+Sample id = 375 sample_buf = 0x0
+
+Sample id = 378 sample_buf = 0x0
+
+Sample id = 381 sample_buf = 0x0
+
+Sample id = 384 sample_buf = 0x0
+
+Sample id = 387 sample_buf = 0x0
+
+Sample id = 390 sample_buf = 0x0
+
+Sample id = 393 sample_buf = 0x0
+
+Sample id = 396 sample_buf = 0x0
+
+Sample id = 399 sample_buf = 0x0
+
+Sample id = 402 sample_buf = 0x0
+
+Sample id = 415 sample_buf = 0x0
+
+Sample id = 416 sample_buf = 0x0
+
+Sample id = 416 sample_buf = 0x0
+
+Sample id = 417 sample_buf = 0x0
+
+Sample id = 454 sample_buf = 0x0
+
+Sample id = 460 sample_buf = 0x0
+
+amc:~$ 
+[2025-11-20 14:48:10.220] [WRITE] peci pause_gpu_update
+
+
+[2025-11-20 14:48:10.659] [READ] peci pause_gpu_update
+
+PECI periodic gpu update paused
+
+amc:~$ 
+[2025-11-20 14:48:10.659] [WRITE] peci run_gpu_update
+
+
+[2025-11-20 14:48:11.104] [READ] peci run_gpu_update
+
+PECI periodic gpu update resumed
+
+amc:~$ 
+[2025-11-20 14:48:11.104] [WRITE] peci get_endpt_localpci_cfg
+
+
+[2025-11-20 14:48:11.883] [READ] peci get_endpt_localpci_cfg
+
+No of samples updated: 0
+
+endpoint localpci config of SSDID= 0x0
+
+endpoint localpci config of SSVID= 0x0
+
+endpoint localpci config of DID= 0x0
+
+endpoint localpci config of VID= 0x0
+
+endpoint localpci config of PCIE_LINK_SPEED= 0x0
+
+endpoint localpci config of PCIE_LINK_WIDTH= 0x0
+
+amc:~$ [485:47:09.102,000] <err> AMC_PMT: Timeout waiting for PMT response
+
+amc:~$ [485:47:09.102,000] <err> AMC_PMT: Returning error code 128 for sample id 0
+
+amc:~$ [485:47:09.102,000] <err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128
+
+amc:~$ amc:~$ [485:47:09.202,000] <err> AMC_I3C: I3C write failed after 1 retries! with code: 4
+
+amc:~$ [485:47:09.202,000] <err> AMC_MCTP_I3C: i3c_tx failed with error 251
+
+amc:~$ amc:~$ 
+[2025-11-20 14:48:11.886] [WRITE] peci get_pkg_cfg
+
+
+[2025-11-20 14:48:12.324] [READ] peci get_pkg_cfg
+
+No of samples updated: 1
+
+pkg config of PKG_MAX_TEMP= 0x0
+
+pkg config of PACKAGE_RAPL_PERF_STATUS= 0x0
+
+pkg config of THERM_MARGIN= 0x0
+
+pkg config of TEMP_TARGET= 0x0
+
+pkg config of PKG_THERM_STATUS= 0x0
+
+pkg config of PKG_RAPL_LIMIT1= 0x0
+
+pkg config of PKG_RAPL_LIMIT2= 0x0
+
+pkg config of PKG_POWER_SKU_LOW= 0x0
+
+pkg config of PKG_POWER_SKU_HIGH= 0x0
+
+pkg config of PKG_POWER_SKU_UNIT= 0x0
+
+pkg config of PSYSGPU_RAPL_LIMIT1= 0x0
+
+pkg config of PSYSGPU_RAPL_LIMIT2= 0x0
+
+pkg config of PKG_PL4_LIMIT= 0x0
+
+pkg config of PERF_LIMIT_REASONS= 0x0
+
+pkg config of SET_PSYSGPU_CRIT_THRESHOLD= 0x0
+
+pkg config of PLATFORM_PL4_OFFSET= 0x0
+
+amc:~$ 
+[2025-11-20 14:48:13.334] [WRITE] peci get_pkg_cfg
+
+
+[2025-11-20 14:48:13.888] [READ] peci get_pkg_cfg
+
+No of samples updated: 1
+
+pkg config of PKG_MAX_TEMP= 0x0
+
+pkg config of PACKAGE_RAPL_PERF_STATUS= 0x0
+
+pkg config of THERM_MARGIN= 0x0
+
+pkg config of TEMP_TARGET= 0x0
+
+pkg config of PKG_THERM_STATUS= 0x0
+
+pkg config of PKG_RAPL_LIMIT1= 0x0
+
+pkg config of PKG_RAPL_LIMIT2= 0x0
+
+pkg config of PKG_POWER_SKU_LOW= 0x0
+
+pkg config of PKG_POWER_SKU_HIGH= 0x0
+
+pkg config of PKG_POWER_SKU_UNIT= 0x0
+
+pkg config of PSYSGPU_RAPL_LIMIT1= 0x0
+
+pkg config of PSYSGPU_RAPL_LIMIT2= 0x0
+
+pkg config of PKG_PL4_LIMIT= 0x0
+
+pkg config of PERF_LIMIT_REASONS= 0x0
+
+pkg config of SET_PSYSGPU_CRIT_THRESHOLD= 0x0
+
+pkg config of PLATFORM_PL4_OFFSET= 0x0
+
+amc:~$ [485:47:11.202,000] <err> AMC_PECI: PECI response timeout - no IBI received within 2000 ms
+
+amc:~$ [485:47:11.202,000] <err> AMC_PECI: endpoint localpci config read failure for SSDID= 0x80
+
+amc:~$ [485:47:11.202,000] <err> AMC_I3C: I3C write failed after 1 retries! with code: 4
+
+amc:~$ [485:47:11.202,000] <err> AMC_MCTP_I3C: i3c_tx failed with error 251
+
+amc:~$ amc:~$ 
+[2025-11-20 14:48:13.896] [WRITE] peci get_gpu_svn
+
+
+[2025-11-20 14:48:14.332] [READ] peci get_gpu_svn
+
+peci - PECI command
+
+Subcommands:
+
+  get_endpt_localpci_cfg  : Read endpoint local pci config
+
+  get_pkg_cfg             : Read pkg config
+
+  run_gpu_update          : Run PECI gpu update
+
+  pause_gpu_update        : Pause PECI gpu update
+
+amc:~$ 
+
+HTML report generated: C:\Users\gta\Desktop\AMC Automation\firmware.management.amc.tools.automation\automation\src\results\amc_test_report_20251120_144716.html
+Open in browser: file://C:\Users\gta\Desktop\AMC Automation\firmware.management.amc.tools.automation\automation\src\results\amc_test_report_20251120_144716.html

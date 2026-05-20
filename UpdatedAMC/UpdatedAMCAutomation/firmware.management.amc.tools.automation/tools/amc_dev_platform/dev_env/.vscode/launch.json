@@ -1,0 +1,59 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch AMC",
+            "device": "amc",
+            "cwd": "/workdir/PROJECTS",
+            "executable": "build/amc/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "external",
+            "gdbTarget": "${env:GDB_SERVER}",
+            "interface": "swd",
+            "gdbPath": "/opt/toolchains/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+            "preLaunchTask": "AMC Build"
+        },
+        {
+            "name": "Attach AMC",
+            "device": "ast1030_evb",
+            "cwd": "/workdir/PROJECTS",
+            "executable": "build/amc/zephyr/zephyr.elf",
+            "request": "attach",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "external",
+            "gdbTarget": "${env:GDB_SERVER}",
+            "interface": "swd",
+            "gdbPath": "/opt/toolchains/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
+        },
+        {
+            "name": "Launch ast1030",
+            "device": "ast1030_evb",
+            "cwd": "/workdir/PROJECTS",
+            "executable": "build/evb_build/zephyr/zephyr.elf",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "external",
+            "gdbTarget": "${env:GDB_SERVER}",
+            "interface": "swd",
+            "gdbPath": "/opt/toolchains/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+            "preLaunchTask": "evb West Build"
+        },
+        {
+            "name": "Attach ast1030",
+            "device": "ast1030_evb",
+            "cwd": "/workdir/PROJECTS",
+            "executable": "build/evb_build/zephyr/zephyr.elf",
+            "request": "attach",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "servertype": "external",
+            "gdbTarget": "${env:GDB_SERVER}",
+            "interface": "swd",
+            "gdbPath": "/opt/toolchains/zephyr-sdk-0.17.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb"
+        }
+    ]
+}

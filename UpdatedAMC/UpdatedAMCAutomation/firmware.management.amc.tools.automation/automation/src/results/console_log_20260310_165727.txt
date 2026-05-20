@@ -1,0 +1,5 @@
+[2026-03-10 16:57:27.800] [[36mWRITE[0m] sensor monitor_mode 0
+
+[2026-03-10 16:57:28.251] [[33mREAD[0m] sensor monitor_mode 0
+Monitor mode disabled, starting sensor scan
+[1;32mamc:~$ [m

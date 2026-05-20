@@ -1,0 +1,6 @@
+[2026-03-11 10:26:08.110] [[36mWRITE[0m] warm reset
+
+[2026-03-11 10:26:08.547] [[33mREAD[0m] [7D[J[00:01:39.731,000] [0m<inf> AMC_GPIO: IRQ: VR_GPU1_VRHOT_N detected[0m
+[1;32mamc:~$ [m[7D[J[1;32mamc:~$ [mwarm reset
+[1;31mwarm: command not found
+[m[1;32mamc:~$ [m

@@ -1,0 +1,4 @@
+[1] Port: Failure - Failed to open port: could not open port 'COM5': PermissionError(13, 'Access is denied.', None, 5)
+
+HTML report generated: C:\Users\gta\Desktop\AMC Automation\firmware.management.amc.tools.automation\automation\src\results\amc_test_report_20251120_144707.html
+Open in browser: file://C:\Users\gta\Desktop\AMC Automation\firmware.management.amc.tools.automation\automation\src\results\amc_test_report_20251120_144707.html

@@ -1,0 +1,9 @@
+[2026-04-29 14:35:20.328] [[36mWRITE[0m] fru set_serial_number 1777487720
+
+[2026-04-29 14:35:21.033] [[33mREAD[0m] fru set_serial_number 1777487720
+[1;32mamc:~$ [m
+[2026-04-29 14:35:21.036] [[36mWRITE[0m] warm reset
+
+[2026-04-29 14:35:21.479] [[33mREAD[0m] warm reset
+[1;31mwarm: command not found
+[m[1;32mamc:~$ [m

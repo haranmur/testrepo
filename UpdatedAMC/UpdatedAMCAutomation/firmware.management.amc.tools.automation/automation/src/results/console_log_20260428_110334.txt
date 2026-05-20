@@ -1,0 +1,29 @@
+[2026-04-28 11:03:34.740] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:03:35.189] [[33mREAD[0m] [0m
+[00:43:49.804,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[00:43:49.804,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 11:03:40.328] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:03:45.360] [[33mREAD[0m] 
+[2026-04-28 11:03:50.520] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:03:51.189] [[33mREAD[0m] reset wa�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:03:56.333] [[36mWRITE[0m] reset warm
+
+[2026-04-28 11:03:57.019] [[33mREAD[0m] reset waBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY

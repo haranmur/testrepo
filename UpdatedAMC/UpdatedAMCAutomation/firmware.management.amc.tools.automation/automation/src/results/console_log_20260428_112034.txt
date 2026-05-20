@@ -1,0 +1,31 @@
+[2026-04-28 11:20:34.781] [[36mWRITE[0m] reset cold
+
+[2026-04-28 11:20:37.018] [[33mREAD[0m] [01:00:50.758,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:00:50.758,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:00:50.758,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:00:50.859,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:00:50.859,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-04-28 11:20:42.172] [[36mWRITE[0m] reset cold
+
+[2026-04-28 11:20:47.210] [[33mREAD[0m] 
+[2026-04-28 11:20:52.365] [[36mWRITE[0m] reset cold
+
+[2026-04-28 11:20:53.036] [[33mREAD[0m] reset co�BPc00
+INF: *** Booting Loader! Version: 1.0.1.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY
+[2026-04-28 11:20:58.183] [[36mWRITE[0m] reset cold
+
+[2026-04-28 11:20:58.871] [[33mREAD[0m] reset colBPc00
+INF: *** Booting Loader! Version: 1.1.0.0 ***
+INF: *** AMC AST Chip is AST1030A1 ***
+INF: Powering up GPU
+INF: GPU powered up
+INF: Init Completed: ECDSA Engine
+INF: Init Completed: SHA Engine
+INF: Boot indicator: PRIMARY

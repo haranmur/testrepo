@@ -1,0 +1,6 @@
+[2026-04-29 13:20:05.032] [[36mWRITE[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_project/sensors/temperature/OUTLET_TEMP_1
+
+[2026-04-29 13:20:05.595] [[33mREAD[0m] busctl introspect xyz.openbmc_project.pldm /xyz/openbmc_projecct/sensors/temperature/OUTLET_TEMP_1
+[0;1;31mFailed to introspect object /xyz/openbmc_project/sensors/temperature/OUTLET_TEMP_1 of service xyz.openbmc_project.pldm: Unknown object '/xyz/openbmc_project/sensors/temperature/OUTLET_TEMP_1'.[0m
+root@intel-obmc:~# 
+root@intel-obmc:~# 

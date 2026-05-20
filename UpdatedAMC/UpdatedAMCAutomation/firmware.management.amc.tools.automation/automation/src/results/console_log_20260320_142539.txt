@@ -1,0 +1,18 @@
+[2026-03-20 14:25:39.482] [[36mWRITE[0m] warm reset
+
+[2026-03-20 14:25:39.925] [[33mREAD[0m] warm reset
+[1;31mwarm: command not found
+[m[1;32mamc:~$ [m
+[2026-03-20 14:25:45.082] [[36mWRITE[0m] warm reset
+
+[2026-03-20 14:25:46.296] [[33mREAD[0m] [01:39:50.947,000] [1;31m<err> AMC_PMT: Timeout waiting for PMT response[0m
+[01:39:50.947,000] [1;31m<err> AMC_PMT: Returning error code 128 for sample id 0[0m
+[01:39:50.947,000] [1;31m<err> AMC_PMT: Failed to update periodic telemetry samples, ret: 128[0m
+[01:39:51.048,000] [1;31m<err> AMC_I3C: I3C write failed after 1 retries! with code: 4[0m
+[01:39:51.048,000] [1;31m<err> AMC_MCTP_I3C: i3c_tx failed with error 251[0m
+
+[2026-03-20 14:25:51.473] [[36mWRITE[0m] warm reset
+
+[2026-03-20 14:25:51.909] [[33mREAD[0m] warm reset
+[1;31mwarm: command not found
+[m[1;32mamc:~$ [m

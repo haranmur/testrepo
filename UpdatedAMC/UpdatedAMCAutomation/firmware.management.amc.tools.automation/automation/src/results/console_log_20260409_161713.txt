@@ -1,0 +1,2 @@
+[2026-04-09 16:17:13.376] [[36mWRITE[0m] sensor list_numeric
+
